@@ -17,6 +17,8 @@ public class EscapeSequences {
         System.out.println("My name is \'Muhtar\'");   // 'Muhtar'
         System.out.println("My name is 'Muhtar'");  // 'Muhtar'
 
+        System.out.println("My favorite TV-series: \"Game of Thrones\"");
+
 
     }
 

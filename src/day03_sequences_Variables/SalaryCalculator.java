@@ -21,6 +21,31 @@ public class SalaryCalculator {
 
         System.out.println(salaryAfterTax);
 
+
+        int a =100;
+        long A = 200;
+
+        //float tax=  0.5;
+
+      //  int 1num = 123;
+      //  int @num = 1234;
+
+        double number_ = 123;
+        double number$ = 1234;
+
+        //long new = 1235;
+     //   long throw = 123456;
+        int itemsOrdered = 4000;
+
+        //int 123 =123;
+
+        // $ or _
+
+      //  int taxrate = 30;
+      //  int TaxRate = 50;
+
+
+
     }
 
 

@@ -2,7 +2,7 @@ package day02_printStatements;
 
 public class HelloWorld {
 
-    public static void main( String[] args ) {
+    public static void main( String[] args ) {  //main method
 
         System.out.println( "Hello Wolrd" );
 
@@ -10,4 +10,10 @@ public class HelloWorld {
 
 }
 
+                        /*
+                        Today we learned HelloWorld
+                           struggles are: print statement
+                                          main method
 
+                                          date:
+                         */

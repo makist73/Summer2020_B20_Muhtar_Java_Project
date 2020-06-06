@@ -17,3 +17,11 @@ public class EmployeeInfo {  //this is a class header
 
 
     // today is: 06/06/2020
+
+                /*
+                Today i have learned java
+                topics are:
+                            1. print statement
+                            2. variables
+                            ....
+                 */

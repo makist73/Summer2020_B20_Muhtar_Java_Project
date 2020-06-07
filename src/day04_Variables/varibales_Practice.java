@@ -22,6 +22,7 @@ public class varibales_Practice {
       double  num3 = 3.5;
       float  num4 = 2.5f;
       long num5 = 999999999999L;
+      int  num6 = 850000;
 
 
 
@@ -30,6 +31,7 @@ public class varibales_Practice {
         System.out.println(num3);
         System.out.println(num4);
         System.out.println(num5);
+      System.out.println(num6);
 
     }
 

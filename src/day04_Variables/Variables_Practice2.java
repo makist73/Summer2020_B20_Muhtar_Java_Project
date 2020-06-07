@@ -23,6 +23,14 @@ public class Variables_Practice2 {
 
         System.out.println(num1);
 
+        int num2 ;
+        num2 = 5000;  // 5000
+
+        System.out.println(num2); // 5000
+
+        num2 = 2000;  // 2000
+
+        System.out.println(num2);   // 2000
 
 
 

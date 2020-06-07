@@ -54,6 +54,19 @@ public class Variables2 {
         char charz ='Z';
         System.out.println(charz);
 
+        System.out.println("====================================");
+        char a1 = 'A';
+        System.out.println(a1);
+
+       int n1 = 'A'+2;
+        System.out.println(n1);
+
+        char a2 = '@';
+        char a3 = 64;
+        System.out.println(a2);
+        System.out.println(a3);
+
+        System.out.println(  '@' + 2 ); // 66
 
 
     }

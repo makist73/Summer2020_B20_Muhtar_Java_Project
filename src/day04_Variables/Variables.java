@@ -23,21 +23,8 @@ public class Variables {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+        int num1 = 200;
+        int num2 = 300;
 
 
 

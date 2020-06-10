@@ -33,7 +33,7 @@ public class SalaryCalculator {
 
         System.out.println( "Salary before tax: " + salary +" USD");
         System.out.println("Total Tax: " + totalTax +" USD");
-        System.out.println("Take home salary: "+ salaryAfterTax);
+        System.out.println("Take home salary: "+ salaryAfterTax+" USD");
 
     }
 

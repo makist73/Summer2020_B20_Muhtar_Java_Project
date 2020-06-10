@@ -22,7 +22,7 @@ package day06_ComparisonOperators;
 public class SalaryCalculator {
 
     public static void main(String[] args) {
-        double rate = 55;
+        double rate = 55.25;
         double stateTaxRate = 0.08;
         double federalTaxRate = 0.22;
         int weeklyHours = 48;

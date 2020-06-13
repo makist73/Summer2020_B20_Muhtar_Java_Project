@@ -25,6 +25,13 @@ public class Post_VS_Pre {
         e++;
         System.out.println(e);
 
+        System.out.println("============================");
+        int x = 8;
+       int y =  x--; //  y = 8
+        System.out.println(y);
+        System.out.println(x); //7
+
+
     }
 
 }

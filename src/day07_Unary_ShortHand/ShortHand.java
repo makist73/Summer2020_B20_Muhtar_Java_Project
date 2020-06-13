@@ -38,7 +38,40 @@ public class ShortHand {
 
         System.out.println(fullName);
 
+        String firstName = "Aaron Daniel";
+           //    firstName -= " Daniel";
 
+
+        // /=
+            int budget = 100000;
+                budget /= 4;
+
+        System.out.println(budget);
+
+        //
+        int q = 100;
+
+        System.out.println(q/2);  //50
+        System.out.println( q ) ;  // 100
+
+
+        int x = 100;
+            x /= 2; // 50
+        System.out.println(x);
+
+            x *=2; //100
+        System.out.println(x);
+
+        // %=
+        int num = 100;
+            num %= 3;
+
+        System.out.println(num);
+
+        double num2 = 400.5;
+                num2 %= 2;
+
+        System.out.println(num2);
 
 
 

@@ -20,12 +20,26 @@ public class Logical {
         boolean r4 = true == !true; // false
         System.out.println(r4);
 
+        //&&:
         boolean r5 = 9 > 5 && 9 > 10;
         //            true  &&  false
 
         boolean r6 = !true && false;  // false
 
         boolean r7 = !false && 9 > 8; // true
+
+
+    //   ||: or
+
+        boolean r8 = true == !false || false == true;
+
+        System.out.println(r8);
+
+        boolean r9 = !false == false  || true == !false;
+        System.out.println(r9);
+
+        boolean r10 = !false == false  && true == !false;
+        System.out.println( r10 );
 
 
     }

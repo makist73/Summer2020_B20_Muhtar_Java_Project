@@ -40,7 +40,6 @@ public class Post_VS_Pre {
 
         System.out.println(A);
 
-
         System.out.println("============================");
         int B = 50; //B = 50
         B = --B + B++ + B-- + B++;

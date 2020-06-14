@@ -74,7 +74,6 @@ public class ShortHand {
         System.out.println(num2);
 
 
-
     }
 
 }

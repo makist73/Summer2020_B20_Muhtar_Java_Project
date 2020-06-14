@@ -33,7 +33,6 @@ public class Quiz {
            //                 5 + 2 = 7
 
 
-
     }
 
 }

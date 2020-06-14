@@ -23,6 +23,10 @@ public class Logical {
         boolean r5 = 9 > 5 && 9 > 10;
         //            true  &&  false
 
+        boolean r6 = !true && false;  // false
+
+        boolean r7 = !false && 9 > 8; // true
+
 
     }
 

@@ -10,6 +10,7 @@ public class NumberToWords {
 
         String result = "";
 
+
         if(num ==0){
             result = "zero";
         } else if(num ==1){

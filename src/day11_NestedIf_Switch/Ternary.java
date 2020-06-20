@@ -38,7 +38,7 @@ public class Ternary {
         System.out.println(max2);
 
         System.out.println("=================================================");
-        int age = 20;
+        int age = 25;
         boolean eligible = false;
 
         if(age >= 21){
@@ -50,7 +50,8 @@ public class Ternary {
         System.out.println(eligible);
         // first task: convert the if statements above to ternary
 
-        boolean eligible2 =  ?
+        boolean eligible2 = (age >= 21) ? true : false ;
+        System.out.println(eligible2);
 
 
 

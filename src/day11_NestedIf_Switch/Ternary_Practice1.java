@@ -26,7 +26,7 @@ public class Ternary_Practice1 {
         int n1 = 100;
         int n2 = 200;
 
-        String r = (n1 == n2) ? "Equal" : "Not Equal";
+        String r = (n1 == n2) ? "Equal" : "Not Equal" ;
        // "equal" or "not equal"
 
         System.out.println(r);

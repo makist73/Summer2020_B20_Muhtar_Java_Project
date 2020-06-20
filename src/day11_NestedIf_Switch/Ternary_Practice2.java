@@ -34,6 +34,14 @@ public class Ternary_Practice2 {
 
          */
 
+        int a = 20;
+        int b = 20;
+
+        String r =  (a> b) ? "a is greater" :(b > a)? "b is greater" : "a is equal to b";
+
+        System.out.println(r);
+
+
 
     }
 

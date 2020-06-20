@@ -48,9 +48,15 @@ public class Ternary {
         }
 
         System.out.println(eligible);
+        // first task: convert the if statements above to ternary
+
+        boolean eligible2 =  ?
+
 
 
         // second task: "can vote" or "Cannot vote"
+
+        // third task: write a program that can check if two numbers are equal or not.
 
 
 

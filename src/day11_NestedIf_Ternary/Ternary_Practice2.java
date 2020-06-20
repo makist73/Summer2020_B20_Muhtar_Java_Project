@@ -1,4 +1,4 @@
-package day11_NestedIf_Switch;
+package day11_NestedIf_Ternary;
 
 public class Ternary_Practice2 {
     // ?  means if, : else

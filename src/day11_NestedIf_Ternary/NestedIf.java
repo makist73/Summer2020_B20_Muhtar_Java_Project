@@ -1,4 +1,4 @@
-package day11_NestedIf_Switch;
+package day11_NestedIf_Ternary;
 /*
             90 ~ 100 ==> A
             80 ~ 89 ==> B
@@ -37,9 +37,10 @@ public class NestedIf {
         System.out.println("======================================");
 
         /*
+        Task01:
             precondition: minimum salary of 30k
                 sub condition: minimum 2 years of job history
-
+        Task02:
             1 monday
             2 Tuesday
             3 Wednesday
@@ -47,7 +48,11 @@ public class NestedIf {
             7 Sunday
             invalid ==> there is no such a day
 
+        Task03:
+            write a program that can find the number of days in a months
+                        (MUST APPLY NESTED IF)
 
+        come back at: 3:25;
          */
 
 

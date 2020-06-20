@@ -1,4 +1,4 @@
-package day11_NestedIf_Switch;
+package day11_NestedIf_Ternary;
 /*
     2. write a program that can find the number of days in a month
         (Assume that Feb has 28 days)

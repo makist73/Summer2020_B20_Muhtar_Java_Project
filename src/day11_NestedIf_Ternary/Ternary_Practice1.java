@@ -1,4 +1,4 @@
-package day11_NestedIf_Switch;
+package day11_NestedIf_Ternary;
 
 public class Ternary_Practice1 {
     // second task: "can vote" or "Cannot vote"

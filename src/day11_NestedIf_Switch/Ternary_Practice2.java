@@ -14,5 +14,10 @@ public class Ternary_Practice2 {
         }
 
 
+
+
+
     }
+
+
 }

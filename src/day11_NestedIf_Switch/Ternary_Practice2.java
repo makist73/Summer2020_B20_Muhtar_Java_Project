@@ -33,11 +33,10 @@ public class Ternary_Practice2 {
                output: a is equal to b
 
          */
-
         int a = 20;
         int b = 20;
 
-        String r =  (a> b) ? "a is greater" :(b > a)? "b is greater" : "a is equal to b";
+        String r =  (a> b) ? a+" is greater" :(b > a)? b+" is greater" : a+" is equal to "+b;
 
         System.out.println(r);
 

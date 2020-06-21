@@ -42,7 +42,13 @@ public class DaysInMonth {
 
         }
 
-
+        /*
+        int a = 10;
+            a= 20;
+            a = 30;
+            a = 50;
+        System.out.println(a);
+        */
 
 
     }

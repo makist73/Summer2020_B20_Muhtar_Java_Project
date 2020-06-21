@@ -14,17 +14,18 @@ public class DaysInMonth {
 
     public static void main(String[] args) {
         int month = 7;
+        String result = "";
 
         switch(month){
             case 4:
             case 6:
             case 9:
             case 11:
-                System.out.println("30 Days");
+                result ="30 Days";
                 break;
 
             case 2:
-                System.out.println("28 Days");
+                result ="28 Days";
                 break;
 
             case 1:
@@ -34,13 +35,17 @@ public class DaysInMonth {
             case 8:
             case 10:
             case 12:
-                System.out.println("31 Days");
+                result ="31 Days";
                 break;
 
             default:
-                System.out.println("Invalid");
+                result ="Invalid";
 
         }
+
+        System.out.println(result);
+
+
 
         /*
         int a = 10;

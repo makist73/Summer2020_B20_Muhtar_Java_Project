@@ -36,7 +36,7 @@ public class BiggerNumber {
         }
 
  */
-        String result = (n1IsBigger) ? "n1 is bigger" :(n2IsBigger)? "n2 is bigger" : "n3 is bigger" ;
+        String result = (n1IsBigger) ? n1+" is bigger" :(n2IsBigger)? n2+" is bigger" : n3+" is bigger" ;
 
         System.out.println(result);
 

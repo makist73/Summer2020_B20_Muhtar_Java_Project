@@ -3,7 +3,13 @@ package day12_Switch_Scanner;
 public class Switch_Practice1 {
 
     public static void main(String[] args) {
-        int num = 4;
+
+        long c = 10; // 10L
+        float f = 10;  //10.0f
+        double d = 10; // 10.0
+
+
+       int num = 4;
         String result = "";
 
         switch(num){

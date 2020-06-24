@@ -23,6 +23,7 @@ public class Switch_ShortQuiz2 {
         float f1 = (12_345.1 > 123_45.0) ? 12456 : 12456.02f;
 
         System.out.println(12456 + 1024 );
+
         System.out.println("==============================");
 
         // line 1

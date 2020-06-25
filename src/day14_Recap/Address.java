@@ -46,6 +46,8 @@ public class Address {
         System.out.println("Enter your full name: ");
         String fullName = scan.nextLine();
 
+        scan.close();
+
         /*
         Ship To:  Jimmy joe
                   7925 Jones Branch Dr

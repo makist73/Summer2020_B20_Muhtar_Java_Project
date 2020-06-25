@@ -14,7 +14,7 @@ public class Grade {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         double score = scan.nextDouble();
-            scan.close();
+            scan.close();  // closes the scanner and we will not be able to use it afterward
 
         String result = "";
 

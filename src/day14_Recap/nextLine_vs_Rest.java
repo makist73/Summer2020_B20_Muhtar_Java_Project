@@ -20,5 +20,7 @@ public class nextLine_vs_Rest {
         System.out.println(fullName+" is "+age+" years old");
 
 
+
+
     }
 }

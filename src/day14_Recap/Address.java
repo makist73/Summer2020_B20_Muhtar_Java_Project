@@ -46,6 +46,15 @@ public class Address {
         System.out.println("Enter your full name: ");
         String fullName = scan.nextLine();
 
+        /*
+        Ship To:  Jimmy joe
+                  7925 Jones Branch Dr
+                  MCLean, VA 22102
+         */
+
+        System.out.println("\nShip To: "+fullName+"\n"+buildingNumber+" "+streetAddress
+                +"\n"+cityName+", "+stateName+" "+zipCode);
+
 
     }
 

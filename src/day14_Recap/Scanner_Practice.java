@@ -34,6 +34,9 @@ public class Scanner_Practice {
         System.out.println("Enetr your full name");
         String fullName = input.nextLine();
 
+        System.out.println("Enter your company name");
+        String companyName = input.nextLine();
+
 
 
     }

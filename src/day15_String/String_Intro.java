@@ -47,6 +47,17 @@ public class String_Intro {
         System.out.println(c4 == c5);
         //          "Cybertek" == "cybertek" ==> false
 
+        System.out.println("=============================");
+        String str1 = "Java";
+          str1 =  "JavaScript";
+
+        System.out.println(str1);
+
+            str1 = "Java";
+
+        System.out.println(str1);
+
+
     }
 
 }

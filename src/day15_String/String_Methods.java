@@ -23,6 +23,19 @@ public class String_Methods {
         char lastChar = name.charAt(lastIndexNumber);
         System.out.println(lastChar);
 
+        //concat(Str): concatenation
+            String schoolName = "Cybertek";
+
+                schoolName = schoolName.concat(" School");   //"Cybertek School"
+
+        System.out.println(schoolName);
+
+        String r1 = "Cybertek" + 123 + 'A'+true;   //123
+        System.out.println(r1);
+
+        String r2 = "Cybertek".concat("123");
+
+
 
     }
 

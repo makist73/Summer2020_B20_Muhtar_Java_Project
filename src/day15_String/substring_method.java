@@ -33,9 +33,31 @@ public class substring_method {
 
         System.out.println(firstName);
 
+        System.out.println("=======================================");
+        String lastName = "cYNThiA";
+        String firstChar = lastName.substring(0,1);  //s
+        String remaining = lastName.substring(1); // chool
+
+         lastName = firstChar.toUpperCase() + remaining.toLowerCase(); //"School"
+
+        System.out.println(lastName);
+
+        System.out.println("=============================================");
 
 
+        String s = "I like Game Of Thrones";
+        //          01234567
+        String series = s.substring(7);
 
+        System.out.println(series);
+
+
+        String s2 = "I like Java Programming Language";
+        //           01234567
+
+        String language = s2.substring(7);
+
+        System.out.println(language);
 
 
     }

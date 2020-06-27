@@ -51,8 +51,11 @@ public class String_Methods {
         // (CAN WE HAVE MORE TASKS).tpLowerCase()
 
 
+        // trim():
+        String p = "     Cybertek       School    ";
+              p =  p.trim();  // "Cybertek School"
 
-
+        System.out.println(p);
 
 
 

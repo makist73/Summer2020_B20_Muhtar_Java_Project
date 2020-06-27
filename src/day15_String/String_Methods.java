@@ -36,6 +36,25 @@ public class String_Methods {
         String r2 = "Cybertek".concat("123");
 
 
+        // toLowerCase():
+        String name1 = "CYBERTEK SCHOOL";
+                 name1 = name1.toLowerCase();    // "cybertek school"
+
+        System.out.println(name1);
+
+
+        // toUpperCase():
+        String name2 = "muhtar";
+        name2 = name2.toUpperCase(); // "MUHTAR"
+
+        System.out.println(name2);
+        // (CAN WE HAVE MORE TASKS).tpLowerCase()
+
+
+
+
+
+
 
     }
 

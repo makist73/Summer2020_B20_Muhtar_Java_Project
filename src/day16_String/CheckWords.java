@@ -36,6 +36,25 @@ public class CheckWords {
 
         System.out.println(result);
 
+        System.out.println("===================================================");
+        String str1 = "abcd";
+        String str2 = "abcd";
+        String str3 =  "abcd";
+
+        boolean allSame = str1.length() == str2.length() && str1.length() == str3.length();
+        boolean allDifferent = str1.length() != str2.length() && str2.length() != str3.length() && str1.length() != str3.length();
+
+        if( allSame ){
+            System.out.println("All words are same length");
+        }else if(allDifferent){
+            System.out.println("All different length");
+        }else{
+            System.out.println("Not Same nor Different lengths");
+        }
+
+
+
+
     }
 
 

@@ -40,6 +40,48 @@ public class String_Methods {
 
         System.out.println(s2);
 
+        // replaceFirst:
+
+        String s3 = "I like to drink tea and tea";
+      s3 =  s3.replaceFirst("tea" ,  "cola");  // "I like to drink cola and tea"
+
+        System.out.println(s3);
+
+        String s4 = "I like to Watch Game of thrones, and Walking dead";
+               s4 = s4.replace(", and Walking dead" , ""); // "I like to Watch Game of thrones"
+
+        System.out.println(s4);
+
+        // indexOf()
+        String s5 = "I like to stay in cybertek, we are learning java";
+        int r1 = s5.indexOf("r");
+        int r2 = s5.indexOf("re"); // returns the first char 'r' index
+        int r3 = s5.indexOf("rn"); // returns the first char 'r' index
+
+        System.out.println(r1 );
+        System.out.println(r2);
+        System.out.println(r3);
+
+        //lastIndexOf()
+        String s6 = "Java is a programming language, and Java is fun";
+
+        int I1 = s6.indexOf("Java is fun")  ;
+        int I2 = s6.lastIndexOf("J");
+
+        System.out.println(I1);
+        System.out.println(I2);
+
+
+        String s7 = "Java";
+           int a1 =     s7.indexOf("A");
+
+        System.out.println(a1);
+
+
+
+
+
+
 
 
 

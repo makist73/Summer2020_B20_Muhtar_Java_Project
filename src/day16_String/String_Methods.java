@@ -78,6 +78,11 @@ public class String_Methods {
         System.out.println(a1);
 
 
+        String s8 = "Java";
+        int a = s8.indexOf("a");
+
+        char ch = s8.charAt(a);
+
 
 
 

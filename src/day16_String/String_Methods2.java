@@ -38,7 +38,28 @@ public class String_Methods2 {
         System.out.println(str7.equals(str8) ); // FALSE
         System.out.println( str7.equalsIgnoreCase(str8) ); // true
 
-        // YES, Yes, yes, yEs  ==> yes
+       // contains:
+        String str = "I like to learn java programming language";
+
+        System.out.println( str.contains("python") );  // false
+        System.out.println( !str.contains("python")); // true
+
+        System.out.println(str.contains("java") );  // true
+        System.out.println( str.contains("JAVA"));  // false
+
+        // stratsWith():
+        String s1 = "Muhtar";
+        System.out.println(  s1.startsWith("M") ); // true
+        System.out.println( s1.startsWith("J"));  // false
+
+        System.out.println( s1.startsWith("Mu")  ); // true
+
+        System.out.println( s1.toLowerCase().contains("mu") ); // true
+        //                      "muhtar".contains("mu")
+
+
+
+
 
 
 

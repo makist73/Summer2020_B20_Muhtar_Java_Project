@@ -36,6 +36,8 @@ public class Calculator {
         boolean valid = operator == '*' || operator == '/' || operator == '%' || operator == '+' ||operator == '-';
 
         if(valid){
+
+            /*
             switch(operator){
                 case '*':
                     System.out.println(num1*num2);
@@ -56,6 +58,9 @@ public class Calculator {
                 default:
                     System.out.println(num1 - num2);
             }
+
+             */
+
 
         }else{
             System.out.println("Invalid Operator");

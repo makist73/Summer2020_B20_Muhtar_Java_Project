@@ -1,4 +1,4 @@
-package day17_StringReveiw;
+package day17_StringReview;
 
 public class Pool_VS_Heap {
 

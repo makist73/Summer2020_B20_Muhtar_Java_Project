@@ -1,9 +1,7 @@
 package day17_StringReview;
 
 public class String_Methods {
-    /*
-    String methods:  equals, equalsIgnorecase, isEmpty, ends, starts, contains
-     */
+
 
     public static void main(String[] args) {
         // charAt(index); ==> char

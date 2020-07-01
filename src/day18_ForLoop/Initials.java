@@ -28,8 +28,6 @@ public class Initials {
         System.out.println(initial1);
 
 
-
-
        char ch1 = firstName.charAt(0);
        char ch2 = lastName.charAt(0);
 

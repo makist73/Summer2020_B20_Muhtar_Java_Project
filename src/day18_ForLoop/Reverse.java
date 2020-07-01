@@ -17,10 +17,13 @@ package day18_ForLoop;
                         second solution, you MUST use charAt method
  */
 
+import java.util.Scanner;
+
 public class Reverse {
 
     public static void main(String[] args) {
-        String str = "Python";
+        Scanner scan= new Scanner(System.in);
+        String str = scan.next();
                 // avaJ ==> ava , J
 
            String s1 = str.substring(1);  //"ava"
@@ -31,7 +34,7 @@ public class Reverse {
 
         String result1 = s1+s2; // "avaJ"
 
-        System.out.println(result1);  /// ythonP
+        System.out.println(result1);
 
 // programming  ==> gnimmargorp
 

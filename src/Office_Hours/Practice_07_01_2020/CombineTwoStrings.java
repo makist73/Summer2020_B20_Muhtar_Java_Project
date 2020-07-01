@@ -49,6 +49,18 @@ public class CombineTwoStrings {
         }
 
 
+        // third:
+        String t1 ="" + str1.charAt( str1.length() -1 ); // last char from str1
+        String t2= "" +  str2.charAt(0); //first char from str2
+
+        if( t1.equals(t2)  ){
+            System.out.println(str1 + str2.substring(1));  // excluding the first character of the second string
+        }else{
+            System.out.println(str1 +str2);
+        }
+
+
+
 
 
 

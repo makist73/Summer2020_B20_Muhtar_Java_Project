@@ -36,7 +36,7 @@ public class Reverse {
 
         System.out.println(result1);
 
-// programming  ==> gnimmargorp
+    // programming  ==> gnimmargorp
 
     }
 

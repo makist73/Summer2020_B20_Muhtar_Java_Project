@@ -2,8 +2,7 @@ package day17_StringReview;
 
 public class String_Methods {
     /*
-    String methods:  replace, replaceFirst,
- equals, equalsIgnorecase, isEmpty, ends, starts, contains
+    String methods:  equals, equalsIgnorecase, isEmpty, ends, starts, contains
      */
 
     public static void main(String[] args) {
@@ -100,6 +99,21 @@ public class String_Methods {
         System.out.println(i7);
 
 
+    // replace & replaceFirst
+        String s1 = "I like Java, Java is a programming language";
+          s1 = s1.replace("Java", "C#"); //"....."
+
+        System.out.println(s1);
+
+        String s2 = "I like Java, Java is a programming language";
+         s2 = s2.replaceFirst("Java", "C#");
+
+        System.out.println(s2);
+
+        String s3 = "I like Java, Java is a programming language";
+         s3 = s3.replace("Java is" , "C# is"    );
+
+        System.out.println(s3);
 
     }
 

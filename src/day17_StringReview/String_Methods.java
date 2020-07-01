@@ -2,7 +2,7 @@ package day17_StringReview;
 
 public class String_Methods {
     /*
-    String methods: trim, substring, replace, replaceFirst, indexOf,
+    String methods: substring, replace, replaceFirst, indexOf,
     lastIndexOf, equals, equalsIgnorecase, isEmpty, ends, starts, contains
      */
 
@@ -49,6 +49,30 @@ public class String_Methods {
         System.out.println(str5);
 
         //trim()
+        String str6 = "     Cybertek School    ";
+        System.out.println(str6);
+
+           str6 = str6.trim(); // "Cybertek"
+        System.out.println(str6);
+
+        // substring:
+
+        String str7 = "I Like Java Language";
+        //             0123456789
+
+        String word = str7.substring(7, 10+1); //"Java"
+        System.out.println( str7 );
+        System.out.println(word);
+
+        String word2 = str7.substring(12, str7.length() );
+        String word3 = str7.substring(12 );
+
+        System.out.println(word2);
+        System.out.println(word3);
+
+
+
+
 
 
     }

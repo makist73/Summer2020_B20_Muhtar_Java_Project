@@ -17,15 +17,15 @@ public class CombineTwoStrings {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
 
-        String str1 = "Java is programming language";
+        String str1 = scan.next();
         //             012
 
-        String str2 =  "eight";
+        String str2 =  scan.next();
             //          01234
 
 
-        /*
-        // OneTwo
+
+        // first:
         char ch1 = str1.charAt( str1.length() -1 ); // last char from str1
         char ch2 = str2.charAt(0); //first char from str2
 
@@ -34,12 +34,13 @@ public class CombineTwoStrings {
         }else{
             System.out.println(str1 +str2);
         }
-*/
 
-        String s1 = str1.substring( str1.length() -1 ); // "e"
+
+        // second:
+        String s1 = str1.substring( str1.length() -1 ); // "K"
                         // substring(2 ) ==> e
 
-        String s2 = str2.substring(0, 1);  // "e"
+        String s2 = str2.substring(0, 1);  // "s"
 
         if( s1.equals(s2) ) {
             System.out.println( str1 + str2.substring(1) );

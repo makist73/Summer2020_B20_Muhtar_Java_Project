@@ -17,7 +17,6 @@ public class ReverseString {
             result +=  str.charAt(i);
         }
 
-
         System.out.println(result);
 
     }

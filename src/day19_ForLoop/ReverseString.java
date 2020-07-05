@@ -1,9 +1,12 @@
 package day19_ForLoop;
 
+import java.util.Scanner;
+
 public class ReverseString {
 
     public static void main(String[] args) {
-        String str = "Cybertek School is a cool place";  // "rebyC"
+        Scanner scan = new Scanner(System.in);
+        String str = scan.nextLine();  // "rebyC"
         //            01234
 
     //String result = ""+str.charAt( 4 ) + str.charAt(3) + str.charAt(2) + str.charAt(1) +str.charAt(0) ;

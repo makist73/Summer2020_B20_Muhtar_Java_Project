@@ -17,7 +17,7 @@ public class FactorialNumber {
         Scanner scan = new Scanner(System.in);
         int n = scan.nextInt();
 
-        int result = 1; // 5 * 4 * 3 * 2 * 1 == 120
+        double result = 1; // 5 * 4 * 3 * 2 * 1 == 120
 
         for(int i = n; i >= 1; i-- ){ // i: 5, 4, 3, 2, 1
             result *= i;

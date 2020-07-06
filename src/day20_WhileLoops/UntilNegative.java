@@ -9,6 +9,7 @@ import java.util.Scanner;
 public class UntilNegative {
 
     public static void main(String[] args) {
+
         Scanner scan = new Scanner(System.in);
         int sum = 0;
 

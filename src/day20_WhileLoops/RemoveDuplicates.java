@@ -33,7 +33,8 @@ public class RemoveDuplicates {
 
         for(int i = 0; i <= str.length()-1; i++  ){
 
-            String s =  ""+str.charAt(i);  //a,  b,  a,  b
+          //  String s =  ""+str.charAt(i);  //a,  b,  a,  b
+            String s = str.substring(i, i+1);
 
             if( !result.contains(s) ){
                 result += s;

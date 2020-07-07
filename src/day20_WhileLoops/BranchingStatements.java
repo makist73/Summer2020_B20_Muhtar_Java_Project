@@ -18,6 +18,24 @@ public class BranchingStatements {
             ch++;
         }
 
+/*
+        if(true){
+            System.out.println("Started");
+            System.exit(0);
+        }
+
+        System.out.println("Done");
+
+*/
+
+        boolean a = true;
+        while(a){
+            System.out.println("Test started");
+            //break;
+            System.exit(0);
+        }
+
+        System.out.println("Completed");
 
 
 

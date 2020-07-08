@@ -21,16 +21,19 @@ public class OccurancesOfChar {
         int count = 0 ; // 1+1 = 2, frequency of ch in str
 
         for(int i=0; i <= str.length()-1; i++){
-
+                                //ababc
            char each = str.charAt(i);  // a  b a b c
 
-            if( each == ch ){
+            if( each == ch ){  // if true, means ch is occured in str
                 count += 1;
             }
 
         }
 
         System.out.println(count);
+
+
+
 
 
     }

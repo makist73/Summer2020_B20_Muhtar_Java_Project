@@ -28,7 +28,7 @@ public class DivideTwoNumbers {
 
         if(b == 0){
             System.out.println("Invalid Input");
-            System.exit(0);
+            System.exit(0); // forcefully teminating the program
         }
 
 

@@ -11,7 +11,6 @@ public class MinimumAndMaximum {
         int min = 2147483647;
         int max =  -2147483648;
 
-
         for(int i = 0; i < 100 ; i++ ){
 
             System.out.println("Enter a number");

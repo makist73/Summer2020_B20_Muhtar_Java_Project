@@ -15,7 +15,7 @@ public class Nested_loop2 {
 
         }
 
-        System.out.println("====================================================");
+
 
 
 

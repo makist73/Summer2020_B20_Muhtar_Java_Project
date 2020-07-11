@@ -3,37 +3,42 @@ package day23_Arrays;
 public class FrequencyOfChars {
 
     public static void main(String[] args) {
-        String str = "ABAB";  //"A2B2"
-        String nonDup = "";  //"AB"
-        String result = "";  //"A2B2"
+        String str = "AAAAABBBBBBBBBBCCCCCCCCDDDDDDDDDDDEEEEEEEEEEEEE";
+        String nonDup = "";  //"BCD"
+            // ABCDE
 
+        for(int i =0; i <= str.length()-1; i++){  // remove duplciates from str and added to nonDup
+            String ch = ""+ str.charAt(i);   // B, B, C, C, D, D
 
-        for(int i = 0; i <= str.length()-1; i++){  // removing duplicates from str
-             String ch = ""+ str.charAt(i);  // A, B, A, B
-            if(!nonDup.contains( ch )){
+            if(nonDup.contains(ch)){
+                continue;
+            }else{
                 nonDup += ch;
             }
+
         }
 
-        System.out.println(nonDup);
+         String expectedResult = "";    //"B2C2D2"
 
-        // str ="ABAB"     nonDup = "AB"
+        // str = "BBCCDD"      nonDup = "BCD"    ===> "B2C2D2"
 
-        for(int j=0; j <= nonDup.length()-1; j++ ){
+        for(int j=0; j <= nonDup.length()-1; j++){ // iterates the string nonDup
 
-            char ch = nonDup.charAt(j);
-            int count = 0;
-            for(int i = 0; i <= str.length()-1; i++){
+            char ch = nonDup.charAt(j);  // B, C, D   every single characters from nonDup
+            int count = 0; // 2,  2,   2    frequnecy of every single ch
+
+            for(int i=0; i <= str.length()-1; i++){  // returns the frequnecy of each ch from string str
                 if(str.charAt(i) == ch){
-                    count+=1;
+                    count++;
                 }
             }
 
-            result += ""+ch + count;
+            expectedResult += ""+ch + count;
 
         }
 
-        System.out.println(result);
+
+        System.out.println(expectedResult);
 
 
     }

@@ -41,8 +41,48 @@ public class FrequencyOfChars {
 
         }
 
-
         System.out.println(expectedResult);
+
+
+        /*
+        the reason we need nested loop:
+
+         char ch1 = nonDup.charAt(0);  //B
+            int count1 = 0; // frequnecy of B
+            for(int i=0; i <= str.length()-1; i++){  // returns the frequnecy of each ch from string str
+                if(str.charAt(i) == ch1){
+                    count1++;
+                }
+            }
+
+            expectedResult += ""+ch1 + count1;
+
+
+             char ch2 = nonDup.charAt(0);  //C
+            int count2 = 0; // frequnecy of C
+            for(int i=0; i <= str.length()-1; i++){  // returns the frequnecy of each ch from string str
+                if(str.charAt(i) == ch2){
+                    count2++;
+                }
+            }
+
+            expectedResult += ""+ch2 + count2;
+
+
+             char ch3 = nonDup.charAt(0);  //D
+            int count3 = 0; // frequnecy of D
+            for(int i=0; i <= str.length()-1; i++){  // returns the frequnecy of each ch from string str
+                if(str.charAt(i) == ch3){
+                    count3++;
+                }
+            }
+
+            expectedResult += ""+ch3 + count3;
+
+
+
+
+         */
 
 
     }

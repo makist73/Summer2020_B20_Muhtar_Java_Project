@@ -1,11 +1,15 @@
 package day23_Arrays;
 
+import java.util.Scanner;
+
 public class FrequencyOfChars {
 
     public static void main(String[] args) {
-        String str = "AAAAABBBBBBBBBBCCCCCCCCDDDDDDDDDDDEEEEEEEEEEEEE";
+        Scanner scan = new Scanner(System.in);
+        String str = scan.next();
+
         String nonDup = "";  //"BCD"
-            // ABCDE
+                // ab
 
         for(int i =0; i <= str.length()-1; i++){  // remove duplciates from str and added to nonDup
             String ch = ""+ str.charAt(i);   // B, B, C, C, D, D

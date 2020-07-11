@@ -22,6 +22,32 @@ public class Calculator {
 
             */
 
+            switch(o){
+
+                case '+':
+                    System.out.println(num1+num2);
+                    break;
+
+                case '-':
+                    System.out.println(num1-num2);
+                    break;
+
+                case '*':
+                    System.out.println(num1*num2);
+                    break;
+
+                case '/':
+                    System.out.println(num1/num2);
+                    break;
+
+                case '%':
+                    System.out.println(num1%num2);
+                    break;
+
+                default:
+                    System.out.println("Invalid Operator");
+            }
+
 
 
             System.out.println("Do you want to continue?");

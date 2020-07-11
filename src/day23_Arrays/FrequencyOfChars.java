@@ -8,7 +8,7 @@ public class FrequencyOfChars {
         String result = "";  //"A2B2"
 
 
-        for(int i = 0; i <= str.length()-1; i++){
+        for(int i = 0; i <= str.length()-1; i++){  // removing duplicates from str
              String ch = ""+ str.charAt(i);  // A, B, A, B
             if(!nonDup.contains( ch )){
                 nonDup += ch;
@@ -21,8 +21,8 @@ public class FrequencyOfChars {
 
         for(int j=0; j <= nonDup.length()-1; j++ ){
 
-            char ch = nonDup.charAt(j); // A
-            int count = 0; //2
+            char ch = nonDup.charAt(j);
+            int count = 0;
             for(int i = 0; i <= str.length()-1; i++){
                 if(str.charAt(i) == ch){
                     count+=1;
@@ -32,8 +32,6 @@ public class FrequencyOfChars {
             result += ""+ch + count;
 
         }
-
-
 
         System.out.println(result);
 

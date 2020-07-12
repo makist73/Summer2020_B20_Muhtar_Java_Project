@@ -3,7 +3,8 @@ package day24_Arrays;
 public class UniqueNumbers {
 
     public static void main(String[] args) {
-        int[] arr = {1,1,2,3,3};
+        int[] arr = {1,1,2,3,3,4,5,5,6,7,7,8,9,9};
+        //{1,1,2,3,3
 
         for(int j=0; j <= arr.length-1; j++){
                 // j: 0,1,2,3,4
@@ -18,7 +19,7 @@ public class UniqueNumbers {
             }
 
             if(count == 1){
-                System.out.println(num1);
+                System.out.print(num1+" ");
             }
         }
 

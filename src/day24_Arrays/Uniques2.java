@@ -1,10 +1,12 @@
 package day24_Arrays;
 
+import java.util.Scanner;
+
 public class Uniques2 {
 
     public static void main(String[] args) {
-
-        String str = "aabccdeeeefffffffjhhhhhhhi";
+        Scanner scan = new Scanner(System.in);
+        String str = scan.next();
             // "aabcc"
 
         String expectedResult = ""; // "b

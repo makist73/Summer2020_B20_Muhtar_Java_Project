@@ -70,6 +70,7 @@ public class FrequencyOfChars1 {
 
         }
 
+
         System.out.println(result);
 
 

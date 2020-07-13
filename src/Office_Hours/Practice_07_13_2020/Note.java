@@ -17,6 +17,7 @@ Task:
 		"DDEEEFFFF";
 		D2E3F4
 
+
 		steps:
 			remove duplicates "DEF"
 			Frequnecy:        2  3  4

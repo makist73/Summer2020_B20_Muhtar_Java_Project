@@ -14,7 +14,6 @@ public class ShortestString {
             if(l < minLength){
                 minLength = l;
             }
-
         }
 
 

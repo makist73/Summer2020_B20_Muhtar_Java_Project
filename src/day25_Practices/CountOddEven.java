@@ -7,24 +7,35 @@ public class CountOddEven {
         int countEven = 0;
         int countOdd = 0;
 
+        String even = "";
+        String odd = "";
+
         for( int each : nums){
-            /*
+
             if(each %2 ==0){
                countEven += 1;
+               even += each+" ";
            }else{
                countOdd++;
+               odd += each+" ";;
            }
-             */
 
+/*
            if(each %2 ==0){
                countEven += 1;
+               even += each+" ";
                continue;
            }
            countOdd++;
+           odd += each+" ";
+
+ */
         }
 
-        System.out.println("Even Numbers: "+countEven);
-        System.out.println("Odd Numbers: "+countOdd);
+        System.out.println("Even Numbers: "+even);
+        System.out.println(countEven);
+        System.out.println("Odd Numbers: "+odd);
+        System.out.println(countOdd);
 
 
 

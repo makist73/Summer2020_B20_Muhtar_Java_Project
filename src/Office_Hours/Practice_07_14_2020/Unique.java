@@ -21,7 +21,7 @@ public class Unique {
                 }
             }
 
-            if(count == 1){
+            if(count == 1){ // unique
                 expectedResult += ch;
             }
 

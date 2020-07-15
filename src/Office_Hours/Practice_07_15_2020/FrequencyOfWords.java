@@ -3,7 +3,8 @@ package Office_Hours.Practice_07_15_2020;
 public class FrequencyOfWords {
 
     public static void main(String[] args) {
-        String str = "dog dog dog cat cat cat";
+        String str = "dog dog dog cat cat cat cat cat cat Dog Dog Dog";
+        str = str.toLowerCase();
 
         int countOfDog = 0; // 1+1+1
 
@@ -18,11 +19,17 @@ public class FrequencyOfWords {
 
         int countOfCat = 0;
 
+        while(str.contains("cat")){
+            str = str.replaceFirst("cat", "");
+            countOfCat++;
+        }
 
 
 
-        System.out.println(countOfDog);
-        System.out.println(str);
+        System.out.println("Dog: "+countOfDog);
+        System.out.println("Cat: "+countOfCat);
+
+        System.out.println( countOfCat == countOfDog );
 
 
 

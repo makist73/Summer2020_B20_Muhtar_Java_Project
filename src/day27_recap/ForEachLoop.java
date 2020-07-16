@@ -53,8 +53,25 @@ public class ForEachLoop {
         }
 
         System.out.println();
+
         System.out.println("==========================================");
 
+        int[] score = {80,75, 65, 110, 90, 45, 56, 78};
+
+        int max = score[0];
+        int min = score[0];
+
+        for(int each : score ){
+            if(each > max){
+                max = each;
+            }
+            if(each < min ){
+                min = each;
+            }
+        }
+
+        System.out.println("Max Number: "+max);
+        System.out.println("Min Number: "+min);
 
 
 

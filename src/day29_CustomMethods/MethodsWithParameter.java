@@ -1,5 +1,7 @@
 package day29_CustomMethods;
 
+import java.util.Scanner;
+
 public class MethodsWithParameter {
 
 
@@ -8,7 +10,13 @@ public class MethodsWithParameter {
         printHello(5);
 
         System.out.println("=======================================");
-        age(2000, 1990);
+        Scanner scan = new Scanner(System.in);
+        System.out.println("Enter birth year and current year");
+        /*
+        int birthYear = scan.nextInt();
+        int currentYear = scan.nextInt();
+    */
+        age( scan.nextInt(), scan.nextInt()   );
 
     }
 

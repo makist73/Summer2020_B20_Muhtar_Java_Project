@@ -6,7 +6,8 @@ public class UniqueElements {
         String[] arr = {"A", "B", "B", "C"};
         uniques(arr);
 
-        System.out.println("Hello");
+        String[] arr2 = {"D", "D", "E", "F", "F"};
+        uniques(arr2);
 
     }
 

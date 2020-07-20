@@ -10,11 +10,18 @@ wamrmup tasks:
 		MUST use for each loop
  */
 
+import java.util.Arrays;
+
 public class WarmUpTasks {
 
     public static void main(String[] args) {
 
         maxNum(123, 123);
+
+        int arr[]={5,2,3,4,5,6,4,7,0,-5,-54,-55,-5,54,-45,-45,-45 };
+        printDesc(arr);
+
+
 
     }
 
@@ -31,6 +38,17 @@ public class WarmUpTasks {
         }else{
             System.out.println(b+" is maximum");
         }
+    }
+
+    //Task02:
+    public static void printDesc(int[] arr){  //{10,9,20,30,5,6,7};
+        Arrays.sort(arr); // {5, 6, 7, 9, 10, 20, 30};
+
+        for(int i=arr.length-1; i >= 0; i-- ){
+            System.out.print(  arr[i]+" " );  // 30 20 10 9 7 6 5
+        }
+
+        System.out.println();
     }
 
 

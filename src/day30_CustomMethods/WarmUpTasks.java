@@ -25,6 +25,15 @@ public class WarmUpTasks {
         int[] a2 = {6,7,8,9,10,11,12,13,14};
         combine2Arrays(a1, a2);
 
+        PosNegZero(0);
+        System.out.println("===============================");
+        int[] a3 = {100, -100, -200, -300, 0, 0, 900, 5000};
+
+        for( int each : a3){
+            PosNegZero(each);
+        }
+
+
     }
 
     // task01:
@@ -70,6 +79,19 @@ public class WarmUpTasks {
         }
 
         System.out.println( Arrays.toString(arr3));
+
+    }
+
+    //Task04:
+    public static void PosNegZero(int num){
+
+        if(num > 0){
+            System.out.println(num+" is positive");
+        }else if(num <0){
+            System.out.println(num+" is negative");
+        }else{
+            System.out.println(num+" is zero");
+        }
 
     }
 

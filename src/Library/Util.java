@@ -24,7 +24,7 @@ public class Util {
     }
 
 
-    public static void maxNum(int[] arr){
+    public static int maxNum(int[] arr){
         int max = arr[0];
 
         for( int each : arr ){
@@ -33,8 +33,24 @@ public class Util {
             }
         }
 
-        System.out.println("Max: "+max);
+        return max;
     }
+
+
+    public static int minNum(int[] arr){
+        int min= arr[0];
+
+        for( int each : arr ){
+            if(each < min){
+                min = each;
+            }
+        }
+
+       return min;
+    }
+
+
+
 
 
 }

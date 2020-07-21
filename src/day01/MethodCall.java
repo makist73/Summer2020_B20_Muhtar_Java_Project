@@ -1,7 +1,5 @@
 package day01;
 
-import Library.CustomMethods2;
-
 public class MethodCall {
 
     public static void main(String[] args) {

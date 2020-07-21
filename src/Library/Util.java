@@ -13,7 +13,7 @@ public class Util {
 
         return nonDup;
     }
-    // what it does
+
 
     public static String reverse(String str){
         String result = "";
@@ -22,6 +22,11 @@ public class Util {
         }
         return result;
     }
+
+
+
+
+
 
 
     public static int maxNum(int[] arr){
@@ -48,6 +53,25 @@ public class Util {
 
        return min;
     }
+
+
+    public static int[] combine2Arrays(int[] arr1, int[] arr2){
+        int[] arr3 = new int[arr1.length + arr2.length];
+
+        int i = 0;
+        for(int each  :  arr1){
+            arr3[i] = each;
+            i++;
+        }
+
+        for(int each : arr2){
+            arr3[i]= each;
+            i++;
+        }
+
+        return arr3;
+    }
+
 
 
     /*

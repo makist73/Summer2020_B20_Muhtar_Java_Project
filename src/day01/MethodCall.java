@@ -6,8 +6,7 @@ public class MethodCall {
 
         int[] numbers = {300,200,100, 10000, 300000, -5000, 40000};
 
-        CustomMethods2.maxNum(numbers);
-        CustomMethods2.minNum(numbers);
+
 
 
 

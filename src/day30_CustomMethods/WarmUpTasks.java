@@ -21,7 +21,9 @@ public class WarmUpTasks {
         int arr[]={5,2,3,4,5,6,4,7,0,-5,-54,-55,-5,54,-45,-45,-45 };
         printDesc(arr);
 
-
+        int[] a1 = {1,2,3,4,5};
+        int[] a2 = {6,7,8,9,10,11,12,13,14};
+        combine2Arrays(a1, a2);
 
     }
 
@@ -52,7 +54,24 @@ public class WarmUpTasks {
     }
 
 
+//Task03: {1,2,3] {4,5,6}  ==> {1, 2, 3, 4, 5, 6}
+    public static void combine2Arrays(int[] arr1, int[] arr2){
+        int[] arr3 = new int[arr1.length + arr2.length];
 
+        int i = 0;
+        for(int each  :  arr1){
+            arr3[i] = each;
+            i++;
+        }
+
+        for(int each : arr2){
+            arr3[i]= each;
+            i++;
+        }
+
+        System.out.println( Arrays.toString(arr3));
+
+    }
 
 
 

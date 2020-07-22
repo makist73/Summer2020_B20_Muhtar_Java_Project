@@ -13,6 +13,7 @@ public class Util {
 
         return nonDup;
     }
+        // removes the duplicates and returns the value string
 
     public static String reverse(String str){
         String result = "";
@@ -21,8 +22,9 @@ public class Util {
         }
         return result;
     }
+        // reverse the string and retunr the value
 
-    public static int frequency(String str, char ch){ // finds the frequency of char from string str
+    public static int frequency(String str, char ch){
         int count = 0;
         for(char each  : str.toCharArray() ){
             if(each == ch){
@@ -32,6 +34,7 @@ public class Util {
 
         return count;
     }
+    //  finds the frequency of char from string str and returns it as int
 
     public static String uniques(String str){
         String uniques = "";
@@ -45,7 +48,7 @@ public class Util {
 
         return uniques;
     }
-
+      // retunrs the uniiques from the string
 
 
 
@@ -61,6 +64,7 @@ public class Util {
 
         return max;
     }
+    // find and returns the max number from in array
 
     public static int minNum(int[] arr){
         int min= arr[0];
@@ -73,6 +77,7 @@ public class Util {
 
        return min;
     }
+    // find and returns the min number from in array
 
     public static int[] combine2Arrays(int[] arr1, int[] arr2){
         int[] arr3 = new int[arr1.length + arr2.length];
@@ -90,7 +95,7 @@ public class Util {
 
         return arr3;
     }
-
+    // combines two array and returns it
 
 
 

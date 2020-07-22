@@ -52,6 +52,20 @@ public class Util {
     }
       // retunrs the uniiques from the string
 
+    public static String frequencyOfChars(String str){
+
+        String expectedResult = "";
+        String nonDup =    Util.removeDup(str);
+
+        for(char each : nonDup.toCharArray() ){
+            int count1 = Util.frequency(str, each);
+            expectedResult +=   ""+ each + count1;
+        }
+
+        return expectedResult;
+    }
+        // returns the frequency of every single characters from a string
+
 
 
 

@@ -66,6 +66,15 @@ public class Util {
     }
         // returns the frequency of every single characters from a string
 
+    public static  String  formatFullName(String first , String last){
+        first = first.substring(0, 1).toUpperCase() +  first.substring(1).toLowerCase();
+        last = last.substring(0, 1).toUpperCase() + last.substring(1).toLowerCase();
+        String fullName = first + " " +last;
+
+        return fullName;
+    }
+        // formats the full name
+
 
 
 

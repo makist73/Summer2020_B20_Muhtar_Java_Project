@@ -26,7 +26,6 @@ public class formatFullName {
         System.out.println(fullName);
 
 
-
     }
 
 

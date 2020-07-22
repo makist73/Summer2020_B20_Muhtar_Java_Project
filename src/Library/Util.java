@@ -93,14 +93,6 @@ public class Util {
 
 
 
-    /*
-    1. a method that can find the frequency of characters a string
-    2. a method that can find the unique characters from a string
-    3. a method that can combine two int arrays
-
-     */
-
-
 
 
 }

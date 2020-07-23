@@ -123,7 +123,19 @@ public class Util {
     }
     // combines two array and returns it
 
+    public static int[] addElement(int[] arr, int num){
+        int[] arr2 = new int[arr.length+1];
+        arr2[arr2.length-1] = num;
 
+        int i =0;
+        for(int each: arr){
+            arr2[i]  = each;
+            i++;
+        }
+
+        return arr2;
+    }
+        // inserts the element to the array
 
 
 }

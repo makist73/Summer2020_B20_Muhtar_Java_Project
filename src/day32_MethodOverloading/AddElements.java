@@ -28,6 +28,7 @@ public class AddElements {
 
             scores = addElement(scores, n1);
 
+
         System.out.println( Arrays.toString(scores));
 
 

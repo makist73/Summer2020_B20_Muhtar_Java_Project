@@ -203,4 +203,13 @@ public class Util {
     // sorts String array in descending order and returns it
 
 
+
+    /*
+    screenshot:
+        1. TakeScreenShot
+        2. browser
+        3. Save
+     */
+
+
 }

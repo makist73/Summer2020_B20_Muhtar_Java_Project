@@ -38,6 +38,20 @@ public class Uniques {
         int[] n1 = {10,20,20,30,40,40,50,60,60,70,80,90,100, 100, 110};
         uniqueElements(n1);
 
+        System.out.println("=================================");
+
+        double[] n2 = {10,20,20, 40, 50, 50};
+        uniqueElements(n2);
+
+        System.out.println("=================================");
+
+        String[] n3 = {"A", "A", "B", "C", "D", "D"};
+        uniqueElements(n3);
+
+        System.out.println("=================================");
+        char[] ch = {'A','B', 'B', 'C'};
+        uniqueElements(ch);
+
     }
 
     public static void uniqueElements(int[] arr){

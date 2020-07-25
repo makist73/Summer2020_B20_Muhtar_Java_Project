@@ -34,6 +34,10 @@ public class Uniques {
         }
 */
 
+        System.out.println("==================================");
+        int[] n1 = {10,20,20,30,40,40,50,60,60,70,80,90,100, 100, 110};
+        uniqueElements(n1);
+
     }
 
     public static void uniqueElements(int[] arr){
@@ -42,6 +46,66 @@ public class Uniques {
             int count = 0 ;
             for(int b : arr){
                 if(element == b){
+                    count++;
+                }
+            }
+
+            if(count == 1){
+                System.out.print(element+" ");
+            }
+        }
+
+        System.out.println();
+
+    }
+
+
+    public static void uniqueElements(char[] arr){
+
+        for(char element : arr ){
+            int count = 0 ;
+            for(char b : arr){
+                if(element == b){
+                    count++;
+                }
+            }
+
+            if(count == 1){
+                System.out.print(element+" ");
+            }
+        }
+
+        System.out.println();
+
+    }
+
+
+    public static void uniqueElements(double[] arr){
+
+        for(double element : arr ){
+            int count = 0 ;
+            for(double b : arr){
+                if(element == b){
+                    count++;
+                }
+            }
+
+            if(count == 1){
+                System.out.print(element+" ");
+            }
+        }
+
+        System.out.println();
+
+    }
+
+
+    public static void uniqueElements(String[] arr){
+
+        for(String element : arr ){
+            int count = 0 ;
+            for(String b : arr){
+                if( element.equals(b) ){
                     count++;
                 }
             }

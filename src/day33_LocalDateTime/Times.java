@@ -1,5 +1,6 @@
 package day33_LocalDateTime;
 
+import java.time.LocalDateTime;
 import java.time.LocalTime;
 
 public class Times {
@@ -11,6 +12,16 @@ public class Times {
 
         LocalTime t2 = LocalTime.now();
         System.out.println(t2);
+
+
+        LocalDateTime t3 = LocalDateTime.of(2020, 07,25,15,25);
+
+        System.out.println(t3);
+
+        LocalDateTime t4 = LocalDateTime.now();
+
+        System.out.println(t4);
+
 
     }
 

@@ -152,7 +152,7 @@ public class Util {
 
         return arr2;
     }
-
+        // sorts int array in descending order and returns it
 
     public static double[] sortDesc(double[] arr){
         Arrays.sort(arr);
@@ -168,7 +168,7 @@ public class Util {
         return arr2;
 
     }
-
+    // sorts double array in descending order and returns it
 
     public static char[] sortDesc(char[] arr){
         Arrays.sort(arr);
@@ -184,7 +184,7 @@ public class Util {
         return arr2;
 
     }
-
+    // sorts char array in descending order and returns it
 
     public static String[] sortDesc(String[] arr){
         Arrays.sort(arr);
@@ -200,6 +200,6 @@ public class Util {
         return arr2;
 
     }
-
+    // sorts String array in descending order and returns it
 
 }

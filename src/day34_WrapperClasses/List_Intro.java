@@ -14,6 +14,7 @@ public class List_Intro {
             scores.add(1, 65);  //1
 
 
+
            // scores.add(6, 55);
 
         System.out.println( scores );

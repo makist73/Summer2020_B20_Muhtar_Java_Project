@@ -22,6 +22,11 @@ public class List_Intro {
         // 100:
         System.out.println( scores.get(2) );
 
+
+        System.out.println( scores.size());
+
+
+
     }
 
 }

@@ -21,6 +21,26 @@ public class List_Practice {
         System.out.println();
         System.out.println(evenList);
 
+        System.out.println("=========================================");
+
+        ArrayList<String> groceryList = new ArrayList<>();
+                groceryList.add("Milk");
+                groceryList.add("Apple");
+                groceryList.add("Eggs");
+                groceryList.add("Mango");
+                groceryList.add("Ice Cream");
+
+              for(int i= groceryList.size()-1;  i >= 0; i-- )  {
+                  System.out.print( groceryList.get(i) +"   ");
+              }
+                System.out.println();
+
+             for( String each : groceryList ){
+                 System.out.print(each+"   ");
+            }
+
+
+
 
     }
 

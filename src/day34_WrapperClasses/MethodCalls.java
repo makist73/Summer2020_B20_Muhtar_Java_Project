@@ -14,6 +14,19 @@ public class MethodCalls {
 
         System.out.println(Arrays.toString(arr3) );
 
+        Integer max = Util.maxNum(arr3);
+
+        System.out.println(max);
+
+        int min = Util.minNum(arr3);  // unboxing
+
+        System.out.println(min);
+
+        Character[] ch = {'A', 'A', 'C', 'B', 'B', 'D'};
+        ch = Util.sortDesc(ch);
+
+        System.out.println(Arrays.toString(ch));
+
 
     }
 

@@ -201,6 +201,8 @@ public class Util {
     }
         // inserts the element to the array
 
+
+
     public static int[]  sortDesc(int[] arr){
         Arrays.sort(arr);
 
@@ -309,6 +311,7 @@ public class Util {
         return arr2;
     }
         //sorts Character array in descending order
+
 
     public static int[] combine2Arrays(int[] arr1, int[] arr2){
         int[] arr3 = new int[arr1.length + arr2.length];

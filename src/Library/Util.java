@@ -266,12 +266,97 @@ public class Util {
     }
     // combines two array and returns it
 
+    public static double[] combine2Arrays(double[] arr1, double[] arr2){
+        double[] arr3 = new double[arr1.length + arr2.length];
+
+        int i = 0;
+        for(double each  :  arr1){
+            arr3[i] = each;
+            i++;
+        }
+
+        for(double each : arr2){
+            arr3[i]= each;
+            i++;
+        }
+
+        return arr3;
+    }
+    // combines two array and returns it
+
+    public static char[] combine2Arrays(char[] arr1, char[] arr2){
+        char[] arr3 = new char[arr1.length + arr2.length];
+
+        int i = 0;
+        for(char each  :  arr1){
+            arr3[i] = each;
+            i++;
+        }
+
+        for(char each : arr2){
+            arr3[i]= each;
+            i++;
+        }
+
+        return arr3;
+    }
+    // combines two array and returns it
+
+    public static Integer[] combine2Arrays(Integer[] arr1, Integer[] arr2){
+        Integer[] arr3 = new Integer[arr1.length + arr2.length];
+
+        int i = 0;
+        for(Integer each  :  arr1){
+            arr3[i] = each;
+            i++;
+        }
+
+        for(Integer each : arr2){
+            arr3[i]= each;
+            i++;
+        }
+
+        return arr3;
+    }
+    // combines two array and returns it
+
+    public static Double[] combine2Arrays(Double[] arr1, Double[] arr2){
+        Double[] arr3 = new Double[arr1.length + arr2.length];
+
+        int i = 0;
+        for(Double each  :  arr1){
+            arr3[i] = each;
+            i++;
+        }
+
+        for(Double each : arr2){
+            arr3[i]= each;
+            i++;
+        }
+
+        return arr3;
+    }
+    // combines two array and returns it
+
+    public static Character[] combine2Arrays(Character[] arr1, Character[] arr2){
+        Character[] arr3 = new Character[arr1.length + arr2.length];
+
+        int i = 0;
+        for(Character each  :  arr1){
+            arr3[i] = each;
+            i++;
+        }
+
+        for(Character each : arr2){
+            arr3[i]= each;
+            i++;
+        }
+
+        return arr3;
+    }
+    // combines two array and returns it
 
 
-    /*
-        create methods that can sort Integer array, Double Array, Character array in descending order
-        create methods that can combine two double arrays, char arrays, String arrays, Integer arrays, Double arrays, Character Arrays
-     */
 
 
 }

@@ -107,24 +107,6 @@ public class Util {
     }
     // find and returns the min number from in array
 
-    public static int[] combine2Arrays(int[] arr1, int[] arr2){
-        int[] arr3 = new int[arr1.length + arr2.length];
-
-        int i = 0;
-        for(int each  :  arr1){
-            arr3[i] = each;
-            i++;
-        }
-
-        for(int each : arr2){
-            arr3[i]= each;
-            i++;
-        }
-
-        return arr3;
-    }
-    // combines two array and returns it
-
     public static int[] addElement(int[] arr, int num){
         int[] arr2 = new int[arr.length+1];
         arr2[arr2.length-1] = num;
@@ -203,12 +185,92 @@ public class Util {
     // sorts String array in descending order and returns it
 
 
+    public static Integer[]  sortDesc(Integer[] arr){
+        Arrays.sort(arr);
+
+        Integer[] arr2 = new Integer[arr.length];  //{5,4,3,2,1};
+
+        int k = arr.length-1;
+        for(int i = 0; i <= arr2.length-1; i++  ){
+            arr2[i]  =  arr[k];
+            k--;
+        }
+
+        return arr2;
+    }
+    //sorts Integer array in descending order
+
+    public static Double[]  sortDesc(Double[] arr){
+        Arrays.sort(arr);
+
+        Double[] arr2 = new Double[arr.length];  //{5,4,3,2,1};
+
+        int k = arr.length-1;
+        for(int i = 0; i <= arr2.length-1; i++  ){
+            arr2[i]  =  arr[k];
+            k--;
+        }
+
+        return arr2;
+    }
+    //sorts Double array in descending order
+
+    public static Character[]  sortDesc(Character[] arr){
+        Arrays.sort(arr);
+
+        Character[] arr2 = new Character[arr.length];  //{5,4,3,2,1};
+
+        int k = arr.length-1;
+        for(int i = 0; i <= arr2.length-1; i++  ){
+            arr2[i]  =  arr[k];
+            k--;
+        }
+
+        return arr2;
+    }
+        //sorts Character array in descending order
+
+    public static int[] combine2Arrays(int[] arr1, int[] arr2){
+        int[] arr3 = new int[arr1.length + arr2.length];
+
+        int i = 0;
+        for(int each  :  arr1){
+            arr3[i] = each;
+            i++;
+        }
+
+        for(int each : arr2){
+            arr3[i]= each;
+            i++;
+        }
+
+        return arr3;
+    }
+    // combines two array and returns it
+
+    public static String[] combine2Arrays(String[] arr1, String[] arr2){
+        String[] arr3 = new String[arr1.length + arr2.length];
+
+        int i = 0;
+        for(String each  :  arr1){
+            arr3[i] = each;
+            i++;
+        }
+
+        for(String each : arr2){
+            arr3[i]= each;
+            i++;
+        }
+
+        return arr3;
+    }
+    // combines two array and returns it
+
+
 
     /*
-    screenshot:
-        1. TakeScreenShot
-        2. browser
-        3. Save
+        create methods that can sort Integer array, Double Array, Character array in descending order
+        create methods that can combine two double arrays, char arrays, String arrays, Integer arrays, Double arrays, Character Arrays
      */
 
 

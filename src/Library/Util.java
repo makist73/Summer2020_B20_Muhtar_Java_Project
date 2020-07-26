@@ -201,6 +201,9 @@ public class Util {
     }
         // inserts the element to the array
 
+    /*
+    double, Double, Integer, char, Character, String array
+     */
 
 
     public static int[]  sortDesc(int[] arr){

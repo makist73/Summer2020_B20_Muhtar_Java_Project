@@ -187,9 +187,9 @@ public class Util {
     // find and returns the min number from double array
 
 
-    public static int[] addElement(int[] arr, int num){
+    public static int[] addElement(int[] arr, int element){
         int[] arr2 = new int[arr.length+1];
-        arr2[arr2.length-1] = num;
+        arr2[arr2.length-1] = element;
 
         int i =0;
         for(int each: arr){
@@ -201,9 +201,89 @@ public class Util {
     }
         // inserts the element to the array
 
-    /*
-    double, Double, Integer, char, Character, String array
-     */
+    public static double[] addElement(double[] arr, double element){
+        double[] arr2 = new double[arr.length+1];
+        arr2[arr2.length-1] = element;
+
+        int i =0;
+        for(double each: arr){
+            arr2[i]  = each;
+            i++;
+        }
+
+        return arr2;
+    }
+    // inserts the element to the array
+
+    public static char[] addElement(char[] arr, char element){
+        char[] arr2 = new char[arr.length+1];
+        arr2[arr2.length-1] = element;
+
+        int i =0;
+        for(char each: arr){
+            arr2[i]  = each;
+            i++;
+        }
+
+        return arr2;
+    }
+    // inserts the element to the array
+
+    public static String[] addElement(String[] arr, String element){
+        String[] arr2 = new String[arr.length+1];
+        arr2[arr2.length-1] = element;
+
+        int i =0;
+        for(String each: arr){
+            arr2[i]  = each;
+            i++;
+        }
+
+        return arr2;
+    }
+    // inserts the element to the array
+
+    public static Integer[] addElement(Integer[] arr, Integer element){
+        Integer[] arr2 = new Integer[arr.length+1];
+        arr2[arr2.length-1] = element;
+
+        int i =0;
+        for(Integer each: arr){
+            arr2[i]  = each;
+            i++;
+        }
+
+        return arr2;
+    }
+    // inserts the element to the array
+
+    public static Double[] addElement(Double[] arr, Double element){
+        Double[] arr2 = new Double[arr.length+1];
+        arr2[arr2.length-1] = element;
+
+        int i =0;
+        for(Double each: arr){
+            arr2[i]  = each;
+            i++;
+        }
+
+        return arr2;
+    }
+    // inserts the element to the array
+
+    public static Character[] addElement(Character[] arr, Character element){
+        Character[] arr2 = new Character[arr.length+1];
+        arr2[arr2.length-1] = element;
+
+        int i =0;
+        for(Character each: arr){
+            arr2[i]  = each;
+            i++;
+        }
+
+        return arr2;
+    }
+    // inserts the element to the array
 
 
     public static int[]  sortDesc(int[] arr){

@@ -11,11 +11,9 @@ public class CombineTwoArrays2 {
         char[] a3 = new char[ a1.length+a2.length ]; // j+a1.length: 0,1,2, 3,4,5,6,7,8,9
 
 
-
         for(int i = 0; i <= a1.length-1; i++){
             a3[i]  = a1[i];
         }
-
 
         for(int j = 0; j <= a2.length-1; j++ ){
             a3[j+a1.length] = a2[j];

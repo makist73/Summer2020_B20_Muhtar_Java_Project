@@ -57,6 +57,20 @@ public class ArrayList_Methods {
 
         System.out.println(list2);
 
+        ArrayList<String> list3 = new ArrayList<>();
+                list3.add("Hamit");  //0
+                list3.add("Liliia"); //1
+                list3.add("Bulnet"); //2
+                list3.add("Viorel"); //3
+                list3.add("Musa");  //4
+
+          //  list3.remove(2);
+        list3.remove("bulnet");
+
+        System.out.println(list3);
+
+
+
 
 
     }

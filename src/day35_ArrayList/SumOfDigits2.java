@@ -9,6 +9,7 @@ public class SumOfDigits2{
         for(char each  : str.toCharArray() ){
             if(Character.isDigit(each)){
                 sum += Integer.parseInt(""+each);
+
             }
         }
 

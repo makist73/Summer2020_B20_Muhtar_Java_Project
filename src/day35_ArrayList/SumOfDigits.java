@@ -23,7 +23,7 @@ public class SumOfDigits {
                 if(each>= 48 && each <= 57){ // if the char is between 48~57 , then it's digit
 
                    sum += Integer.parseInt(""+each); // convert the char to Integer then add it to the sum
-
+                 //   sum += each - 48;
                 }
 
             }

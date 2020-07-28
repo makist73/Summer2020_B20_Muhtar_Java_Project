@@ -33,7 +33,7 @@ public class ArrayList_Methods {
             list.add(4);  //3
             list.add(5); // 4
 
-            list.remove(2);  //[1, 2, 4, 5]
+         list.remove(2);  //[1, 2, 4, 5]
             //list.remove(4);
             list.remove(3); // [1, 2, 4]
 
@@ -51,9 +51,9 @@ public class ArrayList_Methods {
 
        // int a = 1; // [1, 3, 4, 5]
 
-        Integer a = 1; //[2, 3, 4, 5]
+       // Integer a = 1; //[2, 3, 4, 5]
 
-        list2.remove(a);
+        list2.remove(new Integer(1));
 
         System.out.println(list2);
 
@@ -65,9 +65,15 @@ public class ArrayList_Methods {
                 list3.add("Musa");  //4
 
           //  list3.remove(2);
-        list3.remove("bulnet");
+         boolean r = list3.remove("bulnet");
+
+         boolean r2 = list3.remove("Musa");
 
         System.out.println(list3);
+        System.out.println(r);
+        System.out.println(r2);
+
+
 
 
 

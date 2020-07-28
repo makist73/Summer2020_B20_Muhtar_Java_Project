@@ -1,5 +1,7 @@
 package Office_Hours.Practice_07_28_2020;
 
+import java.util.ArrayList;
+
 public class Method_Practice {
 
     //Access-Modifier  Specifier Return-type  Name(Parameter){  Statements   }
@@ -22,10 +24,18 @@ public class Method_Practice {
         System.out.println("================================================");
         String[] names = {"Aslan", "Ramazan", "Alex", "Erfan", "Aalia", "Ayhan", "Bob", "Anna", "Layla"};
 
+        ArrayList<String> nameList = new ArrayList<>();
+
         for(String each : names){
-            System.out.println(  reverseStr(each) );
-            palindrome(each);
+
+           // System.out.println(  reverseStr(each) );
+           // palindrome(each);
+
+            nameList.add(  reverseStr(each)  );
+
         }
+
+        System.out.println(nameList);
 
 
     }

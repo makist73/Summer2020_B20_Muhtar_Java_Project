@@ -16,11 +16,16 @@ public class Method_Practice {
         System.out.println( reversedName.toUpperCase() );
 
 
-          isPalindrome("Level") ;
-          isPalindrome(name);
+          palindrome("Level") ;
+          palindrome(name);
 
         System.out.println("================================================");
-        //String[] names =
+        String[] names = {"Aslan", "Ramazan", "Alex", "Erfan", "Aalia", "Ayhan", "Bob", "Anna", "Layla"};
+
+        for(String each : names){
+            System.out.println(  reverseStr(each) );
+            palindrome(each);
+        }
 
 
     }
@@ -36,7 +41,7 @@ public class Method_Practice {
         return result;
     }
 
-    public static void isPalindrome(String str){  //ABC
+    public static void palindrome(String str){  //ABC
             String reversedStr = reverseStr(str); //CBA
             boolean palindrome = str.equalsIgnoreCase(reversedStr);  // ==
 

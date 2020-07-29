@@ -17,14 +17,10 @@ public class Uniques2 {
 
         ArrayList<Integer> uniques = new ArrayList<>(); // {2}
 
-        for( Integer each: list){  // gets the each element from list
-
-            int count = Collections.frequency(list, each);
-
-            if(count == 1){  // to verify if  element is unique
+        for( Integer each: list){
+            if( Collections.frequency(list, each)  == 1){
                 uniques.add(each);
             }
-
         }
 
 

@@ -46,12 +46,6 @@ public class Remove_Digits_Letters {
 
 
 
-
-
-
-
-
-
     }
 
 }

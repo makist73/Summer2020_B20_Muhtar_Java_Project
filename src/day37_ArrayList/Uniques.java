@@ -6,7 +6,7 @@ import java.util.Collections;
 public class Uniques {
 
     public static void main(String[] args) {
-        String str = "AABBCDDEAF";
+        String str = "AAABCCCCDF";
         String uniques = "";
 
         ArrayList<String> list = new ArrayList<>();

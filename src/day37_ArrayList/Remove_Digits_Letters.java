@@ -36,7 +36,6 @@ public class Remove_Digits_Letters {
         System.out.println("letters: "+letters);
 
 
-
         ArrayList<Character> specialChar = new ArrayList<>(); // ['$', '#', '@', '?', '*', '&']
         specialChar.addAll(list);
 

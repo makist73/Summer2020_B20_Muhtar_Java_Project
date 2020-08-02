@@ -42,6 +42,20 @@ public class BulkOperations {
 
         System.out.println(r3);
 
+        System.out.println("===============================================");
+        ArrayList<Integer> numbers = new ArrayList<>();
+
+        // add: 30, 25, 40, 15, 55, 65, 75, 85, 95, 100
+        /*
+        Integer[] nums = {30, 25, 40, 15, 55, 65, 75, 85, 95, 100};
+        numbers.addAll(  Arrays.asList(nums) );
+
+         */
+
+        numbers.addAll(  Arrays.asList(30, 25, 40, 15, 55, 65, 75, 85, 95, 100) );
+
+        System.out.println(numbers);
+
 
 
 

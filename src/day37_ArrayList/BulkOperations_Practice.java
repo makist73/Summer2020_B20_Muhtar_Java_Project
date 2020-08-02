@@ -29,8 +29,25 @@ public class BulkOperations_Practice {
         // add all student names in your group
         group1.addAll(  Arrays.asList( "Muhtar", "Nadir", "Asiya", "Saim" ) );
 
+        System.out.println(group1);
+
+
         // verify your mentor and one of your closest friend' names are contained in the list
-        group1.containsAll( Arrays.asList("Murodil", "Kuzzat") );
+        boolean r2 = group1.containsAll( Arrays.asList("Murodil", "Kuzzat") );
+
+        System.out.println(r2);
+
+
+        System.out.println("====================================================");
+
+        ArrayList<String> employees =new ArrayList<>();
+        employees.addAll( Arrays.asList( "Ahmed", "Muhtar", "Ahmed", "Virginia", "Beslan", "Ibrahim", "Ahmed") );
+
+        System.out.println(employees);
+
+        employees.retainAll(  Arrays.asList("Ahmed", "Dawud")  );
+        System.out.println(employees);
+
 
 
     }

@@ -42,7 +42,10 @@ public class CapitalOne {
 
         System.out.println("========================================");
 
-      //  employeeList.removeIf( p -> p.salary < 150000 );
+        //employeeList.removeIf( each -> each.salary > 135000 );
+        //employeeList.removeIf( each -> each.jobTitle.equals("QA") );
+       // employeeList.removeIf( each -> each.name.toLowerCase().contains("m") );
+        employeeList.removeIf( each -> each.name.charAt(0) == 'R' );
 
         for( Employee each: employeeList){
                 // each.getEmployeeInfo();

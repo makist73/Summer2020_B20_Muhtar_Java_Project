@@ -31,22 +31,27 @@ public class DogPark {
 
         System.out.println("====================================================");
         String food = "treats";
-
-
+        for( Dog eachDog  : dogPark ){
+            eachDog.eat(food);
+        }
 
         System.out.println("=====================================================");
         String drink = "milk";
-
-
+        for( Dog eachDog  : dogPark ){
+                eachDog.drink(drink);
+        }
 
         System.out.println("====================================================");
         // play
-
-
-
+        for( Dog eachDog  : dogPark ){
+            eachDog.play();
+        }
 
         System.out.println("====================================================");
         // sleep
+        for( Dog eachDog  : dogPark ){
+            eachDog.sleep();
+        }
 
 
 

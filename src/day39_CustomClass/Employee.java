@@ -21,7 +21,11 @@ public class Employee {
         salary = employeeSalary;
     }
 
-
+    public void getEmployeeInfo(){
+        System.out.println("Name: "+name+", Gender: "+gender+", JobTitle: "+jobTitle+", Salary: "+salary);
+        String ssn = ""+SSN;
+        System.out.println("Last four digits of SSN: "+  ssn.substring(ssn.length()-4)    );
+    }
 
 
 

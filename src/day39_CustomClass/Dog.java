@@ -6,7 +6,7 @@ public class Dog {
 			name, breed, size, age, color
 
 	instance methods:
-			setDogInfo, getDogInfo, eat, drink, sleep, ...
+			setDogInfo, getDogInfo, eat, drink, sleep
  */
        String name;
        String breed;
@@ -29,8 +29,21 @@ public class Dog {
     }
     // prints the dog info
 
+    public void eat(String food){
+        System.out.println(name+" is eating "+food);
+    }
+
+    public void drink(String drink){
+        System.out.println(name+" is drinking "+drink);
+    }
+
+    public void sleep(){
+        System.out.println(name+" is sleeping");
+    }
+
 
     /*
+  Dog:
     dog1: husky
     dog2: pitbull
     dog3: golden retriever

@@ -1,7 +1,6 @@
 package day39_CustomClass;
 
 public class Employee {
-
     /*
     Attributes:
 		employeeName, gender, SSN, JobTitle, Salary
@@ -9,11 +8,11 @@ public class Employee {
 
     String name;
     char gender;
-    long SSN;
+    String SSN;
     String jobTitle;
     double salary;
 
-    public void setEmployeeInfo(String employeeName, char employeeGender, long employeeSSN, String employeeJobTitle, double employeeSalary){
+    public void setEmployeeInfo(String employeeName, char employeeGender, String employeeSSN, String employeeJobTitle, double employeeSalary){
         name = employeeName;
         gender = employeeGender;
         SSN = employeeSSN;
@@ -23,8 +22,9 @@ public class Employee {
 
     public void getEmployeeInfo(){
         System.out.println("Name: "+name+", Gender: "+gender+", JobTitle: "+jobTitle+", Salary: "+salary);
-        String ssn = ""+SSN;
-        System.out.println("Last four digits of SSN: "+  ssn.substring(ssn.length()-4)    );
+        SSN = SSN.substring( SSN.length()-4 );
+        System.out.println("Last for digits of SSN: " +  SSN );
+
     }
 
 

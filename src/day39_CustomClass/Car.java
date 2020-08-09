@@ -31,6 +31,10 @@ public class Car {
     }
     // prints the car info
 
+    public void start(){
+        System.out.println(brand+" "+model+" is started");
+    }
+
 
 
     /*

@@ -18,7 +18,7 @@ public class Employee {
         gender = employeeGender;
         SSN = employeeSSN;
         jobTitle = employeeJobTitle;
-        salary = salary;
+        salary = employeeSalary;
     }
 
 

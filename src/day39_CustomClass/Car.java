@@ -21,7 +21,7 @@ public class Car {
         color = carColor;
         mileage = carMileage;
         price = carPrice;
-    }
+    }  // sets the info of the car objects
 
 
 

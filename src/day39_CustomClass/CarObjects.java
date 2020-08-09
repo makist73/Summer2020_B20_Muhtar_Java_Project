@@ -46,6 +46,7 @@ public class CarObjects {
         System.out.println("================================================");
 
 
+        // 2012 Toyota Corolla, Red, 10000, $ 45000
 
 
 

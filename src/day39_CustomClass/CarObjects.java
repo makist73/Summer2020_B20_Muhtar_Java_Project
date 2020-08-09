@@ -45,8 +45,17 @@ public class CarObjects {
 
         System.out.println("================================================");
 
+        Car car3 = new Car();
+        car3.setInfo("Audi", "A7", 2017, "White", 32000, 35000);
 
-        // 2012 Toyota Corolla, Red, 10000, $ 45000
+
+        Car car4 = new Car();
+        car4.setInfo("Jeep", "Wramgler", 1990, "Blue", 250000, 17000);
+
+        car3.getInfo();
+        car4.getInfo();
+
+
 
 
 

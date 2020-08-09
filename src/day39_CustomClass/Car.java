@@ -21,7 +21,15 @@ public class Car {
         color = carColor;
         mileage = carMileage;
         price = carPrice;
-    }  // sets the info of the car objects
+    }
+    // sets the info of the car objects
+
+
+    // 2012 Toyota Corolla, Red, 10000, $45000
+    public void getInfo(){
+        System.out.println(year +" "+brand+" "+model+", "+ color+", "+mileage+", $"+price);
+    }
+    // prints the car info
 
 
 

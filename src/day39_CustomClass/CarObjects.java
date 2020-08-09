@@ -18,7 +18,7 @@ public class CarObjects {
          */
 
 
-        car1.setInfo("Toyota", "Corolla", 2010, "Red", 55000, 16000);
+        car1.setCarInfo("Toyota", "Corolla", 2010, "Red", 55000, 16000);
 
         System.out.println( car1.brand );
         System.out.println( car1.model );
@@ -35,7 +35,7 @@ public class CarObjects {
             car2.color = "Blue";
 */
 
-        car2.setInfo("BMW", "X5", 2018, "Black", 15000, 40000 );
+        car2.setCarInfo("BMW", "X5", 2018, "Black", 15000, 40000 );
 
 
         System.out.println( car2.brand  );
@@ -46,14 +46,14 @@ public class CarObjects {
         System.out.println("================================================");
 
         Car car3 = new Car();
-        car3.setInfo("Audi", "A7", 2017, "White", 32000, 35000);
+        car3.setCarInfo("Audi", "A7", 2017, "White", 32000, 35000);
 
 
         Car car4 = new Car();
-        car4.setInfo("Jeep", "Wramgler", 1990, "Blue", 250000, 17000);
+        car4.setCarInfo("Jeep", "Wramgler", 1990, "Blue", 250000, 17000);
 
-        car3.getInfo();
-        car4.getInfo();
+        car3.getCarInfo();
+        car4.getCarInfo();
 
 
 

@@ -41,6 +41,10 @@ public class Dog {
         System.out.println(name+" is sleeping");
     }
 
+    public void play(){
+        System.out.println(name+" is playing");
+    }
+
 
     /*
   Dog:

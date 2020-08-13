@@ -9,8 +9,6 @@ BankAccount
           requiremnts:
             1. user should be able to deposit money into their account
             2. user should be able to withdraw money from their account
-                2.1 if the withdrawing account is greater than available balance, 35$ penalty charge will be added
-                2.2 if the balance is less than or equal to 0, user should not be able to withdraw money
             3. user should be able to see their balance
 
  */
@@ -46,8 +44,14 @@ public class BankAccount {
     }
 
     public void withDraw(double amount){
-        System.out.println("Withdrawing $"+amount+" from "+accountNumber);
-        balance -= amount;
+        if(amount > balance){
+            System.out.println("not enough balance");
+            return; //
+        }
+
+            System.out.println("Withdrawing $" + amount + " from " + accountNumber);
+            balance -= amount;
+
     }
 
 

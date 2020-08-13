@@ -16,6 +16,10 @@ public class BOfA {
 
         Dawud.withDraw(500);
 
+        Dawud.checkBalance(); // 500
+
+        Dawud.withDraw(100000);
+
         Dawud.checkBalance();
 
 

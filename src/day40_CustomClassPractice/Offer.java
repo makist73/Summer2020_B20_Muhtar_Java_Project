@@ -23,13 +23,13 @@ public class Offer {
 
 
     public void setOfferInfo(double salary, String state, boolean hasPTO, boolean isFullTime, boolean isWFH, String jobTitle, boolean hasBenefit){
-        salary  = salary;
-        state = state;
-        hasPTO = hasPTO;
-        isFullTime = isFullTime;
-        isWFH = isWFH;
-        jobTitle = jobTitle;
-        hasBenefit = hasBenefit;
+        this.salary  = salary;
+        this.state = state;
+        this.hasPTO = hasPTO;
+        this.isFullTime = isFullTime;
+        this.isWFH = isWFH;
+        this.jobTitle = jobTitle;
+        this.hasBenefit = hasBenefit;
     }
 
 

@@ -23,7 +23,6 @@ public class Carpet {
         double unitPrice;
         boolean isPersian;
 
-
         public void customOrder(double width, double length, double unitPrice, boolean isPersian ){
             this.width = width;
             this.length = length;
@@ -51,6 +50,10 @@ public class Carpet {
             System.out.println("Persian Carpet: "+isPersian);
             System.out.println("Total Price: "+  df.format( calcCost() )  );
             System.out.println("=============================");
+        }
+
+        public String toString(){
+            return "Width: "+width +", length: "+length+", Persian: "+isPersian;
         }
 
 

@@ -1,4 +1,4 @@
-package day41_toString;
+package day41_toString_Practice;
 
 public class Multi_Class {
     public static void main(String[] args) {

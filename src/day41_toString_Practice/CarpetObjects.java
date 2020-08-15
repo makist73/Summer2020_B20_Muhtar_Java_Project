@@ -1,4 +1,4 @@
-package day41_toString;
+package day41_toString_Practice;
 /*
 create an array of the carpet that contains 5 carpet objects
         ( make sure you set the instance variables of those objects)

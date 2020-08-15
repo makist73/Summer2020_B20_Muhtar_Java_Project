@@ -18,10 +18,14 @@ public class CarpetObjects2 {
         persianCarpets.addAll( Arrays.asList(carpets) );  // add all the carpets
         persianCarpets.removeIf( p -> !p.isPersian );  // removing the carpets that are not persian
 
-        ArrayList<Carpet> regularCarpets = new ArrayList<>();
 
+        ArrayList<Carpet> regularCarpets = new ArrayList<>();
+        regularCarpets.addAll( Arrays.asList(carpets) );  // add all the carpets
+       // regularCarpets.removeIf( p -> p.isPersian); // removing the carpets that are is persian
+            regularCarpets.removeAll( persianCarpets );
 
         System.out.println("Number of persian Carpets: "+persianCarpets.size());
+        System.out.println("Number of regular carpets: "+regularCarpets.size());
 
 
 

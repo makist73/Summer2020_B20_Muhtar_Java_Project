@@ -1,4 +1,4 @@
-package day41_Static;
+package day41_toString;
  /*
         instance variables:
                 width, length, unitPrice, isPersian (boolean)

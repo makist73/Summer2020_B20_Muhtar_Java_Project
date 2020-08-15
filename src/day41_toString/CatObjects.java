@@ -1,7 +1,6 @@
-package day41_Static;
+package day41_toString;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 
 public class CatObjects {
 

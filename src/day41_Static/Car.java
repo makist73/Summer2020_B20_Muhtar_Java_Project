@@ -16,6 +16,10 @@ public class Car {
         this.color= color;
     }
 
+    public String toString(){
+        return year +" "+brand+" "+model+", "+color+", $"+price;
+    }
+
 
 
 }

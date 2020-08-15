@@ -1,6 +1,7 @@
 package day41_Static;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 
 public class CarpetObjects2 {
     public static void main(String[] args) {
@@ -14,8 +15,13 @@ public class CarpetObjects2 {
 
 
         ArrayList<Carpet> persianCarpets = new ArrayList<>();
+        persianCarpets.addAll( Arrays.asList(carpets) );  // add all the carpets
+        persianCarpets.removeIf( p -> !p.isPersian );  // removing the carpets that are not persian
 
         ArrayList<Carpet> regularCarpets = new ArrayList<>();
+
+
+        System.out.println("Number of persian Carpets: "+persianCarpets.size());
 
 
 

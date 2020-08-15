@@ -14,6 +14,8 @@ package day41_Static;
             if the carpet is persian  carpet that's came from Turkey, add 200$ to the totalPrice
      */
 
+import java.text.DecimalFormat;
+
 public class Carpet {
 
         double width;
@@ -40,12 +42,14 @@ public class Carpet {
         }
 
         public void getCarpetInfo(){
+            DecimalFormat df = new DecimalFormat("0.00");
+
             System.out.println("=============================");
             System.out.println("Width: "+width);
             System.out.println("Length: "+ length);
             System.out.println("Unit Price: "+ unitPrice);
             System.out.println("Persian Carpet: "+isPersian);
-            System.out.println("Total Price: "+  calcCost()  );
+            System.out.println("Total Price: "+  df.format( calcCost() )  );
             System.out.println("=============================");
         }
 

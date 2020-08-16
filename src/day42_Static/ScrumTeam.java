@@ -2,6 +2,7 @@ package day42_Static;
 
 import java.util.ArrayList;
 import java.util.Arrays;
+
 /*
 create a class called ScrumTeam
 
@@ -19,7 +20,6 @@ create a class called ScrumTeam
 							removeTester(long employeeID): removes the given tester from the testers arraylist
 							removeDeveloper(long employeeID): removes the developer from the developers arraylist
  */
-
 
 public class ScrumTeam {
 
@@ -40,6 +40,9 @@ public class ScrumTeam {
     }
 
     public void addTester(Tester[] testers){
+        if(testers.length ==0){
+            return;
+        }
         this.testers.addAll(Arrays.asList(testers) );
     }
 
@@ -48,6 +51,20 @@ public class ScrumTeam {
                     //              each employee id,  == 007
     }
 
+    public void addDeveloper(Developer developer){
+            developers.add(developer);
+    }
+
+    public void addDeveloper(Developer[] developers){
+        if(developers.length ==0){ // to check if the array is empty
+            return;
+        }
+        this.developers.addAll(Arrays.asList(developers) );
+    }
+
+    public void removeDeveloper(long employeeID){
+          developers.removeIf( p -> p.employeeID == employeeID );
+    }
 
 
 

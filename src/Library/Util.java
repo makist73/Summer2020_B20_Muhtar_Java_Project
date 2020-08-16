@@ -4,6 +4,12 @@ import java.util.Arrays;
 
 public class Util {
 
+    int c= 300;
+    public  void Multiply6(){
+        System.out.println(c*6);
+    }
+
+
     // import Library.Util;
 
     public static String removeDup(String str){

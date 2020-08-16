@@ -14,6 +14,13 @@ public class StaticMethods {
         System.out.println( obj.a );
             // the ONLY way to call instances in a static method
 
+        staticMethod();
+        StaticMethods.staticMethod();
+
+        //instanceMethod();
+        //StaticMethods.instanceMethod();
+        obj.instanceMethod();
+
     }
 
 
@@ -22,7 +29,7 @@ public class StaticMethods {
 
     }
 
-    public void instancemethod(){
+    public void instanceMethod(){
 
     }
 

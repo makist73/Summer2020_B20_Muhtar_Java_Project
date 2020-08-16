@@ -27,8 +27,16 @@ public class ShapeObjects {
 
         System.out.println(c3);
 
+        int a = 100;
+
+      //  static int b= 300;
+
+    }
 
 
+    public void method1(){
+        int a = 200;
+       // static int b = 300;
     }
 
 }

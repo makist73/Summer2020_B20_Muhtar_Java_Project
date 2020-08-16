@@ -49,7 +49,7 @@ public class ScrumTeam {
 
     public void removeTester(long employeeID){ // 007
         testers.removeIf( p -> p.employeeID == employeeID);
-                    //              each employee id,  == 007
+        //              each employee id,  == 007
     }
 
     public void addDeveloper(Developer developer){
@@ -68,6 +68,9 @@ public class ScrumTeam {
     }
 
 
+    public String toString(){
+        return testers.size()+" testers, "+ developers.size()+" developers, PO: "+PO+", BA: "+BA+", SM: "+SM;
+    }
 
     /*
     team1

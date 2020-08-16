@@ -1,8 +1,8 @@
 package day42_Static;
 
-import java.util.Arrays;
 
 public class CapitalOne {
+    /*
     public static void main(String[] args) {
 
         Tester[] testers = { new Tester(), new Tester(), new Tester() };
@@ -59,12 +59,14 @@ public class CapitalOne {
 
 
         ScrumTeam[] scrumTeams = {team1, new ScrumTeam(), new ScrumTeam()};
-        /*
+
         print all developers and testers from scrum team
 
         find the maximum salary
-         */
+
 
 
     }
+    */
+
 }

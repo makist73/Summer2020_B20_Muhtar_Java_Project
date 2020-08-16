@@ -1,8 +1,6 @@
 package day42_Static;
 
 public class ShapeObjects {
-
-
     public static void main(String[] args) {
         //  r= 25;
         Circle c1 = new Circle();
@@ -29,14 +27,13 @@ public class ShapeObjects {
 
         int a = 100;
 
-      //  static int b= 300;
+        //  static int b= 300;
 
     }
 
 
     public void method1(){
         int a = 200;
-       // static int b = 300;
+        // static int b = 300;
     }
-
 }

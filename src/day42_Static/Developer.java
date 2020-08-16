@@ -1,12 +1,4 @@
 package day42_Static;
-/*
-create a class called Developer
-					Attributes:
-						name, employeeID, JobTitle, Salary
-
-					Actions:
-						setInfo(), coding(),  fixBug(), toString()
- */
 
 public class Developer {
 
@@ -35,6 +27,5 @@ public class Developer {
     public String toString(){
         return "Name: "+name+", Gender: "+gender+", Job Title: "+jobTitle+", Salary: "+salary+", Employee ID: "+employeeID;
     }
-
 
 }

@@ -1,13 +1,5 @@
 package day42_Static;
-/*
-create a class called Testers
-					Attributes:
-						name, employeeID, JobTitle, Salary
 
-					Actions:
-						setInfo(), smokeTesting(),  creatingTicket(), toString()
-
- */
 public class Tester {
 
     String name;
@@ -35,7 +27,5 @@ public class Tester {
     public String toString(){
         return "Name: "+name+", Gender: "+gender+", Job Title: "+jobTitle+", Salary: "+salary+", Employee ID: "+employeeID;
     }
-
-
 
 }

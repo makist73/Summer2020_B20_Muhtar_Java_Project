@@ -1,7 +1,6 @@
 package day42_Static;
 
 public class CapitalOne {
-    /*
     public static void main(String[] args) {
         Tester[] testers = { new Tester(), new Tester(), new Tester() };
         testers[0].setInfo("Aalia", 'F', 15111L,"Lead Tester",180000);
@@ -63,6 +62,5 @@ public class CapitalOne {
 
         find the maximum salary
 */
-
+    }
 }
-

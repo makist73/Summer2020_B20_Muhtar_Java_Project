@@ -7,12 +7,12 @@ public class StaticMethods {
 
     public static void main(String[] args) {
         System.out.println(b);
-       // System.out.println(a);
-       // System.out.println(this.a);
+        // System.out.println(a);
+        // System.out.println(this.a);
 
         StaticMethods obj = new StaticMethods();
         System.out.println( obj.a );
-            // the ONLY way to call instances in a static method
+        // the ONLY way to call instances in a static method
 
         staticMethod();
         StaticMethods.staticMethod();
@@ -32,6 +32,5 @@ public class StaticMethods {
     public void instanceMethod(){
 
     }
-
 
 }

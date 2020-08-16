@@ -1,7 +1,6 @@
 package day42_Static;
 
 public class Circle {
-
     double radius;
     double diameter;
     static double pi = 3.14;
@@ -24,6 +23,4 @@ public class Circle {
 
         return "Radius: "+radius+"\nDiameter: "+diameter+"\n PI: "+pi+"\nArea: "+calcArea()+"\nPerimeter: "+calcPerimeter();
     }
-
-
 }

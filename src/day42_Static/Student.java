@@ -24,6 +24,4 @@ public class Student {
         //                       static variable                   instance variable
     }
 
-
-
 }

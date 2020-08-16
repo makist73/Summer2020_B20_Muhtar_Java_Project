@@ -7,7 +7,7 @@ public class Student {
     int groupNumber;
     char gender;
 
-    static String schoolName = "CYbertek School";
+    static String schoolName = "Cybertek School";
     static String favoriteTeacher ="Nadir";
 
     public void setInfo(String name, int age, int groupNumber, char gender){
@@ -18,7 +18,11 @@ public class Student {
     }
 
 
+    public String toString(){ // instance method
 
+        return "School Name: " + schoolName +"\nStudent Name: " + name;
+        //                       static variable                   instance variable
+    }
 
 
 

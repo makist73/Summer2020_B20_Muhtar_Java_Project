@@ -1,10 +1,8 @@
 package day42_Static;
 
-
 public class CapitalOne {
     /*
     public static void main(String[] args) {
-
         Tester[] testers = { new Tester(), new Tester(), new Tester() };
         testers[0].setInfo("Aalia", 'F', 15111L,"Lead Tester",180000);
         testers[1].setInfo("Naz",'F',15222L,"Tester", 180000);
@@ -23,7 +21,7 @@ public class CapitalOne {
 
         team1.setInfo("Ramazan", "Hamit", "Ismail");
 
-       // team1.testers.addAll(Arrays.asList(testers));
+        // team1.testers.addAll(Arrays.asList(testers));
         team1.addTester(testers);
 
         team1.addDeveloper(developers);
@@ -60,13 +58,11 @@ public class CapitalOne {
 
         ScrumTeam[] scrumTeams = {team1, new ScrumTeam(), new ScrumTeam()};
 
+        /*
         print all developers and testers from scrum team
 
         find the maximum salary
-
-
-
-    }
-    */
+*/
 
 }
+

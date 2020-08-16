@@ -1,5 +1,7 @@
 package day42_Static;
 
+import java.util.Arrays;
+
 public class CapitalOne {
     public static void main(String[] args) {
 
@@ -20,7 +22,10 @@ public class CapitalOne {
         ScrumTeam team1 = new ScrumTeam();
 
         team1.setInfo("Ramazan", "Hamit", "Ismail");
+
+       // team1.testers.addAll(Arrays.asList(testers));
         team1.addTester(testers);
+
         team1.addDeveloper(developers);
 
         System.out.println(team1);
@@ -37,6 +42,7 @@ public class CapitalOne {
         }
 
         System.out.println("=======================================");
+
         team1.removeTester(15333);
         team1.removeDeveloper(2111);
         team1.removeDeveloper(43333);

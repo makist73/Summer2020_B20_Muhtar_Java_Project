@@ -19,7 +19,7 @@ create a class called ScrumTeam
 							addDevelopers(Developer[] developers): adds the given developers to the developers arraylist
 							removeTester(long employeeID): removes the given tester from the testers arraylist
 							removeDeveloper(long employeeID): removes the developer from the developers arraylist
-							toString():
+							toString(): prints number of tester,& developers,  PO name, SM name, BA name
  */
 
 public class ScrumTeam {

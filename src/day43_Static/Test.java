@@ -2,6 +2,8 @@ package day43_Static;
 
 import java.util.Arrays;
 
+
+
 public class Test {
 
 
@@ -14,6 +16,8 @@ public class Test {
 
         System.out.println( Arrays.toString(Data.arr) );
         System.out.println(Data.list);
+
+        System.out.println("====================================");
 
 
     }

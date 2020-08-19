@@ -27,7 +27,6 @@ public class Pizza {
         this.numOfPepperoniTopping = numOfPepperoniTopping;
     }
 
-
     public double calcPrice(){
         int totalNumberOfTopping = numOfCheeseTopping+ numOfPepperoniTopping;
         double totalPriceOfTopping = totalNumberOfTopping *2;
@@ -44,7 +43,11 @@ public class Pizza {
         return totalPrice;
     }
 
-
+    public String toString(){
+        return "Size: "+size+"\nNumber of Cheese Topping: "+numOfCheeseTopping
+                +"\nNumber of Pepperoni Topping: "+numOfPepperoniTopping
+                +"\n Total Price: "+calcPrice();
+    }
 
 
 }

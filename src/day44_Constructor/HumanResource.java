@@ -8,7 +8,7 @@ package day44_Constructor;
  */
 public class HumanResource {
 
-    static Employee employee1;
+    static Employee employee1;  // we can call it from the class name
     static Employee employee2;
     static Employee employee3;
     static Employee employee4;
@@ -17,7 +17,7 @@ public class HumanResource {
    // employee1 = new Employee();
    // employee1.setEmployeeInfo()
 
-    static{
+    static{ // as soon as the class called, the static variables need to be set
         employee1 = new Employee();
         employee2 = new Employee();
         employee3 = new Employee();
@@ -30,7 +30,6 @@ public class HumanResource {
         employee4.setEmployeeInfo("Ayse",17876,342567,"SDET",125000,'F');
         employee5.setEmployeeInfo("Ahmet",67543,987654,"Developer",140000,'M');
     }
-
 
 
 }

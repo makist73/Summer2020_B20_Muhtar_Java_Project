@@ -12,4 +12,15 @@ public class CybertekStudent {
     char gender;
     static  String schoolName = "Cybertek School";
 
+
+    public  void getInfo(){
+        System.out.println("Name: "+studentName);
+    }
+
+    public static void printSchoolName(){
+        System.out.println("School Name: "+schoolName);
+    }
+
+
+
 }

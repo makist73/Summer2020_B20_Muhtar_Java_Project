@@ -40,8 +40,8 @@ public class Employee {
     }
 
     public String toString(){
-        return "Name: "+name+"\n Gender: "+gender+"\n ID: "+id+"\nSSN: "+ssn+"\n JobTitle: "+jobTitle+
-                "\n Salary: "+salary;
+        return "Name: "+name+"\nGender: "+gender+"\nID: "+id+"\nSSN: "+ssn+"\nJobTitle: "+jobTitle+
+                "\nSalary: "+salary;
     }
 
 

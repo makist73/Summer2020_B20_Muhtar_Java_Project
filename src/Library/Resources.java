@@ -2,7 +2,7 @@ package Library;
 
 public class Resources {
 
-    static int a = 200;
+    public static int a = 200;
     int b = 300;
 
     public static void method1(){

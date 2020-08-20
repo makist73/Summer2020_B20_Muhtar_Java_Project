@@ -27,7 +27,7 @@ public class BankOfAzerbaijan {
         System.out.println("======================================================");
 
         for(Employee each  : list){
-            System.out.println(each.name+" : "+each.salary);
+            System.out.println(each.name +" : "+each.salary);
         }
 
 

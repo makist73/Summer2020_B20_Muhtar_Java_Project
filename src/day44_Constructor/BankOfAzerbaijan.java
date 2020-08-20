@@ -20,7 +20,7 @@ public class BankOfAzerbaijan {
                 // by using static import we are able to import the static members, so can call them withou the class name
         */
 
-        list.addAll(  Arrays.asList(HumanResource.employee1, HumanResource.employee2, HumanResource.employee3) );
+        list.addAll(  Arrays.asList( HumanResource.employee1, HumanResource.employee2, HumanResource.employee3) );
 
         System.out.println("Total Number of employees: "+list.size());
 

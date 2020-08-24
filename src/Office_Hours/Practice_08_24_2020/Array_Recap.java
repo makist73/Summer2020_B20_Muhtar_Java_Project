@@ -13,6 +13,7 @@ public class Array_Recap {
            toString: to print array
            sort: ascending order
            equals: compares two arrays
+           asList:  to convert Object Arrays to Collection Type
 
      */
     public static void main(String[] args) {

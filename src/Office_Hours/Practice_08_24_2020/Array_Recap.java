@@ -10,7 +10,10 @@ public class Array_Recap {
     Map
 
     Arrays Utility:
-           toString:
+           toString: to print array
+           sort: ascending order
+           equals: compares two arrays
+
      */
     public static void main(String[] args) {
 

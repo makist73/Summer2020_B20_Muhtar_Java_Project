@@ -67,6 +67,16 @@ public class ArrayList_Recap {
         System.out.println(grades);
 
 
+        ArrayList<String> students = new ArrayList<>();
+        students.addAll( Arrays.asList("Viorel", "Askat", "Ziiadin", "Dilafruz", "Mehray", "Ziiadin"));
+
+        // Askat, Ziiadin
+
+        students.retainAll( Arrays.asList("Askat", "Ziiadin") );
+
+        System.out.println(students);
+
+
     }
 
 }

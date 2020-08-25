@@ -81,8 +81,12 @@ public class ArrayList_Review {
         countries.addAll( Arrays.asList("America", "England", "Australia", "New Zeland", "Russia", "Canada") );
 
         //countries.removeIf(  c ->   c.endsWith("d")   );
-        countries.removeIf(  c ->   c.charAt( c.length()-1  )  ==  'd'  );
+      //  countries.removeIf(  c ->   c.charAt( c.length()-1  )  ==  'd'  );
         //                          last char from c          ==  'd'
+
+      //  countries.removeIf( c -> c.startsWith("A") );
+
+        countries.removeIf(  c ->   c.charAt( 0 )  ==  'A'  );
 
         System.out.println(countries);
 

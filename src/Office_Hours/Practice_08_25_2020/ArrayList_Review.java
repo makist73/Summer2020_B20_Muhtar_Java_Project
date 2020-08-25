@@ -75,6 +75,20 @@ public class ArrayList_Review {
         System.out.println(list3);
 
 
+        System.out.println("====================================================");
+
+        ArrayList<String>  countries = new ArrayList<>();
+        countries.addAll( Arrays.asList("America", "England", "Australia", "New Zeland", "Russia", "Canada") );
+
+        //countries.removeIf(  c ->   c.endsWith("d")   );
+        countries.removeIf(  c ->   c.charAt( c.length()-1  )  ==  'd'  );
+        //                          last char from c          ==  'd'
+
+        System.out.println(countries);
+
+
+
+
 
 
     }

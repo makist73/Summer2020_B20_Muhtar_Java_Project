@@ -32,11 +32,29 @@ public class CollectionsUtilty {
 
         System.out.println(list1);
 
-        Integer max = Collections.max(list1);
+       int max = Collections.max(list1);   // unboxing
         Integer min = Collections.min(list1);
 
         System.out.println("Maximum Number: "+max);
         System.out.println("Minimum Number: "+min);
+
+        System.out.println("============================================");
+        String[] arr = {"Eggs", "Orange", "Milk", "Milk", "Toilet Paper","Toilet Paper","Toilet Paper","Toilet Paper", "Avocado"};
+
+        ArrayList<String> items = new ArrayList<>();
+        items.addAll(Arrays.asList(arr));
+        System.out.println(items);
+
+        int count = Collections.frequency(items, "Toilet Paper" );
+        System.out.println(count);
+
+
+        //items.removeIf( I ->   Collections.frequency(items, I )  == 1      );  // removes the unique items
+        items.removeIf( I ->   Collections.frequency(items, I )  != 1      );  // removes the non-unique items
+
+        System.out.println(items);
+
+
 
 
 

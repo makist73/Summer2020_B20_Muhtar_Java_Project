@@ -1,5 +1,7 @@
 package day45_Constructor;
 
+
+
 import java.util.ArrayList;
 import java.util.Arrays;
 
@@ -17,9 +19,13 @@ public class Constructor {
         System.out.println("String argument");
     }
 
+    public Constructor(int a, int b){
+        System.out.println("two int arguments");
+    }
+
     public static void main(String[] args) {
 
-        Constructor obj1 = new Constructor("Muhtar");
+        Constructor obj1 = new Constructor(10, 20);
 
 
      /*

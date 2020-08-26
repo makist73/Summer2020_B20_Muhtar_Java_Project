@@ -15,6 +15,12 @@ public class Practice2 {
         printArray(arr3);
 
 
+        String[] arr4 = {"Ziiadin", "Aysen", "Murat", "Ramazan"};
+        printArray(arr4);
+
+        char[] arr5 = {'A', 'B', 'C', 'D', 'E'};
+        printArray(arr5);
+
     }
 
 
@@ -24,6 +30,23 @@ public class Practice2 {
         }
         System.out.println();
     }
+
+    public static void printArray(String[] arr){
+        for(String each : arr ){
+            System.out.print(each+" ");
+        }
+        System.out.println();
+    }
+
+    public static void printArray(char[] arr){
+        for(char each : arr ){
+            System.out.print(each+" ");
+        }
+        System.out.println();
+    }
+
+
+
 
 
 

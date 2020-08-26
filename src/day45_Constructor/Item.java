@@ -26,6 +26,14 @@ public class Item {
     }
 
 
+    public double calcCost(){
+        return unitPrice * quantity;
+    }
+
+
+    public String toString(){
+        return "Name: "+name+", Unit Price: "+unitPrice+", Quantity: "+quantity+", Total Price: $"+calcCost();
+    }
 
 
 

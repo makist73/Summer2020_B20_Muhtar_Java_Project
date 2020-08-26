@@ -6,10 +6,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 
 public class Constructor {
-
-    public Constructor(){
-        System.out.println("No argument");
-    }
+// test
 
     public Constructor(int a){
         System.out.println("int argument");

@@ -8,6 +8,10 @@ public class Palindrome2 {
 
         System.out.println( str.equalsIgnoreCase(  reverseStr(str)  )  );
 
+            // Fatih
+        System.out.println(  isPalindrome("Fatih")  );
+
+        System.out.println( isPalindrome("Anna") );
 
     }
 

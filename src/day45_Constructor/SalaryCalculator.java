@@ -33,8 +33,17 @@ public class SalaryCalculator {
         return (hourlyRate*weeklyHour)*48;
     }
 
+    public double stateTax(){
+        return salary() * stateTaxRate;
+    }
 
+    public double federalTax(){
+        return salary()*federalTaxRate;
+    }
 
+    public double salaryAfterTax(){
+        return salary() - stateTax() - federalTax();
+    }
 
 
 }

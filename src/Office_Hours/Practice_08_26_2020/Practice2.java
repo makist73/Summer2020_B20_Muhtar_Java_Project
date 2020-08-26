@@ -45,6 +45,13 @@ public class Practice2 {
         System.out.println();
     }
 
+    public static void printArray(double[] arr){
+        for(double each : arr ){
+            System.out.print(each+" ");
+        }
+        System.out.println();
+    }
+
 
 
 

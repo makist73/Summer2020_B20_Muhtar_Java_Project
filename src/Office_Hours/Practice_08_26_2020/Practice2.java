@@ -24,6 +24,8 @@ public class Practice2 {
     }
 
 
+
+
     public static void printArray(int[] arr){
         for(int each : arr ){
             System.out.print(each+" ");

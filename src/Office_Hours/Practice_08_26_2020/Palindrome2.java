@@ -13,6 +13,8 @@ public class Palindrome2 {
 
         System.out.println( isPalindrome("Anna") );
 
+        boolean result = isPalindrome("Muhtar");
+
     }
 
 

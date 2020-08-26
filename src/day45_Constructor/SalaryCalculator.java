@@ -29,6 +29,10 @@ public class SalaryCalculator {
         this.federalTaxRate = federalTaxRate;
     }
 
+    public double salary(){
+        return (hourlyRate*weeklyHour)*48;
+    }
+
 
 
 

@@ -20,7 +20,8 @@ public class ConstructorCall {
     }
 
     public void method3(){
-      //  ConstructorCall();
+       // ConstructorCall();
+       // this();
     }
 
 }

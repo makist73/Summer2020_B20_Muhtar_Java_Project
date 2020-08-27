@@ -1,5 +1,8 @@
 package day46_ConstructorCalls;
 
+import java.util.ArrayList;
+import java.util.Arrays;
+
 public class EmployeeObjects {
 
     public static void main(String[] args) {
@@ -26,7 +29,10 @@ public class EmployeeObjects {
 
         System.out.println("==============================");
 
+        ArrayList<Integer> list1 = new ArrayList<>();
 
+        ArrayList<Integer> list2 = new ArrayList<>(list1);
+        ArrayList<Integer> list3 = new ArrayList<>(  Arrays.asList(1,2,3,4,5)   );
 
 
     }

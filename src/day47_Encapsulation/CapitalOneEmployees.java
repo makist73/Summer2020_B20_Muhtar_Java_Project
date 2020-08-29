@@ -16,6 +16,20 @@ package day47_Encapsulation;
 
 public class CapitalOneEmployees {
 
+        public String employeeName;
+        public int age;
+        public String jobTitle;
+
+    public CapitalOneEmployees(String employeeName, int age, String jobTitle) {
+        this.employeeName = employeeName;
+        this.age = age;
+        this.jobTitle = jobTitle;
+    }
+
+
+
+
+
 
 
 }

@@ -15,10 +15,8 @@ package day47_Encapsulation;
  */
 
 public class Credentials {
-
     public String name;
     public int age;
-
     public static String companyName;
 
     private String userName;

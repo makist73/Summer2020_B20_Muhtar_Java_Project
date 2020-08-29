@@ -16,6 +16,13 @@ public class Test {
       //  AccessModifiers.privateMethod();
 
 
+        Encapsulation obj1 = new Encapsulation();
+       // System.out.println(obj1.ssn);
+        System.out.println(obj1.getSsn());
+
+
+
+
     }
 
 }

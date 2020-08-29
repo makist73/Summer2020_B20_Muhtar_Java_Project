@@ -18,6 +18,13 @@ public class AccessModifiers {
     }
 
 
+    // private:
+    private static int privateVariable = 300;
+
+    private static void privateMethod(){
+        System.out.println("private method");
+    }
+
 
 
 }

@@ -12,6 +12,9 @@ public class Test {
         AccessModifiers.defaultMethod();
 
 
+     //   System.out.println( AccessModifiers.privateVariable ); // private is not visible outside its class
+      //  AccessModifiers.privateMethod();
+
 
     }
 

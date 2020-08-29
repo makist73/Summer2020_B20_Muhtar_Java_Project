@@ -27,6 +27,13 @@ public class AccessModifiers {
 
 
     public static void main(String[] args) {
+        System.out.println(publicVariable);
+        System.out.println(defaultVariable);
+        System.out.println(privateVariable);
+
+        publicMethod();
+        defaultMethod();
+        privateMethod();
 
     }
 

@@ -52,6 +52,8 @@ public class Person {
         return address;
     }
 
-
+    public String toString(){
+        return "Name: "+name+", Age: "+age+", Gender: "+gender+", DOB: "+DOB;
+    }
 
 }

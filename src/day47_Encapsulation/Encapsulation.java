@@ -9,8 +9,9 @@ public class Encapsulation {
         return ssn;
     }
 
-
-
+    public void setSsn(long ssn){
+        this.ssn = ssn;
+    }
 
 
 

@@ -20,7 +20,7 @@ public class CapitalOneEmployees {
         public int age;
         public String jobTitle;
 
-        public CapitalOneEmployees(String employeeName, int age, String jobTitle) {
+       public  CapitalOneEmployees(String employeeName, int age, String jobTitle) {
         this.employeeName = employeeName;
         this.age = age;
         this.jobTitle = jobTitle;
@@ -62,7 +62,9 @@ public class CapitalOneEmployees {
         }
 
 
-
+        public String toString(){
+            return "Name: "+employeeName+", Age: "+age+", Job Title: "+jobTitle+", ID: "+getID()+", Salary: "+getSalary();
+        }
 
 
 

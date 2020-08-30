@@ -21,5 +21,15 @@ public class Device {
             isElectronic = true;
         }
 
+        public void setInfo(String brand, String model, double price, boolean hasBattery, boolean hasMemory, String screenSize) {
+                this.brand = brand;
+                this.model = model;
+                this.price = price;
+                this.hasBattery = hasBattery;
+                this.hasMemory = hasMemory;
+                this.screenSize = screenSize;
+        }
+
+
 
 }

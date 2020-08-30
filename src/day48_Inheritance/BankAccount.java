@@ -84,8 +84,17 @@ public class BankAccount {
 
     }
 
+    public void availableBalance(){
+        System.out.println("Available Balance: "+getBalance());
+    }
 
-
-
+    public String toString(){
+        return bankName +
+                "\n==================================================="+
+                "\n"+firstName + " " + lastName +
+                "\nAccount Number: "+getAccountNumber()+
+                "\n==================================================="+
+                "\nBalance: $"+getBalance();
+    }
 
 }

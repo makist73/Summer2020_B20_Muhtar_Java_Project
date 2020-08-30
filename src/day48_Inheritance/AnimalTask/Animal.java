@@ -25,7 +25,7 @@ public class Animal {
    }
 
    public String toString(){
-       return "Name: "+name+", Age: "+age+", Size: "+size+", Gender: "+gender;
+       return "Name: "+name+", Age: "+age+", Size: "+size+", Gender: "+gender+", Breed: "+breed;
    }
 
 }

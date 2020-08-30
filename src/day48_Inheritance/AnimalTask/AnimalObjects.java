@@ -4,7 +4,7 @@ public class AnimalObjects {
 
     public static void main(String[] args) {
 
-        Dog dog1 = new Dog("Winston","Medium",3, 'M');
+        Dog dog1 = new Dog("Winston","Medium",3, 'M', "Scottie Terrier");
         System.out.println(dog1.name);
         System.out.println(dog1.size);
 
@@ -18,7 +18,7 @@ public class AnimalObjects {
         System.out.println(dog1);
 
 
-        Cat cat1= new Cat("Altunhan","small",1, 'F');
+        Cat cat1= new Cat("Altunhan","small",1, 'F', "Angora");
 
         System.out.println(cat1);
 

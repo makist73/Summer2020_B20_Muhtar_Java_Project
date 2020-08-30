@@ -4,7 +4,7 @@ public class Cat extends Animal {
 
     /*
     variables: 4
-    methods: 5
+    methods: 6
      */
 
     public Cat(String name, String size, int age, char gender) {

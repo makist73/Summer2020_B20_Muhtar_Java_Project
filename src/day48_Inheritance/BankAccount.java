@@ -68,7 +68,8 @@ public class BankAccount {
     }
 
     public void withdraw(double amount){
-        if(amount <= 0 ){
+
+        if(amount <= 0 || amount > 1000){
             System.out.println("Invalid amount");
             return;
         }
@@ -82,6 +83,8 @@ public class BankAccount {
         balance -= amount;
 
     }
+
+
 
 
 

@@ -62,6 +62,27 @@ public class BankAccount {
         this.balance = balance;
     }
 
+    public void deposit(double amount){
+        System.out.println("Depositing: $"+amount);
+        balance += amount;
+    }
+
+    public void withdraw(double amount){
+        if(amount <= 0 ){
+            System.out.println("Invalid amount");
+            return;
+        }
+
+        if(amount > balance ){
+            System.out.println("Not enough balance");
+            return;
+        }
+
+        System.out.println("Withdrawing: $"+amount);
+        balance -= amount;
+
+    }
+
 
 
 }

@@ -18,5 +18,9 @@ public class AnimalObjects {
         System.out.println(dog1);
 
 
+        Cat cat1= new Cat("Altunhan","small",1, 'F');
+
+        System.out.println(cat1);
+
     }
 }

@@ -9,7 +9,7 @@ public class    Dog       extends   Animal {
      */
 
     public Dog(String name, String size, int age, char gender, String breed, double lb){
-        setInfo(name, size, age, gender, breed, lb);
+       setInfo(name, size, age, gender, breed, lb);
     }
 
     public void bark(){

@@ -6,6 +6,7 @@ package day48_Inheritance.DeviceTask;
  */
 
 public class Device {
+
         public String brand;
         public String model;
         public double price;

@@ -5,7 +5,7 @@ package day48_Inheritance.DeviceTask;
             methods: setInfo, toString
  */
 
-public class Device {
+public class Device  {
 
         public String brand;
         public String model;

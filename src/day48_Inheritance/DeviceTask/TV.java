@@ -27,12 +27,9 @@ public class TV extends Device {
           this.hasRemoteControl = hasRemoteControl;
     }
 
-
     public void watch(){
         System.out.println("Watching "+brand+" "+model);
     }
-
-
 
 
 }

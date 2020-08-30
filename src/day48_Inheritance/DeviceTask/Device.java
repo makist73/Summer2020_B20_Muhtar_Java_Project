@@ -30,6 +30,17 @@ public class Device {
                 this.screenSize = screenSize;
         }
 
+        public String toString(){
+                return "================================"+
+                        "\nBrand: "+brand+
+                        "\nModel: "+model+
+                        "\nMade in: "+madeIn+
+                        "\nScreen Size: "+screenSize+
+                        "\nPrice: "+price+
+                        "\nDoes it have battery? "+hasBattery+
+                        "\nDoes it have memory? "+hasMemory+
+                        "================================";
+        }
 
 
 }

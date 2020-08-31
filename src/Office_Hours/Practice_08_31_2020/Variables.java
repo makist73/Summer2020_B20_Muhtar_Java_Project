@@ -13,6 +13,7 @@ public class Variables {
        // static int b = 200;
         int c = 300; // local
 
+
     }
 
 }

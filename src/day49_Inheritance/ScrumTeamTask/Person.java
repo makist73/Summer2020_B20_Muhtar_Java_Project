@@ -34,7 +34,7 @@ public class Person {
         System.out.println(name +" is sleeping");
     }
 
-    public void setPersonInfo(String name,int age,char gender){  // only sets name, Age, Gender
+    public void setInfo(String name,int age,char gender){  // only sets name, Age, Gender
         this.name=name;
         this.age=age;
         this.gender=gender;

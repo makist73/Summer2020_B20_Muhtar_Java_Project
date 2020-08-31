@@ -12,15 +12,15 @@ public class Person {
     public char gender;
 
 
-    private void eat(){
+    private void eat(){ // we dont want this to be inherited to the sub classes
         System.out.println(name +" is eating");
     }
 
-    private void walk(){
+    private void walk(){// we dont want this to be inherited to the sub classes
         System.out.println(name +" is walking");
     }
 
-    private void sleep(){
+    private void sleep(){// we dont want this to be inherited to the sub classes
         System.out.println(name +" is sleeping");
     }
 

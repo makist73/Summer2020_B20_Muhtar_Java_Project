@@ -20,6 +20,20 @@ public class AppleInc {
         Developer developer3 = new Developer("Yadigarjan", 40,'M', 120000, 3212313,"SDET");
         Developer developer4= new Developer("fatime",30,'F', 150000,123456,"softwareEngineer");
 
+        Developer[] developers = {developer1, developer2, developer3, developer4};
+
+
+        ScrumTeam scrum1 = new ScrumTeam(testers, developers);
+
+        System.out.println(scrum1);
+
+        Tester[] testers2 = {
+
+        }
+
+
+
+
 
     }
 

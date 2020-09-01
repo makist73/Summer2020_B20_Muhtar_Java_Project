@@ -13,8 +13,8 @@ create a class called ScrumTeam
                             addTesters(Tester[] testers): adds the given testers to the testers arraylist
                             addDeveloper(Developer developer): adds the given developer to the developers arraylist
                             addDevelopers(Developer[] developers): adds the given developers to the developers arraylist
-                            removeTester(long employeeID): removes the given tester from the testers arraylist
-                            removeDeveloper(long employeeID): removes the developer from the developers arraylist
+                            removeTester(long ID): removes the given tester from the testers arraylist
+                            removeDeveloper(long ID): removes the developer from the developers arraylist
  */
 public class ScrumTeam {
 
@@ -37,6 +37,20 @@ public class ScrumTeam {
     public void addDevelopers(Developer[] developers){
         this.developers.addAll( Arrays.asList(developers) );
     }
+
+    public void removeTester(int ID){
+        testers.removeIf( p -> p.ID == ID);
+    }
+
+    public void removeDeveloper(int ID){
+        developers.removeIf( p -> p.ID == ID);
+    }
+
+    public void removeTesterDeveloper(int testerID, int developerID){
+        removeTester(testerID);  // removes the tester from list
+        removeDeveloper(developerID);  // removes the developer form the list
+    }
+
 
 
 }

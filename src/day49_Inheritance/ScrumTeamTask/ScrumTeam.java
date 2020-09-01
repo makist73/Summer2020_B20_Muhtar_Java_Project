@@ -25,5 +25,9 @@ public class ScrumTeam {
         testers.add(tester);
     }
 
+    public void addDeveloper(Developer developer){
+        developers.add(developer);
+    }
+
 
 }

@@ -1,6 +1,7 @@
 package day49_Inheritance.ScrumTeamTask;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 
 /*
 create a class called ScrumTeam
@@ -27,6 +28,14 @@ public class ScrumTeam {
 
     public void addDeveloper(Developer developer){
         developers.add(developer);
+    }
+
+    public void addTesters(Tester[] testers){
+        this.testers.addAll(Arrays.asList(testers) );
+    }
+
+    public void addDevelopers(Developer[] developers){
+        this.developers.addAll( Arrays.asList(developers) );
     }
 
 

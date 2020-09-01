@@ -28,9 +28,34 @@ public class AppleInc {
         System.out.println(scrum1);
 
         Tester[] testers2 = {
-
+                new Tester("Milos",32,'M',150000, 77769,"SDET"),
+                new Tester("Memetjan", 36, 'M', 130000, 8765432, "SDET")
         };
 
+        Developer[] developers2 = {
+                new Developer("Ramazan Sevindik", 30, 'M', 150000, 123456, "DEV LEAD"),
+                new Developer("Erfan", 28, 'M', 150000, 12345, "Dev lead"),
+                new Developer("Fatih", 50, 'M', 124000, 2324242, "SDET")
+        };
+
+        ScrumTeam scrum2 = new ScrumTeam(testers2, developers2);
+
+        System.out.println(scrum2);
+
+
+
+        ScrumTeam[] allScrumTeam = {scrum1, scrum2};
+
+        System.out.println("================================================");
+        System.out.println("Testers: ");
+
+        for( ScrumTeam eachScrum  : allScrumTeam ){
+            for(Tester eachTester  : eachScrum.testers){
+                System.out.println( eachTester.name +" "+ eachTester.salary);
+            }
+        }
+
+        System.out.println("===============================================");
 
 
 

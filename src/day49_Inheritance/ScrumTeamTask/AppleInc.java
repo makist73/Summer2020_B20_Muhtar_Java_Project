@@ -42,6 +42,8 @@ public class AppleInc {
 
         System.out.println(scrum2);
 
+        scrum2.removeDeveloper(123456);
+        scrum1.removeTester(1);
 
 
         ScrumTeam[] allScrumTeam = {scrum1, scrum2};
@@ -56,7 +58,12 @@ public class AppleInc {
         }
 
         System.out.println("===============================================");
-
+        System.out.println("Developers: ");
+        for(ScrumTeam eachScrum  : allScrumTeam ){
+            for( Developer eachDeveloper : eachScrum.developers){
+                System.out.println(eachDeveloper.name +" "+eachDeveloper.salary);
+            }
+        }
 
 
 

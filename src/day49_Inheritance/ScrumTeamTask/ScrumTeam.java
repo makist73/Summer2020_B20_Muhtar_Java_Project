@@ -51,6 +51,15 @@ public class ScrumTeam {
         removeDeveloper(developerID);  // removes the developer form the list
     }
 
+    public String toString(){
+        return "================================"+
+                "\nDevelopers #"+developers.size()+
+                "\nTesters #"+testers.size()+
+                "\nCapacity: "+((developers.size()+testers.size())*8)+ " point (Dev.Team * 8 Days)"+
+                "\nVelocity: "+((developers.size()+testers.size())*8)+ " point for current Sprint (No days Off)"+
+                "================================";
+    }
+
 
 
 }

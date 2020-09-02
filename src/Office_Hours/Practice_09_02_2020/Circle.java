@@ -8,10 +8,10 @@ public class Circle {
     public double area;
     public double perimeter;
 
+
     public Circle(double radius){
         this.radius = radius;
         diameter = radius * 2;
-        PI = 3.14;
         area = calculateArea();
         perimeter = calculatePerimeter();
 
@@ -29,6 +29,8 @@ public class Circle {
     // for INTERNAL use ONLY
 
 
-
+    static{ // only runs one time, first to run
+        PI = 3.14;
+    }
 
 }

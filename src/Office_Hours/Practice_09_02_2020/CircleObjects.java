@@ -37,6 +37,12 @@ public class CircleObjects {
         System.out.println("Circle3' area: " + circle3.area);
         System.out.println("Circle3' Perimeter: " +circle3.perimeter);
 
+        System.out.println("=====================================");
+        // find the rea of the circle that has radius of 10
+
+        System.out.println("Area: "+ new Circle(10).area );
+        System.out.println("Perimeter: "+ new Circle(30).perimeter);
+
 
 
 

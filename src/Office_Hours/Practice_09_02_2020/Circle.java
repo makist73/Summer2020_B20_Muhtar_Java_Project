@@ -28,14 +28,13 @@ public class Circle {
     }
     // for INTERNAL use ONLY
 
-
     static{ // only runs one time, first to run
         PI = 3.14;
     }
 
     public String toString(){
-        return "Radius: "+radius+", Diameter: "+
-                diameter+", Area: "+area+", Perimeter: "+perimeter;
+        return "Radius: "+radius+", Diameter: "+ diameter+
+                ", Area: "+area+", Perimeter: "+perimeter;
     }
 
 

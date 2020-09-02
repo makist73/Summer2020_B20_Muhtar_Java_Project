@@ -43,6 +43,12 @@ public class CircleObjects {
         System.out.println("Area: "+ new Circle(10).area );
         System.out.println("Perimeter: "+ new Circle(30).perimeter);
 
+        System.out.println("============================================");
+
+        System.out.println(circle1);
+        System.out.println(circle2);
+        System.out.println(circle3);
+
 
 
 

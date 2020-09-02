@@ -33,4 +33,10 @@ public class Circle {
         PI = 3.14;
     }
 
+    public String toString(){
+        return "Radius: "+radius+", Diameter: "+
+                diameter+", Area: "+area+", Perimeter: "+perimeter;
+    }
+
+
 }

@@ -7,7 +7,7 @@ package day51_Exceptions.BrowsersTask;
 
 public class WebDriver {
 
-    public void get(String url) {
+    protected void get(String url) {
         System.out.println("Opening the " + url + " in default browser");
     }
 

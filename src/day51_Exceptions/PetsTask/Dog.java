@@ -6,5 +6,15 @@ public class Dog extends Pet {
         super(name, breed, gender, age, color);
     }
 
+    @Override
+    public String toString() {
+        return "Dog{" +
+                "name='" + name + '\'' +
+                ", breed='" + breed + '\'' +
+                ", gender=" + gender +
+                ", age=" + age +
+                ", color='" + color + '\'' +
+                '}';
+    }
 
 }

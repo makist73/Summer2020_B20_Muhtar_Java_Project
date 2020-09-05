@@ -10,6 +10,10 @@ public class ChromeBrowser extends WebDriver {
         System.out.println("Opening the "+url+" in chrome browser");
     }
 
+    public void close(){
+        System.out.println("closing the chrome browser");
+    }
+
 
 
 }

@@ -6,6 +6,7 @@ public class BrowserObjects {
 
         ChromeBrowser chrome = new ChromeBrowser();
         chrome.get("https://www.google.com/");
+        chrome.close();
 
 
     }

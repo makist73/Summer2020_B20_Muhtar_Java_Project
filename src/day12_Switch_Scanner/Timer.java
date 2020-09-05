@@ -15,7 +15,7 @@ public class Timer {
                 break;
             for (int z=59; z >=0 ; --z) {
                 System.out.println((i-1)+" minutes and "+z+" seconds left");
-                Util.sleep(0.5);
+                Util.sleep(1);
             }
         }
 

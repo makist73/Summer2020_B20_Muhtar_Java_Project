@@ -1,10 +1,12 @@
 package day12_Switch_Scanner;
 
+import Library.Util;
+
 import java.util.Scanner;
 
 public class Timer {
 
-    public static void main(String[] args) throws Exception {
+    public static void main(String[] args)  {
         Scanner scan=new Scanner(System.in);
         System.out.println("please enter the number of minutes");
         int minutes=scan.nextInt();
@@ -13,7 +15,7 @@ public class Timer {
                 break;
             for (int z=59; z >=0 ; --z) {
                 System.out.println((i-1)+" minutes and "+z+" seconds left");
-                Thread.sleep(1000);
+                Util.sleep(0.5);
             }
         }
 

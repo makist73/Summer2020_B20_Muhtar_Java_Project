@@ -1,5 +1,7 @@
 package day51_Exceptions;
 
+import Library.Util;
+
 public class ExceptionsPractice {
 
     public static void main(String[] args) {
@@ -30,17 +32,20 @@ public class ExceptionsPractice {
         System.out.println("How are you?");
 
 
+        Util.sleep(10);
+
+        System.out.println("Good Bye");
+
+
     }
 
 
-    public static void sleep(int seconds){
+    public static void sleep(double seconds){
+        try {
+            Thread.sleep((long)(seconds * 1000));
+        }catch (InterruptedException e){
 
-       try {
-           Thread.sleep(seconds * 1000);
-       }catch (InterruptedException e){
-
-       }
-
+        }
     }
 
 

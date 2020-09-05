@@ -531,9 +531,9 @@ public class Util {
     // combines two array and returns it
 
 
-    public static void sleep(int seconds){
+    public static void sleep(double seconds){
         try {
-            Thread.sleep(seconds * 1000);
+            Thread.sleep((long)(seconds * 1000));
         }catch (InterruptedException e){
 
         }

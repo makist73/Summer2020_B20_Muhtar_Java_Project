@@ -20,11 +20,14 @@ class Test{
     public static void main(String[] args) {
 
    //throw new RuntimeException("This is Runtime exception");
-      throw new BreaktimeException("You need to give us a break");
+   //   throw new BreaktimeException("You need to give us a break");
 
      //   System.out.println("Test Completed");
 
      //   throw new Test();
+
+
+        throw new BreaktimeException("It's been 45 minutes");
 
     }
 

@@ -18,12 +18,11 @@ public class Phone {
           this.price = price;
     }
 
-
-    public void call(long phoneNumber){
+   protected void call(long phoneNumber){
         System.out.println("Phone is calling: "+phoneNumber);
     }
 
-    public void text(long phoneNumber){
+    protected void text(long phoneNumber){
         System.out.println("Phone is texting to: "+phoneNumber);
     }
 

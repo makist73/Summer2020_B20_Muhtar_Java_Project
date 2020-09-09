@@ -12,6 +12,7 @@ public class BreaktimeException extends  RuntimeException{  // custom unchecked 
         System.err.println("Time to take 15 minutes break");
     }
 
+
 }
 
 class Test{

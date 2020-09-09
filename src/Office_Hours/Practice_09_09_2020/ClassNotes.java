@@ -39,7 +39,7 @@ access modifiers that are visible to the sub class:
 
 
 Phone: brand, model, price, madeIn, call(), text()
-	static: brand, madeIn, screenSize
+	static: brand, madeIn,
 	insatnce: model, price, call(), text(), toString()
 
 

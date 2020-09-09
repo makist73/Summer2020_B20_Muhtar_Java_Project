@@ -34,6 +34,7 @@ class Test2{
 
             default:
                 throw new InvalidBrowserNameException("Please enter a valid browser name");
+               // throw new RuntimeException();
         }
 
 

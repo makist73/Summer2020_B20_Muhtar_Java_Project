@@ -12,12 +12,12 @@ public class Samsung extends Phone {
     }
 
     @Override
-    protected void call(long phoneNumber) {
+    public void call(long phoneNumber) {
         System.out.println("Samsung "+model+" is calling: "+phoneNumber);
     }
 
     @Override
-    protected void text(long phoneNumber) {
+    public void text(long phoneNumber) {
         System.out.println("Samsung "+model+" is texting: "+phoneNumber);
     }
 

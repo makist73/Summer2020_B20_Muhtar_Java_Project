@@ -18,7 +18,7 @@ public class Phone {
           this.price = price;
     }
 
-   protected void call(long phoneNumber){
+    protected void call(long phoneNumber){
         System.out.println("Phone is calling: "+phoneNumber);
     }
 

@@ -69,5 +69,12 @@ class TestCase extends TestBase{
     //@Test ==> run as TestNg
       //  public void setUp(){ }  // final method cannot be override
 
+}
+
+
+final class Tester{
+    // name, age, gender,....jobTi,   findBug().....
 
 }
+
+// class BA extends Tester{ }  // final class cannot be super, can only be sub

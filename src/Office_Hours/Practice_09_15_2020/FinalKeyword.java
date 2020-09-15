@@ -42,3 +42,32 @@ public class FinalKeyword {
 
 
 }
+
+
+class TestBase{
+
+    // @beforeMethods
+    public final void setUp(){
+        System.out.println("Set Up the driver");
+        System.out.println("Open Browser");
+        System.out.println("URL");
+        System.out.println("Maximize window");
+        System.out.println("Implicit wait");
+    }
+
+    //@afterMethod
+    public final void tearDown(){
+        System.out.println("if failed, take screenshot");
+        System.out.println("Close Browser");
+    }
+
+}
+
+
+class TestCase extends TestBase{
+
+    //@Test ==> run as TestNg
+      //  public void setUp(){ }  // final method cannot be override
+
+
+}

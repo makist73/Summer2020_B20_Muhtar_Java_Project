@@ -1,5 +1,7 @@
 package Office_Hours.Practice_09_15_2020;
 
+import java.util.Random;
+
 public class MathClass {
 
     public static void main(String[] args) {
@@ -24,6 +26,15 @@ public class MathClass {
 
         System.out.println(Math.PI);
         System.out.println( Math.E );
+
+        int a = 100;
+        int b = 200;
+        System.out.println( Math.max(a, b));
+        System.out.println(Math.min(a,b));
+
+
+
+
 
     }
 

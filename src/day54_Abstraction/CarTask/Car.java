@@ -33,7 +33,6 @@ public abstract class Car { // cannot be final
 
 }
 
-
 final class A{  // can be final
 
 }
@@ -44,3 +43,10 @@ class B{
        // Car obj2 = new Car();
     }
 }
+
+
+
+
+
+
+

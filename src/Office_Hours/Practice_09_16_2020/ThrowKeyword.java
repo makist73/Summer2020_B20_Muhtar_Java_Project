@@ -8,8 +8,22 @@ public class ThrowKeyword {
             throw new RuntimeException("there is no such a browser named: "+browser);
         }
 
-
         System.out.println("Test started on: "+browser+" browser");
 
     }
+
+    public void method1() throws ClassNotFoundException{
+        throw new ClassNotFoundException();
+    }
+
+    public void method2() throws CloneNotSupportedException{
+        throw new CloneNotSupportedException();
+    }
+
+    public void method3()throws ClassNotFoundException, CloneNotSupportedException{
+        method1();
+        method2();
+    }
+
+
 }

@@ -49,9 +49,15 @@ public class Circle extends Shape{
         hasVolume = false;
     }
 
-
-
-
+    @Override
+    public String toString() {
+        return "Circle{" +
+                "radius=" + radius +
+                ", area=" + area +
+                ", perimeter=" + perimeter +
+                ", volume=" + volume +
+                '}';
+    }
 
 
 }

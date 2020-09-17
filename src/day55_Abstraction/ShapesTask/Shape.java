@@ -10,9 +10,9 @@ package day55_Abstraction.ShapesTask;
 public abstract class Shape { //cannot create object, cannot be final
 
     public static String name;
+    public static boolean hasVolume;
     public double area;
     public double perimeter;
-    public static boolean hasVolume;
     public double volume;
 
     public abstract double calculateArea();

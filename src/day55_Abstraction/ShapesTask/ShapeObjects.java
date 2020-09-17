@@ -29,5 +29,17 @@ public class ShapeObjects {
 
         System.out.println(circle1.hasVolume);
 
+        System.out.println("========================================");
+
+       // Circle circle3 = new Circle(-10);
+     //   System.out.println(circle3);
+
+     //   Rectangle rectangle2 = new Rectangle(-2, 0);
+
+        Cylinder cylinder2 = new Cylinder(0,0);
+
+
+
+
     }
 }

@@ -27,6 +27,8 @@ public final class Circle extends Shape{
         area = calculateArea();
         perimeter = calculatePerimeter();
         volume = calculateVolume();
+        name = "Rectangle";
+        hasVolume = false;
     }
 
     @Override
@@ -44,10 +46,7 @@ public final class Circle extends Shape{
        return 0;
     }
 
-    static{
-        name = "Circle";
-        hasVolume = false;
-    }
+
 
     @Override
     public String toString() {

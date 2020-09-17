@@ -21,6 +21,8 @@ public final class Rectangle extends Shape {
         area = calculateArea();
         perimeter = calculatePerimeter();
         volume = calculateVolume();
+        name = "Rectangle";
+        hasVolume = false;
     }
 
     @Override
@@ -38,10 +40,6 @@ public final class Rectangle extends Shape {
         return 0;
     }
 
-    static{
-        name = "Rectangle";
-        hasVolume = false;
-    }
 
     @Override
     public String toString() {

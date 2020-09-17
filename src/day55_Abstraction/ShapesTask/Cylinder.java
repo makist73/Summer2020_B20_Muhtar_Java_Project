@@ -13,6 +13,8 @@ public final class Cylinder extends Shape {
         area =  calculateArea();
         perimeter = calculatePerimeter();
         volume = calculateVolume();
+        name = "Rectangle";
+        hasVolume = false;
     }
 
     @Override
@@ -31,10 +33,7 @@ public final class Cylinder extends Shape {
     }
 
 
-    static{
-        name = "Cylinder";
-        hasVolume = true;
-    }
+
 
     @Override
     public String toString() {

@@ -8,16 +8,17 @@ public final class Cylinder extends Shape {
 
     @Override
     public double calculateArea() {
-        return 0;
+        return  radius*height*Math.PI;
     }
 
     @Override
     public double calculatePerimeter() {
-        return 0;
+        return (2*Math.PI*height)+(4*Math.PI*Math.pow(radius,2));
     }
 
     @Override
     public double calculateVolume() {
-        return 0;
+        return Math.pow(radius,2)*height*Math.PI;
     }
+
 }

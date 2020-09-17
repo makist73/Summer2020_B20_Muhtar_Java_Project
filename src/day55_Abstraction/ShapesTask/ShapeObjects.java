@@ -7,7 +7,7 @@ public class ShapeObjects {
         Circle circle1 = new Circle(2.5);
 
         System.out.println(circle1);
-        System.out.println("Circle Has Volume: "+ Circle.hasVolume);
+        System.out.println("Circle Has Volume: "+ circle1.hasVolume);
 
         Circle circle2 = new Circle(5.5);
         System.out.println(circle2);

@@ -10,7 +10,7 @@ package day55_Abstraction.ShapesTask;
 			add a static block that can initialize the static variables of the rectangle
  */
 
-public class Rectangle extends Shape {
+public final class Rectangle extends Shape {
 
     public double width;
     public double length;

@@ -12,7 +12,7 @@ package day55_Abstraction.ShapesTask;
 			add a static block that can initialize the static variables of the circle
  */
 
-public class Circle extends Shape{
+public final class Circle extends Shape{
 
     public double radius;
 

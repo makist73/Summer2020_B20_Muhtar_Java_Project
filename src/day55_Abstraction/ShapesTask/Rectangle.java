@@ -16,6 +16,10 @@ public final class Rectangle extends Shape {
     public double length;
 
     public Rectangle(double width, double length) {
+        if(width<=0 || length<=0){
+            throw new RuntimeException("width and length of rectangle cannot be negative or 0");
+        }
+
         this.width = width;
         this.length = length;
         area = calculateArea();

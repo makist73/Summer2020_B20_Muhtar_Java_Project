@@ -8,6 +8,10 @@ public final class Cylinder extends Shape {
     public double height;
 
     public Cylinder(double radius, double height) {
+        if(radius<=0 || height<= 0){
+            throw new RuntimeException("Radius and Height of Cylinder cannot be negative or 0");
+        }
+
         this.radius = radius;
         this.height = height;
         area =  calculateArea();

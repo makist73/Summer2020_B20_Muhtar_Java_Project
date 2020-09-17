@@ -1,5 +1,7 @@
 package day55_Abstraction.ShapesTask;
 
+import java.text.DecimalFormat;
+
 public final class Cylinder extends Shape {
 
     public double radius;
@@ -36,12 +38,13 @@ public final class Cylinder extends Shape {
 
     @Override
     public String toString() {
+        DecimalFormat df = new DecimalFormat("0.00");
         return "Cylinder{" +
                 "radius=" + radius +
                 ", height=" + height +
-                ", area=" + area +
-                ", perimeter=" + perimeter +
-                ", volume=" + volume +
+                ", area=" + df.format(area) +
+                ", perimeter=" + df.format(perimeter) +
+                ", volume=" + df.format(volume) +
                 '}';
     }
 

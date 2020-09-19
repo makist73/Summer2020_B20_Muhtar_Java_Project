@@ -21,6 +21,11 @@ public abstract class AbstractClass_VS_Interface {
         a = 3000;
     }  // instance block
 
+    public static void main(String[] args) {
+      // Math.PI = 100;
+      // Integer.MAX_VALUE =  300;
+    }
+
 }
 
 

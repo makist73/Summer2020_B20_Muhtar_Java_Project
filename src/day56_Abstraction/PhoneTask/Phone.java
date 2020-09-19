@@ -19,7 +19,7 @@ public abstract class Phone {
     public abstract void calling(long phoneNumber);
     public abstract void texting(long phoneNumber);
 
-    @Override
+
     public String toString() {
         return "Phone{" +
                 "brand='" + brand + '\'' +

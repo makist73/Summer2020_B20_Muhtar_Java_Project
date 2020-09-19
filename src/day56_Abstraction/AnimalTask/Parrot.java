@@ -1,6 +1,7 @@
 package day56_Abstraction.AnimalTask;
 
-public class Parrot extends Animal implements Flyable, Playable {
+public class Parrot extends Animal
+        implements Flyable, Playable, Talkative  {
     @Override
     public void eat() {
         System.out.println("Parrot is eating");
@@ -21,4 +22,11 @@ public class Parrot extends Animal implements Flyable, Playable {
     public void play() {
         System.out.println("Parrot is playing");
     }
+
+    @Override
+    public void talk() {
+        System.out.println("Parrot is talking");
+    }
+
+
 }

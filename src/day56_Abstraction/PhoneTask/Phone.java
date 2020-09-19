@@ -17,7 +17,10 @@ public abstract class Phone {
     public String size;
 
     public abstract void calling(long phoneNumber);
+    public abstract void calling(long num1, long num2);
+
     public abstract void texting(long phoneNumber);
+    public abstract void texting(long num1, long num2 );
 
 
     public String toString() {

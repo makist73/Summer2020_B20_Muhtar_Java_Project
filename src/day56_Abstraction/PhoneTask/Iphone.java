@@ -46,7 +46,8 @@ public final class Iphone extends Phone {
     }
 
     public void faceTiming(long num1, long num2){
-        faceTiming(num1, num2);
+        faceTiming(num1);
+        faceTiming(num2);
     }
 
 

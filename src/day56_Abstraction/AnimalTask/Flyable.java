@@ -6,6 +6,12 @@ public interface Flyable {
 
      abstract void fly(); // public
 
+/*
+     public static void method2(){
+        //  hasWings = false;
+     }
+*/
+
 }
 
  //class B implements  Flyable{

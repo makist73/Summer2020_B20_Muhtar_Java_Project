@@ -28,7 +28,7 @@ public class Cube extends Shape implements Volume {
 
     @Override
      public double calculateVolume() {
-        return Math.pow(side,3);
+        return Math.pow(side,3); // side * side * side
     }
 
 }

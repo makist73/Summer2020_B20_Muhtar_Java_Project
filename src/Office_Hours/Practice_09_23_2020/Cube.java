@@ -1,8 +1,19 @@
 package Office_Hours.Practice_09_23_2020;
 
 public class Cube extends Shape implements Volume {
-
+        //area, perimeter, volume
     public double side;
+
+    public Cube(double side){
+        if(side <= 0 ){
+            throw new RuntimeException("Cube side can't be negative or 0");
+        }
+        this.side = side;
+        area = calculateArea();
+        perimeter = calculatePerimeter();
+        volume = calculateVolume();
+    }
+
 
 
     @Override
@@ -14,8 +25,6 @@ public class Cube extends Shape implements Volume {
     public double calculatePerimeter() {
         return side * 12;
     }
-
-
 
     @Override
      public double calculateVolume() {

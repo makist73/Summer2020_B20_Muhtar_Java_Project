@@ -1,4 +1,4 @@
-package day57_Polymorphism;
+package day57_Polymorphism.PhoneTasks;
 
 public class Samsung extends Phone implements AndroidApp  {
 

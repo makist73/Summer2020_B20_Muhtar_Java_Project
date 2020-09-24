@@ -31,6 +31,10 @@ public class Iphone extends Phone implements AppleApp, Downloadable{
         System.out.println("Iphone is downloading app from "+AppStoreName);
     }
 
+    public void faceTiming(long phoneNumber){
+        System.out.println("Iphone is facetiming "+phoneNumber);
+    }
+
     @Override
     public String toString() {
         return "Iphone{" +
@@ -40,5 +44,7 @@ public class Iphone extends Phone implements AppleApp, Downloadable{
                 ", price= $ " + price +
                 '}';
     }
+
+
 
 }

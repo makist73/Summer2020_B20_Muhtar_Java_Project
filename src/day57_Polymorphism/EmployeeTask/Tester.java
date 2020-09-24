@@ -12,4 +12,14 @@ public class Tester extends Employee {
         System.out.println("Tester "+name+" is working");
     }
 
+    @Override
+    public String toString() {
+        return "Tester{" +
+                "name='" + name + '\'' +
+                ", id=" + id +
+                ", jobTitle='" + jobTitle + '\'' +
+                ", salary=" + salary +
+                ", gender=" + gender +
+                '}';
+    }
 }

@@ -6,7 +6,7 @@ package day57_Polymorphism;
             if the price of Iphoen is more than 1500, the system should throw an exception with a message of:
                     Invalid Price, Iphone' price cannot more than 1500
  */
-public class Iphone extends Phone implements AppleApp, Downloadable{
+public class Iphone extends Phone implements AppleApp{
 
 
     public Iphone( String model, String size, double price) {

@@ -13,9 +13,11 @@ public class Apple {
         Employee developer1 = new Developer("Hajar", 12098, "Team lead", 12000, 'F');
         Employee developer2 = new Developer("Abdul",123456789,"QA",110000,'M');
 
+        Employee scrumMaster1 = new ScrumMaster("Kamil", 78945, "Scrum Master", 120000, 'M');
+
         //   scrumTeam
         ArrayList<Employee> scrumTeam = new ArrayList<>();
-        scrumTeam.addAll(Arrays.asList(tester1, tester2, developer1, developer2) );
+        scrumTeam.addAll(Arrays.asList(tester1, tester2, developer1, developer2,scrumMaster1) );
 
         for( Employee each  : scrumTeam ){
             System.out.println(each);

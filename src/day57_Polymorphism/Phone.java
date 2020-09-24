@@ -20,9 +20,11 @@ public abstract class Phone {
         this.brand = brand;
         this.model = model;
         this.size = size;
+
         if(price <=0){
             throw new RuntimeException("Price of the phone cannot be negative or zero");
         }
+
         this.price = price;
     }
 

@@ -23,7 +23,7 @@ public abstract class Employee {
                 "name='" + name + '\'' +
                 ", id=" + id +
                 ", jobTitle='" + jobTitle + '\'' +
-                ", salary=" + salary +
+                ", salary= $" + salary +
                 ", gender=" + gender +
                 '}';
     }

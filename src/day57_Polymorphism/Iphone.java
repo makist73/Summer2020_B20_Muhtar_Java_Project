@@ -37,7 +37,7 @@ public class Iphone extends Phone implements AppleApp, Downloadable{
                 "brand='" + brand + '\'' +
                 ", model='" + model + '\'' +
                 ", size='" + size + '\'' +
-                ", price=" + price +
+                ", price= $ " + price +
                 '}';
     }
 

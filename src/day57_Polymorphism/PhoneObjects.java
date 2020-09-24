@@ -10,6 +10,16 @@ public class PhoneObjects {
         System.out.println(samsung);
         System.out.println(huawei);
 
+        Phone phone1 = new Iphone("11", "6", 1200);
+        Phone phone2 = new Samsung("S8", "6.5", 900);
+        Phone phone3 = new Huawei("sadasdasda", "3", 35);
+
+      //  Iphone[] phones = {iphone, samsung , huawei };
+      //  Samsung[] phones = {iphone, samsung , huawei };
+      //    Huawei[] phones = {iphone, samsung , huawei };
+
+        Phone[] phones ={iphone, samsung , huawei, phone1, phone2, phone3 };
+
 
     }
 }

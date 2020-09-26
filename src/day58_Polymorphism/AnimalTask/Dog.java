@@ -18,13 +18,15 @@ public class Dog extends Animal{
         System.out.println("Dog "+dogName+" is barking");
     }
 
-    @Override
-    public String toString() {
-        return "Dog{" +
-                "dogName='" + dogName + '\'' +
-                ", age=" + age +
-                ", gender=" + gender +
-                '}';
+    public void eat(){
+        System.out.println("Dog "+dogName+" is eating");
     }
+
+    public void sleep(){
+        System.out.println("Dog "+dogName+" is sleeping");
+    }
+
+
+
 
 }

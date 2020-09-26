@@ -27,4 +27,11 @@ public class Animal {
         System.out.println("Animal is sleeping");
     }
 
+    public String toString() {
+        return "Animal{" +
+                "age=" + age +
+                ", gender=" + gender +
+                '}';
+    }
+
 }

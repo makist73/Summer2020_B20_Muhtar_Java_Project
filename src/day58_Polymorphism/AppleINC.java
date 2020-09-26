@@ -53,16 +53,9 @@ public class AppleINC {
         }
 
 
-
         System.out.println("Tester: "+countTester);
         System.out.println("Developer: "+countDeveloper);
         System.out.println("Scrum Master: "+countScrumMaster);
-
-
-
-
-
-
 
 
 

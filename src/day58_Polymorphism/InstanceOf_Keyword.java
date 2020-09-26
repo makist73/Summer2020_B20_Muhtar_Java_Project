@@ -52,6 +52,18 @@ public class InstanceOf_Keyword {
         }
    }
 
+   public static boolean equalShapes(Shape shape1, Shape shape2){
+        boolean result = false;
+
+        boolean bothCircle = shape1 instanceof Circle && shape2 instanceof Circle;
+
+        if(bothCircle){
+
+        }
+
+
+        return result;
+   }
 
 
 }

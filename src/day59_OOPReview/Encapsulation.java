@@ -9,7 +9,6 @@ public class Encapsulation {
 
     private final LocalDate Published = LocalDate.of(2020,9,8);  // cannot be modified
 
-
     public int getSsn(){  // read only
         return ssn;
     }

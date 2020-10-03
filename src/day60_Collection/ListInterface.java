@@ -1,5 +1,7 @@
 package day60_Collection;
 
+import day54_Abstraction.CarTask.Car;
+
 import java.util.*;
 
 public class ListInterface {
@@ -123,6 +125,21 @@ public class ListInterface {
         3. print out the names of each student
 
          */
+
+        List<Car> SUVs = new ArrayList<>();
+        List<Car> sedans = new ArrayList<>();
+        List<Car> truck = new ArrayList<>();
+        List<Car> convertible = new ArrayList<>();
+
+
+
+        List< List<Car> >  cars = new ArrayList<>();
+
+        /*
+        iterate every single car and print out the:
+            brand : model : price
+         */
+
 
 
 

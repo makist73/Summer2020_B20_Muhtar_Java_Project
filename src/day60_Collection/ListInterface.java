@@ -15,8 +15,6 @@ public class ListInterface {
         System.out.println("ArrayList: "+list1);
         System.out.println( list1.get(2) );  // fastest
 
-
-
         List<Integer> list2 = new LinkedList<>(); // get, add, remove, set, removeAll, contains, size...
             list2.addAll(Arrays.asList(1,2,3,4,5));
             list2.addAll(Arrays.asList(1,2,3,4,5));

@@ -44,6 +44,41 @@ public class ListInterface {
              System.out.println("Stack: "+list4);
             System.out.println(list4.get(2));
 
+        ( (Stack)list4 ).pop();
+
+        System.out.println(list4);
+
+        System.out.println("============================================");
+
+        Stack<Integer> list5 = new Stack<>();
+        list5.addAll(Arrays.asList(1,2,3,4,5,6,7));
+
+        System.out.println(list5);
+
+        int lastObject = list5.pop();
+
+        System.out.println(list5);
+
+        int lastObject2 = list5.pop();
+
+        System.out.println(list5);
+
+        list5.removeAll(Arrays.asList(1,4,5));
+        System.out.println(list5);
+
+        int lastObject3 = list5.pop();
+
+        System.out.println(list5);
+
+        System.out.println("====================================================");
+
+        int[] arr1 = {1,2,3,4};
+        int[][] arr2 = { {1,2,3,4}, {5,6,7,8,9} }; // multidimensional
+
+
+
+
+
 
 
     }

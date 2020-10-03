@@ -75,6 +75,44 @@ public class ListInterface {
         int[] arr1 = {1,2,3,4};
         int[][] arr2 = { {1,2,3,4}, {5,6,7,8,9} }; // multidimensional
 
+        ArrayList<String> l1 = new ArrayList<>();
+        l1.add("A");
+
+
+        ArrayList<ArrayList<Integer>>  l2 = new ArrayList<>();  // list of lists
+             //   l2.add("M");
+             //   l2.add(5);
+
+            l2.add(  new ArrayList<>( Arrays.asList(1,2,3,4))    );
+            l2.add( new ArrayList<>( ) );
+
+            l2.get(1).addAll( Arrays.asList(5,6,7,8,9) );
+
+            l2.get(0).removeAll(Arrays.asList(1,3));
+
+        System.out.println(l2);
+        System.out.println("Size of first arrayList: " + l2.get(0).size() );
+        System.out.println("Size of second arrayList: " + l2.get(1).size() );
+
+        System.out.println("======================================================");
+
+        List< List<String> >  groups = new ArrayList<>();
+        groups.addAll( Arrays.asList(
+                new ArrayList<>(),
+                new ArrayList<>(),
+                new ArrayList<>(),
+                new ArrayList<>()
+        ));
+
+
+        System.out.println(groups);
+
+        /*
+        1. add 5 different names in each group
+        2. iterate the list of lists (groups)
+        3. print out the names of each student
+
+         */
 
 
 

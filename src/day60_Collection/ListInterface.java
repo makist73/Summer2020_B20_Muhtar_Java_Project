@@ -98,14 +98,24 @@ public class ListInterface {
 
         List< List<String> >  groups = new ArrayList<>();
         groups.addAll( Arrays.asList(
-                new ArrayList<>(),
-                new ArrayList<>(),
-                new ArrayList<>(),
-                new ArrayList<>()
-        ));
+                new Stack<>(), new Stack<>(),
+                new Stack<>(), new Stack<>(),
+                new Stack<>()));
+
+        groups.get(0).addAll( Arrays.asList( "Alexey","Ana","Andrei","Busra Y","Busra O"    ));
+        groups.get(1).addAll( Arrays.asList("Nickolas","Evgeniya","Aizhan","Kalbinur","Paola"));
+        groups.get(2).addAll( Arrays.asList("Ceren","Elizaveta","Heydar","Hunisddin","Kalbinur"));
+        groups.get(3).addAll( Arrays.asList("Murat", "Ayhan", "Uros", "Aysel", "Esra"));
+        groups.get(4).addAll( Arrays.asList("Ashenafi", "Ali", "Hamid", "Mokinur", "Nikola"));
+
+        for( List<String>  eachGroup : groups ){
+            ( (Stack)eachGroup ).pop();
+            System.out.println(eachGroup);
+        }
 
 
-        System.out.println(groups);
+
+      // System.out.println(groups);
 
         /*
         1. add 5 different names in each group

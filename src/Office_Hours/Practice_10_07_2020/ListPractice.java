@@ -13,6 +13,32 @@ public class ListPractice {
         System.out.println(list);
         System.out.println(list.get(2));
 
+        Stack<String> stack = new Stack<>();
+        stack.addAll( list );
+
+        System.out.println(stack);
+
+        stack.pop();
+
+        System.out.println(stack);
+
+        stack.pop();
+
+        System.out.println(stack);
+
+        stack.pop(); // LIFO
+
+        System.out.println(stack);
+
+        stack.pop(); //Emine
+        stack.pop(); // Nurbiye
+
+        System.out.println(stack);
+
+
+
+
+
 
 
     }

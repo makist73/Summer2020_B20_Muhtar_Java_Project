@@ -39,3 +39,10 @@ public class RemovePalindrome {
 
 
 }
+
+
+/*
+1. write a program that can remove the palindrome string from a list of String
+			DO NOT use Lambda expressions
+
+ */

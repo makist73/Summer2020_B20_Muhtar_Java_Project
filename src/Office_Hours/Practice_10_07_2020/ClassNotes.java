@@ -33,6 +33,15 @@ List vs Set: size is dynamic, only supports Objects
 
 	Set: does not accepts duplicated objects, does not have index number, size is dynamic
 
+		HashSet: changes the insertion order (sorted order)
+					accepts null
+
+		LinkedHashSet: does not change the insertion order
+
+
+		TreeSet: sorts the objects in ascending order
+					does not accept null
+
 
 
 synchronized :  Thread-safe

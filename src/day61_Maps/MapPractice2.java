@@ -1,6 +1,8 @@
 package day61_Maps;
 
+import java.util.ArrayList;
 import java.util.LinkedHashMap;
+import java.util.List;
 
 public class MapPractice2 {
 
@@ -22,17 +24,28 @@ public class MapPractice2 {
         students.put("Cihan", 100);
         students.put("John", 71);
 
+      //  LinkedHashMap<String, Integer>  earlyBirds = new LinkedHashMap<>(); //score >=95
+      //  LinkedHashMap<String, Integer> angryBirds = new LinkedHashMap<>(); // score < 95
 
+        List<String> earlyBirdsList = new ArrayList<>(); // score >= 90
 
         for( String  eachKey    : students.keySet()){
             Integer eachValue = students.get(eachKey);
+/*
+            if(eachValue >= 95){
+                earlyBirds.put(eachKey, eachValue );
+            }else{
+                angryBirds.put(eachKey, eachValue);
+            }
 
-           if(eachValue < 80){
-               System.out.println(eachKey);
-           }
+ */
+            if(eachValue >= 90){
+                earlyBirdsList.add(eachKey);
+            }
 
         }
 
+        System.out.println(earlyBirdsList);
 
 
 

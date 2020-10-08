@@ -41,6 +41,10 @@ public class MapPractice {
 
         System.out.println(employees);
 
+        System.out.println( employees.isEmpty() );
+
+
+
 
     }
 

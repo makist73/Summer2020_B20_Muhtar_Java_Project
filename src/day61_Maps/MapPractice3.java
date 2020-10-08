@@ -15,7 +15,16 @@ public class MapPractice3 {
                 countries.put("Ukraine", "Kiev");
                 countries.put("Azerbaijan", "Karabagh");
                 countries.put("Turkey","Ankara");
+                countries.put("NH", "Concord");
+                countries.put("Asmara", "Eritrea");
+                countries.put("Srbija","Beograd");
 
+            for ( String eachCountry   : countries.keySet()){
+                  String eachCity =   countries.get(eachCountry);
+
+                System.out.println(eachCountry+"'s capital is: "+eachCity);
+
+            }
 
                 // country name is countryName, Capital city is cityName
 

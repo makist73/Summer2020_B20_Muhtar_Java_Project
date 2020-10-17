@@ -37,6 +37,21 @@ public class Test {
 
         }
 
+        System.out.println("=========================================");
+
+       Day day = Day.Mon;
+       Day day2 = Day.Tue;
+       Day day3 = Day.Thu;
+
+       Month month1 = Month.Jan;
+
+       Level level1 = Level.Low;
+       Level level2 = Level.Medium;
+       Level level3 = Level.High;
+       Level level4 = Level.ChuckNorries;
+     //  Level level5 = Level.Khabib;
+
+
 
 
 

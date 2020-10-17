@@ -1,7 +1,9 @@
 package day62_Maps;
 
 import java.time.LocalDate;
+import java.util.ArrayList;
 import java.util.LinkedHashMap;
+import java.util.List;
 import java.util.Map;
 
 public class IteratingMap {
@@ -17,6 +19,30 @@ public class IteratingMap {
         map.put("Erik", LocalDate.of(1989,1,9));
 
         System.out.println(map);
+
+        for( String each : map.keySet() ){
+            System.out.println(each +" : "+map.get(each));
+        }
+
+        List<String> names =  new ArrayList<>( map.keySet() );
+        System.out.println(names);
+        System.out.println(names.get(1));
+
+        System.out.println("============================================");
+
+        for(LocalDate each  : map.values()){
+            System.out.println(each);
+        }
+
+        List<LocalDate> DOB = new ArrayList<>(map.values());
+
+        System.out.println(DOB.get(1));
+
+        System.out.println("===================================");
+
+        for( Map.Entry<String, LocalDate>  each : map.entrySet()){
+            System.out.println(each.getValue()+" : "+each.getKey());
+        }
 
 
     }

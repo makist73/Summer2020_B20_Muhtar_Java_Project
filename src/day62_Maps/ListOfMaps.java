@@ -1,7 +1,6 @@
 package day62_Maps;
 
-import java.util.LinkedHashMap;
-import java.util.Map;
+import java.util.*;
 
 public class ListOfMaps {
 
@@ -27,7 +26,22 @@ public class ListOfMaps {
         scrum3.put("Aidana", "SDET");
         scrum3.put("Kamran", "BA");
 
+        List< Map<String,String> >  teams = new ArrayList<>();
+        teams.addAll( Arrays.asList(scrum1, scrum2, scrum3) );
 
+        System.out.println(teams);
+        System.out.println("===========================================");
+
+        for(Map<String, String>  eachMap : teams){ // looping each map in the list
+            System.out.println(eachMap);
+            for( Map.Entry<String, String>  each : eachMap.entrySet()){
+                String name =  each.getKey() ;
+                String jobTitle = each.getValue();
+                if(jobTitle.equals("SDET")){
+                    System.out.println(name);
+                }
+            }
+        }
 
 
 

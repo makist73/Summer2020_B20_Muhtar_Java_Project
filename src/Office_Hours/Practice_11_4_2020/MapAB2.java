@@ -1,4 +1,4 @@
-package Office_Hours.Practoce_11_4_2020;
+package Office_Hours.Practice_11_4_2020;
 
 import java.util.Map;
 

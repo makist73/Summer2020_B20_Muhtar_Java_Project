@@ -1,11 +1,18 @@
 package Office_Hours.Practice_11_11_2020;
 
+import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Map;
 
 public class AllSwap {
 
-    public String[] allSwap(String[] strings) {
+    public static void main(String[] args) {
+
+        String [] arr = {"juice", "car", "apple", "cat", "jump", "class", "airport", "carpet"};
+        System.out.println(Arrays.toString(allSwap(arr)));
+    }
+
+    public static String[] allSwap(String[] strings) {
 
   /*
   "ax", "by", "cy", "cx", "bx", "ay",

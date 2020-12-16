@@ -50,6 +50,10 @@ public class FacebookUser extends SocialMedia{
     private int age;
     private int numberOfFriends;
 
+    static  {
+        platform = "Facebook";
+    }
+
     public FacebookUser(String username, String password) {
 
         if(password.contains(username)) {
@@ -65,8 +69,27 @@ public class FacebookUser extends SocialMedia{
 
     }
 
-    static  {
-        platform = "Facebook";
+    public FacebookUser (String username, String password, String fullName) {
+        this(username, password);
+
+        boolean isValidName = true;
+
+        for(int i=0; i < fullName.length(); i++) {
+
+            if(!Character.isLetter(fullName.charAt(i))) {
+                isValidName = false;
+                break;
+            }
+
+        }
+
+        if(isValidName) {
+            this.fullName = fullName;
+        } else {
+            System.out.println("Invalid name");
+            this.fullName = "no name";
+        }
+
     }
 
 

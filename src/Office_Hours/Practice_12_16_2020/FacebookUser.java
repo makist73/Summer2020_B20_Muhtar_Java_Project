@@ -74,7 +74,10 @@ public class FacebookUser extends SocialMedia{
 
         boolean isValidName = true;
 
+
         for(int i=0; i < fullName.length(); i++) {
+
+            if(fullName.charAt(i) == ' ') continue;
 
             if(!Character.isLetter(fullName.charAt(i))) {
                 isValidName = false;

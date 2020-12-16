@@ -1,5 +1,7 @@
 package Office_Hours.Practice_12_16_2020;
 
+import java.util.ArrayList;
+
 public class FacebookUser extends SocialMedia{
 
 
@@ -49,6 +51,7 @@ public class FacebookUser extends SocialMedia{
     private String fullName;
     private int age;
     private int numberOfFriends;
+    private ArrayList<Post> allPosts;
 
     static  {
         platform = "Facebook";
@@ -66,6 +69,7 @@ public class FacebookUser extends SocialMedia{
         this.username = username;
         this.url = "facebook.com/" + this.username;
         this.accountLength = 0;
+        allPosts = new ArrayList<>();
 
     }
 
@@ -168,6 +172,14 @@ public class FacebookUser extends SocialMedia{
         this.numberOfFriends = numberOfFriends;
     }
 
+    public ArrayList<Post> getAllPosts() {
+        return allPosts;
+    }
+
+    public void setAllPosts(ArrayList<Post> allPosts) {
+        this.allPosts = allPosts;
+    }
+
     @Override
     public void directMessage(String username, String message) {
         System.out.println(message + " was sent to: "  + username);
@@ -175,7 +187,7 @@ public class FacebookUser extends SocialMedia{
 
     @Override
     public void post(String body) {
-
+        allPosts.add(new Post(body));
     }
 
     @Override

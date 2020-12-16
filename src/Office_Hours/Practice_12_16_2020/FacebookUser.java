@@ -92,6 +92,23 @@ public class FacebookUser extends SocialMedia{
 
     }
 
+    public FacebookUser(String username, String password, String fullName, int age, int numberOfFriends) {
+        this(username, password, fullName);
+
+        if(age < 0) {
+            System.out.println("Invalid age");
+        } else {
+            this.age = age;
+        }
+
+        if(numberOfFriends < 0) {
+            System.out.println("Invalid number of friends");
+        } else {
+            this.numberOfFriends = numberOfFriends;
+        }
+
+    }
+
 
     public String getUsername() {
         return username;

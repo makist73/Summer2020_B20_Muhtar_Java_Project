@@ -7,6 +7,10 @@ public class PalindromeNumber {
     public static void main(String[] args) {
         System.out.println(isNumberPalindrome(123));
         System.out.println(isNumberPalindrome(13531));
+
+
+        System.out.println(123 % 10);
+        System.out.println(45 % 10);
     }
 
     public static boolean isNumberPalindrome(long number) {

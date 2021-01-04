@@ -1,9 +1,8 @@
 package bootCamp;
 
 public class Notes {
-    /*
-
-    Java Bootcamp
+  /*
+  Java Bootcamp
 
     Practice topics:
                 String: immutable object
@@ -75,16 +74,98 @@ OOP: reusable
                 Method Overriding: same method, different implementation
                 					MUST happen in sub class
                 					ONLY instance methods (non-static, private , final)
-                					access modifier must eb same or more visible
+                					access modifier must be same or more visible
 
-                Final keyword
-                OOP Abstraction
-                OOP Polymorphism
+                					same returntype, method name, parameter
+
+    			method overloading: different methods with same name
+
+    								same method name, different parameter
+
+
+                Final keyword: constant
+
+                OOP Abstraction: hiding the implementations of the method.
+
+                			abstract methods: method without implementation
+
+                			2 ways:
+                				abstract class & Interface
+
+
+                OOP Polymorphism: objects behaving in different forms
+
+                	parent can be referenced to child class objects
+
+                	Upcasting
+                	Downcasting
+
                 Exceptions & handling
-                Collection
+
+                	try & catch & finally
+
+
+                	throws: in method signature
+
+
+                	throw: manually throwing exceptions
+
+
+                Collection:  a data structure. dynamic sized
+
+                	List: accepts duplicates, has index
+                			ArrayList: array based class
+                			LinkedList: doubly linked
+                			Vector: synchronized, thread safe
+                			Stack: synchronized, thread safe, LIFO
+
+                			findElements
+
+                	Set: does not accepts duplicates, does not have index
+                			HashSet: can have null. order is not guaranteed
+                			LinkedhashSet: can have null, insertion order
+                			TreeSet: sorted order, does not accept null
+
+
+                		getWindowHandles
+                		getOptions()
+
+            		Quque: accepts duplicates, does not have index, FIFO
+
+
+        		Iterator: iterats the objects of collection
+        				 used for remove method
+
+
+                Map: pairs of data. Key & value. key cannot be duplicated
+                		HashMap: can have a null key, order is not guaranteed
+                		LinkedHashMap: can have a null key, insertion order
+                		TreeMap: does not have null key, keys are sorted
+                		HashTable: does not have null key, synchronized => thread-safe
+
+
+                garbage collector
 
 
 
 
-     */
+
+RemoteDriver implements TakeScrenShot, WebDriver, JavaScriptExecuter ....
+
+ChromeDriver extends RemoteDriver
+
+FireFoxDriver extends RemoteDriver
+
+SafariDriver extends RemoteDriver
+
+...
+
+
+
+
+
+
+
+
+   */
 }

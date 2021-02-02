@@ -1,0 +1,131 @@
+05/30/2020					ok!
+Java Day01
+Topics: Intro to computer programming:
+							ascii table
+							data & database
+							basic commands
+							shortcuts
+
+
+warmup task:
+	pelase join  #muhtar_only  channel on slack
+
+
+ascii table: define number values that will correspond to character (letters, symbols , numbers)
+
+			910: 57+49+48 = 154
+			9: 57
+			1: 49
+			0: 48
+
+	byte' range: 127
+
+
+data: a piece of information
+
+database: collection of data
+		human brain
+		Book
+
+		improves the availibity of info
+
+info: availability
+
+file: used for storing the data
+
+sublime: text editor
+
+different types of files:
+
+		file names:                   extension:
+		text file                        .txt
+		word                             .doc
+		PDF                              .pdf
+		picture                          .png, .jpg
+
+		Java                             .java
+		HTML						     .html
+		feature                          .feature
+		properties                       .properties
+
+		EVERY SINGLE FILE HAS IT'S OWN UNIQUE EXTENSION
+
+
+Folder: stores the files in an organized manned
+	creating folder:
+			Mac:
+				right click -> new folder
+
+			Windows:
+				right clcik -> select new -> folder
+
+
+path: address of the file or folder
+
+
+power shell and terminal: used for giving command to the computer
+	Mac:
+		terminal: click the search -> type "Terminal" -> hit "Enter"
+
+	Windows:
+		powershell: click the search box-> type "powershell" -> hit "Enter"
+
+		to run powershell as admin:
+				click the search box-> type "powershell" ->  right click -> click "run as administrator"
+
+
+FOR WINDOWS ONLY:
+	to find path: hold shift button -> right click the folder/file - > copy as path
+
+
+shortcuts:
+	Mac:
+		copy: Command + C
+		paste: Command + V
+		undo: Command + Z
+
+		save: Command + S
+		delete: Command + delete (moves to trash can)
+		delete permanently:  command + Option + Delete
+
+	Windows:
+		copy: Control + C
+		paste: Control + V
+		undo: Control + Z
+
+		save: Control + s
+		delete: delete  (moves to trash can)
+		delete permanently: shift + delete
+
+
+command: giving order to computer
+
+basic commands:
+	pwd: print working directory
+	ls: lists all the files and folders in the directory
+	cd: change directory
+		(if the directory name contains space(s), directory name MUST be given in double quote)
+	cd ..:goes to previous directory
+	clear: clears the terminal
+	mkdir: creating directory
+
+	md (for windows only): creating directory
+			md foldername1, foldername2
+
+	rm -r: removes the item
+
+
+repl.it: Canvas -> Java -> Modules -> Programming lab -> Repl.it
+
+	username: any (not taken)
+	password:
+	email:
+
+	signin
+
+
+	firstname: your real first name
+	lastname: your real last name
+	school or company: Cybertek School Tysons Corner
+
+	languages: skip

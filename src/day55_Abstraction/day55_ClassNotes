@@ -1,0 +1,116 @@
+09/16/2020
+Topics: Abstract method & Abstract class review
+
+package name: day55_Abstraction
+		subpackage: ShapeTask
+warmup task:
+	1. create an abstract class called Shape
+			attributes:
+				name(static), area, perimeter, hasVolume(static), volume
+
+			abstract methods: calculateArea(), calculatePerimeter(), calculateVolume()
+								return-types: double
+
+	2. create a sbub class of shape called Circle (meant to be subclass ONLY)
+			attributes: radius, name(static), area, perimeter, hasVolume(static), volume
+
+			override the abstract methods
+
+			(if the shape does not have volume, return 0 for the colume)
+
+			add a constructor that takes an argument for radius of the circle and initialize the instance variables: radius, area, perimeter, volume
+
+			add a static block that can initialize the static variables of the circle
+
+	3. create a sub class of shape called Rectangle
+			attributes: width, length, name(static), area, perimeter, hasVolume(static), volume
+
+			override the abstract methods
+			
+			add a constructor that takes two arguments for W & L of rectangle the and initialize the instance variables: width, length, area, perimeter, volume 
+
+			add a static block that can initialize the static variables of the rectangle
+
+	4. create a sub class of shape called Cylinder
+			attributes: radius, height, name(static), area, perimeter, hasVolume(static), volume
+
+			override the abstrat methods
+
+			add a constructor that takes two arguments for r & h of the cylinder  and initialize the instance variables: radius, height, perimeter, area, and volume
+
+			add a static block that can initialize the static variables of the cylinder
+
+	5. create a class called shape objects:
+			create objects of each shapes and calculate thier area, perimeter, and volume
+
+
+	HINT: Math.PI will give you the actual value of PI
+
+
+		triangle
+		square
+		cube
+		cone
+		...
+
+
+
+abstraction: hiding the implemntation
+
+abstract method: without body
+				 meant to be overriden (cannot be final, static, private)
+
+		two ways ONLY:
+				1. abstract class
+				2. Interface
+
+abstract class: mean to be extended (final)
+
+Ex1:
+    shape: not concerete ==> abstract
+        area();    
+
+    circle: name
+        attributes: r
+        area():
+            r*r*PI
+
+    square: name
+        attributes: a
+        area():
+            a*a
+    rectangle
+        attributes: w, l
+        area():
+            w*l
+    tiangle
+        attributes: b, h
+        area():
+            b*h*0.5
+
+
+
+Canvas -> Java -> day55 -> Exceptions short quiz
+
+	 complete it by 9:25pm
+
+
+abstract class vs regular class:
+	
+	regualular class cannot have:
+				asbtract methods
+
+	abstract class cannot have:
+				final
+				object
+
+	abstract class can have: everything that regular class can have + abstract methods
+
+
+Saturday:
+	Interface
+	Interface vs Abstract class
+	OOP Abstraction Review
+
+
+

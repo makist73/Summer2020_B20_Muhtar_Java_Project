@@ -1,0 +1,97 @@
+08/15/2020
+Topics: this
+		toString method
+		Multi class in a single file
+
+package: day41_Static
+
+warmup tasks:
+	1. create a custom class for the Carpet class that should contain the following:
+
+                instance variables:
+                        width, length, unitPrice, isPersian (boolean)
+
+                instance methods:
+                        customOrder(): sets the carpet' width, length, unitprice, & isParsian
+                        calcCost(): should be able to caculate the total cost of the carpet and return it as double
+                        getCarpetInfo(): should be able to display all the info of the carpet including the total cost of the carpet as calculated by calcCost()
+
+            total price of carpet= (width*length)*unitprice
+
+            if the carpet is persian  carpet that's came from Turkey, add 200$ to the totalPrice
+
+
+
+
+            create a class called carpetObjects, and create an array of the carpet that contains 5 carpet objects ( make sure you set the instance variables of those objets)
+
+            create two ArrayList of carpets:
+                                        persianCarpets
+                                        reugularCarpets
+
+            write a program to store all the persian Carpets into the list of persianCarpets, and store all regular carpets into the list of reugularCarpets
+
+                    use for each loop to print out all the persian carpets
+
+
+
+Local Variables: declared within the block method
+				cannot use it outside the method
+				MUST be initialized before use
+
+instance variables: declared outside any methods
+
+
+
+this. : for object Instances ONLY
+		when the instance and local has the same names.
+
+
+
+toString method: it's an instance method, used when we print the object of object name
+				MUST be called when we print object and object name
+				implicitly called by compiler
+
+
+				return-type: String
+
+
+
+Task:
+	Cat:
+		attributes:
+				name, age, gender, color, breed
+
+		Actions:
+				setInfo, eat, drink, toString
+
+				use this. keyword
+
+	Make sure that you can print out the objects of the Cat in the print statement
+
+
+
+
+	CatObjects:
+			create 5 objects of Cat and store them into an array variable
+
+			print out the informations of every single cat
+					(DO NOT use getInfo method)
+
+
+
+			ArrayList:
+				maleCats
+				femaleCats
+
+				first approach: apply loop ( both for each loop and for loop)
+				second approach: do not use loop
+
+
+multi-classes: we can create as many classes as we want within one java file,
+				THERE CAN ONLY BE ONE PUBLIC CLASS.
+				PUBLIC CLASS' NAME MUST BE SAME WITH FILE NAME
+
+
+Tomorrow: static
+		  static vs instance

@@ -1,0 +1,74 @@
+10/07/2020
+Topics: Map Intro
+
+Package name: day61_Maps
+
+
+warmup tasks:
+	1. write a program that can remove the palindrome string from a list of String
+			DO NOT use Lambda expressions
+
+	2. write a program that can remove the even numbers from a Set of Integers
+			DO NOT use Lambda expressions
+
+	3. write a program that can remove the duplicated Integers from a List of Integer
+			Do Not change the insertion order
+
+
+Data Structure:
+		
+	1. Array (fixed, accepts primitives & objects)
+	2. Collection (dynamic, ONLY Objects)
+	3. Map (dynamic, ONLY Objects )
+
+
+Map: pair of data, accepts key & value.  does not support primitives. KEY is always unique
+			KEY OF MAP CANNOT BE DUPLICATED, but value can be duplicated
+
+
+Map methods:
+	1. put(Key, Value): inserting key value to the map
+
+	2. get(Key): returns the value of the key from the map
+
+	3. remove(Key): removes the pair of data that's matching the key from the map
+
+	4. containsKey(key): checks if the given key is contained in the map. returns boolean
+
+	5. containsValue(Value): checks if the given value is contained in the map. returns boolean
+
+	6. clear(): clears everything ==> size will be 0
+
+	7. isEmpty(): boolean
+
+	8. keySet(): returns all the keys from the map as Set
+
+	9. values(): returns all the values from the map
+
+
+
+
+1. create a map that can contain student name and score
+		put 5 of your class mates names and thier score 
+		print out the name of students who made less than 80
+
+
+2. create a map that can contain the name of countries and thier capitals
+			at least put 5 countries and thier capital city names in the map
+
+
+
+
+next: 
+	map continue: list of map
+	enum
+	garbage collector
+	builder vs buffer
+
+
+
+
+
+
+
+

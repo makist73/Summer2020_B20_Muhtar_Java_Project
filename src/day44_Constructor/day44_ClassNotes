@@ -1,0 +1,85 @@
+08/19/2020
+Topic: Constructor Intro
+
+class starts at 7:15 pm
+
+package name: day44_Constructor
+
+
+warmup task:
+    1. Create a class called Employee
+            instance variables: 
+                    name, id, ssn, jobTitle, salary, gender
+
+            static variables: 
+            		isEmployeed, hasSalary
+
+            actions:
+                    setEmployeeInfo(): can initialize all the instance variables
+                    toString(): can return the info of the employee as string
+
+    2. create a class called HumanResources
+            declare 5 variables of Employee as static
+            use static block to:
+                        1. initialize those static variables
+                        2. set all the info of the Employees
+
+    3. create class called BankOfAzerbaijan
+        in the main method:
+                1. create a List of Employees
+                2. add random two employees from HumanResources to the List
+                3. use for each loop to print out the employee name and salary
+
+
+
+regular method:
+		
+		Access-Modifier Specifier ReturnType methodName(Parameters){
+				statements;
+		}
+
+
+Constructor: very special method. used when we create the object of the class
+			
+			Every class  MUST have constructor. if we don't create one, compiler creates it for us (no-arg)
+
+			execution depends on the creation of object
+
+
+		   A                 obj         =   new           A();
+		class name           obj name        keyword      Constructor
+
+
+		declear:
+
+			 Access-Modifier  className(Parameters){
+			 		statements;	
+			 }
+
+			 name of constructor MUST be same with class name
+
+
+
+	create object from class:
+				ClassName	 obj = new ExistingConstructor
+
+
+
+
+task: apply constructor instead of setInfo
+	Dog:
+		attributes:
+			breed, size, age, gender, name...
+
+
+	Car:
+
+
+
+	Pizza:
+
+
+	Bank:
+
+
+

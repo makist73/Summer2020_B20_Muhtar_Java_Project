@@ -1,0 +1,198 @@
+09/26/2020
+Topics: Polymorphism Continue:
+					instanceOf keyword
+        			Type casting summary
+        			
+
+package name: day58_Polymorphism
+
+Warmup tasks: AnimalTask
+    1. cerate a class Animal
+            variables: age, gender
+            methods: eat, sleep, toString
+
+        DO NOT make it abstract yet we need this for today's example
+
+    2. create subclass of Animal named Cat
+            variable: catName
+            methods: scratch, toString
+
+    3. create subclass of Animal named Dog
+            variable: dogName
+            methods: bark, toString
+
+
+Polymorphism: objects behaviors in many forms
+
+        only occurs when super class/interface is referenced to child class' objects
+
+        Reference type decides what can be called or accessible
+
+        if a method is exist in both reference type and object type:
+                            if overriden: Object Type' (Child, the overriden one) gets executed (ALWAYS)
+                            if not overriden: Reference Type' (parent) gets executed
+
+
+             ChromeDriver driver = new ChromeDriver();
+
+             FireFoxDriver driver2 = new FireFoxDriver();
+
+             EdgeDriver driver3 = new EdgeDriver();
+
+             or:
+
+         WebDriver driver = new ChromeDriver();
+
+                            new FireFoxDriver();
+
+                            new EdgeDriver();
+
+            driver.get(URL)
+
+
+
+public static WebDriver getDriver(){
+        return new ChromeDriver();
+        or
+        return  new FireFoxDriver();
+        or
+        return new EdgeDriver();
+}
+
+
+
+Canavs -> Java -> day58 -> Abstraction short quiz
+        
+        due by: 11:37am
+
+
+instanceof keyword: used for checking if the object is the instance of the certain class
+
+
+
+Task01: 
+   Create a class called PhoneShop
+    Copy the following array of Phone:
+            Phone[] phone = {
+                            new Iphone("12", "6.1", 1000),
+                            new Samsung("S20", "7", 1100),
+                            new Iphone("12", "6.1", 1000),
+                            new Samsung("S20", "7", 1100),
+                            new Iphone("12", "6.1", 1000),
+                            new Samsung("S20", "7", 1100),
+                            new Iphone("12", "6.1", 1000),
+                            new Samsung("S20", "7", 1100),
+                            new Iphone("12", "6.1", 1000),
+                            new Samsung("S20", "7", 1100),
+                            new Iphone("12", "6.1", 1000),
+                            new Samsung("S20", "7", 1100),
+                            new Samsung("S20", "7", 1100),
+                            new Samsung("S20", "7", 1100),               
+                            new Samsung("S20", "7", 1100) 
+                            };
+
+            (Phone is imported from day57 package)
+        create an arrayList called phoneShop and store all phone objects from array of phone
+        write a program that can count the total number of Iphone, Samsung and Huawei from the list
+
+
+
+Task02:
+    create a class called AppleINC
+    copy the folowing array of Employee:
+            Employee[] workers =  {
+                    new Tester("Musa Moylam", 123456, "SDET", 130000, 'M'),
+                    new Tester("Musa Moylam", 123456, "SDET", 130000, 'M'),
+                    new Tester("Musa Moylam", 123456, "SDET", 130000, 'M'),
+                    new Developer("Abdul",123456789,"QA",110000,'M'),
+                    new Developer("Abdul",123456789,"QA",110000,'M'),
+                    new Tester("Musa Moylam", 123456, "SDET", 130000, 'M'),
+                    new Tester("Musa Moylam", 123456, "SDET", 130000, 'M'),
+                    new Tester("Musa Moylam", 123456, "SDET", 130000, 'M'),
+                    new Developer("Abdul",123456789,"QA",110000,'M'),
+                    new Developer("Abdul",123456789,"QA",110000,'M'),
+                    new Tester("Musa Moylam", 123456, "SDET", 130000, 'M'),
+                    new Tester("Musa Moylam", 123456, "SDET", 130000, 'M'),
+                    new Developer("Abdul",123456789,"QA",110000,'M'),
+                    new ScrumMaster("Kamil", 78945, "Scrum Master", 120000, 'M')
+                    new Developer("Abdul",123456789,"QA",110000,'M'),
+                    new Developer("Abdul",123456789,"QA",110000,'M'),
+                    new Developer("Abdul",123456789,"QA",110000,'M'),
+                    new Developer("Abdul",123456789,"QA",110000,'M'),
+                    new ScrumMaster("Kamil", 78945, "Scrum Master", 120000, 'M')
+                    new Developer("Abdul",123456789,"QA",110000,'M'),
+                    new Developer("Abdul",123456789,"QA",110000,'M'),
+                    new Developer("Abdul",123456789,"QA",110000,'M'),
+                    new Developer("Abdul",123456789,"QA",110000,'M')
+
+            };
+
+            (import the classes from day57 package, change the informations of the employees by yourself)
+
+            create an arraylist of employee named scrumTeam and store all the employee objects from workers
+
+            write a program that can find  how many testers, developers and Scrum master in scrum team
+
+
+
+ if(  !(driver instanceof ChromeDriver) ){
+      //  throw new RuntimeException("Chrome Browser is needed for this Test Case");
+       return;
+ }
+
+
+Type Castings: connverting one type to another 
+
+    1. Primitive Type casting:
+            double > float > long > int > short > byte
+
+                implicit casting: smaller type to larger, done implicitly
+
+                            int x = 100;
+                            long y = x;
+                            double z = y;
+
+                explicit casting: larger type to smaller, MUST be done manually
+
+                            double x = 1000;
+                            int y = (int)x;
+
+
+    2. Reference Type Casting:
+                pre condition: There MUST be IS A relation
+
+            upcasting: casting from sub  type to super  type, done implicitly
+
+                Dog dog = new Dog();
+                Cat cat = new Cat();
+
+                Animal animal = dog;  // done implicitly
+                        animal =  cat;
+
+            downcasting: casting from super type to sub type, MUST be done manually
+
+
+
+Task-03:
+    1. create a custom method that can identify the given shape
+
+    2. create a custom method called equalShapes that takes two shapes, if two shapes are equal to each other, return true, otherwise return false
+                Hint: reference type decides what can be called
+
+    3. create a custom method called facetiming that takes an argument of Phone, if the phone is Iphone, the method prints iphone and calls the faceTiming of Iphone, if the Phone is not Iphone, print "No Such function"
+
+
+
+Next Topic: Collection Intro
+            Map
+            Enum, StringBuilder vs Buffer, garbage collector..
+
+
+
+
+
+
+
+
+
+

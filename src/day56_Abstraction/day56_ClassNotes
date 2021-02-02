@@ -1,0 +1,245 @@
+09/19/2020
+Topics: Abstraction Continue:
+				Interface
+				Interface vs Abstract class
+
+
+package name: day56_Abstraction
+
+Warmup tasks: PhoneTask
+    1. create an abstract class called Phone
+            attributes: brand, model, price, size
+            abstract methods: calling(), texting();
+            instance method: toString()
+
+            add a constructor that can initialize all the instances
+
+    2. create the following subclasses of phone:
+                        1. IPhone
+                        2. Samsung
+
+                        3. Nokia
+                        4. Sony
+                        ...
+
+            create constructors in each sub class that can initialize the instance variables
+
+            if the price of iPhone or Samsung set to 0 or negative, program should throw an exception during runtime with an error message of "Invalid Price"
+
+
+abstraction:    
+        1. Abstract class
+        2. Interface
+
+
+Interface (not a class): blue print class. specifies the behaviours or action the class should implement
+        more like a contract, if the class needs we can give it to, if not we dont have to
+
+        abstract class : 100
+
+        subclass1: 100 (mandatory)..
+
+        subclass2: 100 (mandatory)..
+
+
+ex1: Shapes task
+    interface Volume:
+            hasVolume = true;
+            calculateVolume();
+
+    abstract class Shape:
+         calculateArea();
+         calculatePerimeter();
+         
+
+    Square: extends Shape
+         calculateArea(){ }
+         calculatePerimeter(){ }
+         
+
+    Rectangle: extends Shape
+         calculateArea(){ }
+         calculatePerimeter(){ }
+
+        
+    Cylinder: extends Shape implements Volume
+         calculateArea(){}
+         calculatePerimeter(){}
+         calculateVolume(){}
+
+
+    Cube: extends Shape implements Volume
+         calculateArea(){}
+         calculatePerimeter(){}
+         calculateVolume(){}
+
+
+    Circle: extends Shape
+         calculateArea();
+         calculatePerimeter();
+
+ Ex2:
+    Interface flyable:
+             fly();
+
+    Interface swimmable:
+              swim();
+
+    Interface Playable:
+                play();
+
+    Abstract class Animal:
+            eat();
+            drink();
+            
+    Dolphin: extends Animal implements swimmable, playable
+         eat(){}
+         drink(){}
+         play(){ }
+         swim(){}
+        
+    Lion: extends Animal
+        eat(){}
+        drink(){}
+       
+    Duck: extends Animal implemnts flyable, swimmable, Playable
+         eat(){}
+         drink(){}
+         fly(){}
+         swim(){}
+         play(){}
+
+Ex3:
+    Interface AutoPilot:
+            autoPilot();
+
+    Interface AutoPark:
+             autoPark();
+
+    abstract class Car:
+            brand, model, year, color
+        start();
+        driver();
+
+    Toyota: extends Car
+         brand, model, year, color
+         start(){}
+         driver(){}
+
+    Lexus: extends Car implements AutoPark
+         brand, model, year, color
+        start(){}
+        driver(){}
+        autoPark(){}
+
+    Tesla: extends Car extends  implements AutoPilot, AutoPark
+         brand, model, year, color
+        start(){}
+        driver(){}
+        autoPilot(){}
+        autoPark(){}
+
+
+class:
+    public class ClassName{
+
+    }
+
+    methods and variables
+
+interface:
+    public interface Interfacename{
+
+    }
+
+    methods & variables
+        But not all
+
+
+why do we need interface?
+    A class can extend one class (extends)
+    A class can implment multiple interfaces (implements)
+
+what we can have in interface? ( by default, everything is public)
+    variables: public static final (by default )
+
+    methods: static methods
+             abstract method (abstract keyword is not mandatory)
+             default method
+
+
+what we cannot have in interface?
+    instance variables
+    instance methods
+    Constructor
+    Blocks
+
+
+
+Interface vs Abstract class: both of the are used for achieving abstraction
+                             both meant to be inherited
+                             both canot be final
+                             both cannot create object
+
+
+                    abstract class: instance variables
+                                    static variables
+                                    Constructor
+                                    static block
+                                    instance methods 
+                                    static methods
+                                    abstract method
+                                    all access modifiers
+
+                                    a class can extend one abstract class
+
+
+                    Interface: static (by default it's final)
+                                static methods
+                                abstract method
+                                public 
+
+                                we can eliminate the unneccessary implementations to sub class
+
+                                a class can implements multiple interface
+
+
+
+abstraction:
+        abstract method
+        abstract class
+        interface
+
+
+Next Topics: Polymorphism
+             Collection
+             Map
+             Enum, Garbage collector....
+
+
+come back at: 2:20 pm
+
+
+
+
+WebDriver: 
+    get
+    close
+    switch
+    ....
+
+List:
+    get
+    set
+    size
+    ...
+
+
+
+
+
+
+
+
+
+

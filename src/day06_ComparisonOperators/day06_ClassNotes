@@ -1,0 +1,123 @@
+06/10/2020
+Topics: Primitive Castings (implicit & explicit)
+        relational operators
+
+package: day06_ComparisonOperators
+
+warmup tasks:
+    task01:
+        Create a class called Swap, and write a program that can swap two variables' values wihtout using temporary variable
+                    Ex:
+                        int a =10;
+                        int b= 15;
+
+                    output:
+                        System.out.println(a); ===> 15
+                        System.out.println(b); ===> 10
+
+    task02:
+            Create a class called SalaryCalculator, write a program that can calculate the taxt, and salary after tax based on the hourly rate & tax rates
+                ex:
+                    if: rate = 55;
+                        stateTaxRate = 0.04;
+                        federalTaxRate =0.22;
+                        weeklyHours = 40;
+
+                    then output will be:
+                            your salary is: 105600 USD
+                            your total tax is: 27456 USD
+                            your income after tax is: 78144 USD
+
+                Assume that a year has 48 weeks (excluding PTO)
+
+                Salary:    rate * weeklyHours * 48
+                totalTax: salary *  (stateTaxRate +  federalTaxRate)
+                salaryAfterTax: salary - totalTax
+
+
+double > float > long > int > short > byte
+
+primitive casting: implicit casting & explicit casting
+
+            implicit casting: casting smaller primitive type to larger primitive type
+                    int a = 10;
+                    long b = a;
+
+                    automatically done
+
+                        manually:
+                            int a = 10;
+                            long b = (long)a;
+
+
+
+            explicit casting: casting larger primitives to smaller primitive types
+                                MUST be done manually
+
+                           double num1 = 100.5;
+                           int num2 =  (int)num1;     100
+
+                           we need it when we assign larger primitives to smaller primitive types
+
+
+
+relational operators: returns boolean at the end
+            >: greater than
+            <: less than
+            >=: greater or equal
+            <=: less than or equal
+            ==: equal
+            !=: not equal
+
+            9 > 8  ==> true
+            7 < 6 ==> false
+            7 >= 7 ==> true
+            8 >= 6  ==> true
+            9 <= 25 ==> true
+
+            10 == 10 ==> true
+            true == false  ==> false
+            'A' == 'A'   ==> true
+            "Muhtar" == "Good Guy"  ==> false
+
+            9 != 10 ==> true
+            true  != false ==>true
+
+
+
+
+
+=: assignment
+    int a =100;
+
+        a = 200;
+
+= vs ==:
+    =: assigns valuye to variable
+    ==: returns boolean
+
+
+100
+
+even: 100%2 == 0
+odd: 100%2 != 0
+
+
+
+int x = 1000;
+
+odd: x % 2 != 0  ===> false
+
+even: x % 2 == 0 ===> true
+
+divisible by 3:  x % 3 == 0  ===> false
+
+divisible by 5:  x % 5 == 0  ===> true
+
+disibible by 10: x % 10 == 0  ===> true
+
+
+
+operators: +, -, *, /, %, =, >, >=, <, <=, ==, !=
+
+

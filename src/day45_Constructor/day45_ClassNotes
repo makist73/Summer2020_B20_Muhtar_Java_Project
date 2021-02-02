@@ -1,0 +1,56 @@
+08/25/2020
+Topic: Constructor Continue
+		 Constructor calls (this())
+
+class starts at: 7:05 pm
+
+Package name: day45_Constructor
+
+Warmup tasks:
+	1. create a class called Item
+                instance variables:
+                    name, unitPrice, quantity
+
+                add a constructor that can initialize the fields
+
+                instance methods:
+                    calcCost(): returns the total cost as double
+                                hint: quantity * unitPrice 
+                    toString(): returns the name, unit price, quantity and total cost info as calculated by calcCost()
+
+        create a class called ShoppingList
+                create 5 objects of Item and store them into List of Items
+                calculate the total cost of all Items in the list
+
+
+	2. Create class called SalaryCalculator
+                instance variables:
+                    hourlyRate, weeklyHours, stateTaxRate, fedralTaxRate
+
+                add a constructor can initialize those fields
+
+                instance methods:
+                    salary(): returns the total salary as double  (hourlyRate * weeklyHours * 48)
+                    stateTax(): retuns the total state tax as double ( salary * stateTaxRate)
+                    federalTax(): retuns the total federal tax as double ( salary * fedralTaxRate)
+                    salaryAftertax(): retuns the salary after tax as double ( salary - stateTax - federalTax)
+                    toString(): returns the hourlyRate, weeklyHours and salary info as calculated by salary()
+
+
+clone a project:
+	VCS -> get it from version control system -> Git
+			past the URL
+
+
+
+
+Task:
+	create a class caleed Sum
+
+			object of the sum should be able to calculate:
+							2 integeers
+							2 decimals
+							3 integers
+							3 decimals
+
+

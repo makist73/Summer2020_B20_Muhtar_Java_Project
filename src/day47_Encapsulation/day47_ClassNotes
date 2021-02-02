@@ -1,0 +1,115 @@
+08/29/2020
+Topics: Access modifiers:
+					public, default, private
+
+		OOP Encapsulation:
+				getter & setter
+
+
+package name: day47_Encapsulations
+
+
+access modifiers: 
+		
+		public: open to the world. accessible at everywhere
+
+		default: visible within the same package only
+
+		private: ONLY visible within the same class
+
+					private long ssn;
+
+  visibility:
+
+  		so far: public > default > private
+
+  		public > protected > default > private
+
+
+
+OOP: Object Oriented Programming language
+	
+		4 concepts: 
+				1. Encapsulation
+				2. Inheritance
+				3. Abstraction
+				4. Polymorphism
+
+
+Encapsulation: hiding the data
+		1. hide the data by giiving private access modifier
+					ex:    private username
+						   private password
+
+	    2. use the public getter&setters to read&modfiy the private data
+
+
+	    	getter (READ ONLY): public instance method
+	    					 	return-type MUST match with the private data' dataType
+	    					 	no parametter
+
+	    					 	FOR ONE PRIVATE DATA ONLY
+
+
+	    	setter (MODIFY ONLY): public instance method
+	    						  return type is void
+	    						  passes ONE parameter, MUST match with private data' dataType
+	    						  argument MUST be assigned to the private data
+
+	    						  FOR ONE PRIVATE DATA ONLY
+
+
+task:
+	1. create class Credentials
+			instance variables:
+					public name
+					public age
+					private username
+					private password
+
+					getter & setter
+
+					add a constructor to set name & age
+
+
+
+	2. create a class called CapitalOneEmployees
+				instance variables:
+						employeeName
+						employeeAge
+						jobTitle
+					private	ID
+					private salary
+					private address
+
+					company name = "Capital One"
+
+					generate getters & setters for private variables
+
+
+	3. Person:
+			instance variables
+					name
+					age
+					gender
+					date of birth
+					priavte ssn
+					private ID
+					private address
+
+
+
+
+static vs instance
+static block vs constructor
+
+
+
+
+
+next topic: OOP Inheritance Intro
+
+
+
+
+

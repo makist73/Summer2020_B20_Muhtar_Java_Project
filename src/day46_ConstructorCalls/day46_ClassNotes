@@ -1,0 +1,84 @@
+08/26/2020
+Topic: Constructor Continue:
+				Constructor calls ( this() )
+
+	
+Package name: day46_ConstructorCalls
+
+this: 
+	this.  : for instance variables and methods
+	this(argument) : calls the constructor . can only be used in a constructor
+
+
+Constructor calls:
+		1. only the constructor can call another constructor
+		2. constructor cannot be called by its name,  we need  this() 
+		3. Constructor call MUST be at the first step
+		4. one constructor can only call one constructor maximum
+		5. Constructor cannot call or contain itself
+
+
+
+Canvas -> Java-> module day46 -> Instance & static short quiz
+		
+		due by 8:40pm
+
+
+Task:
+	1. class Name: Employee
+			instance variables: 
+					name, jobTitle, ID, salary
+
+			1st constructor: initialize the name of the employee
+
+			2d constructor: initialize the name, jobTitle of the employee
+							(MUST apply constructor Call)
+
+			3rd Constructor: initialize the name, jobTitle, ID of the employee
+							(MUST apply constructor Call)
+
+			4th Constructor: initialize all the instance of the employee
+								(MUST apply constructor Call)
+
+			Instance methods:
+				toString()		
+
+
+	2. class name: Car
+			instance variables:
+					brand, model, year, price, color
+
+			1st constructor: initialize the brand of the car
+
+			2nd constructor: initialize the brand and model of the car
+							(MUST apply constructor Call)
+
+			3rd constructor: initialize the brand, model, year of the car
+							(MUST apply constructor Call)
+
+			4th constructor: initialize the brand, model, year, pric of the car
+							(MUST apply constructor Call)
+
+			5th Constructor: initialize all isntances of the car
+							(MUST apply constructor Call)
+
+			Instance methods:
+				toString()
+
+
+
+
+
+Next Topic:
+		1. Access-modifiers: public, private, default
+		2. OOP Encapsulation
+		
+
+
+
+
+
+
+
+
+

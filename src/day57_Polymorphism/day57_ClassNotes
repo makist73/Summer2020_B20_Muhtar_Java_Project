@@ -1,0 +1,102 @@
+09/23/2020
+Topics: Polymorphism Intro
+
+Package name: day57_Polymorphism
+
+Warmup task:
+	1. create an interface named Downloadable:
+			abstrct method: download();
+
+    2. create an interface named AndroidApp that can inherit from Downloadable 
+            variable: AppStoreName
+           
+    3. create an interface named AppleApp that can inherit from Downloadable 
+            variable: AppStoreName
+
+    4. create an abstract class named Phone 
+            instance variables: brand, model, price, size
+            abstract methods: texting(), calling()
+
+            add constructor that can initialize the fields
+            if the price is set to negative, the system should throw an exception with a message of:
+                    Invalid Price, cannot be negative
+
+    5. create a class named iPhone that can inherit from AppleApp and Phone
+            actions: texting(), calling(), faceTiming()
+
+            if the price of Iphoen is more than 1500, the system should throw an exception with a message of: 
+                    Invalid Price, Iphone' price cannot more than 1500
+
+
+    6. create a class named Samsung that can inherit from AndroidApps and Phone
+            actions: texting(), calling(), freezing()
+
+             if the price of Samsung is more than 1200, the system should throw an exception with a message of: 
+                    Invalid Price, Samsung' price cannot more than 1200
+
+
+
+
+Abstraction:
+        1. shape
+        2. animal
+        3. car
+
+        4. phone
+
+IS A relation:
+            
+            class extends class
+
+            class implements interface
+
+            interface extends interface
+
+            class extends class implements interface(s)
+
+
+Polymorphism: object's behave in different forms
+            
+             occurs when parent class/interface is referenced to child class' object
+
+             Dog dog = new Dog();
+
+             Animal animal1 = new Dog();
+             Animal animal2 = new Cat();
+             Animal animal3 = new Tiger();
+
+
+   ChromeDriver driver = new ChromeDriver();
+   WebDriver driver = new ChromeDriver();
+
+   driver = new FireFoxDriver();
+   driver = ...
+
+   TakeScreenShot ts = new ChromeDriver();
+
+
+Saturday:
+        instanceOf 
+        rules
+        refernce type castings
+
+
+Task:
+    1. create an abstract class named Employee
+            Attributes: name, id, jobTitle, salary, gender
+            abstract method: work
+
+            add a constructor to initialize the fileds
+
+    2. create a subclass of Employee named Tester
+
+    3. create a sub class of Employee named Developer
+
+    4. create a class named Apple:
+            create an arraylist(you decide the reference type), and store 4 testers and 3 developers objects
+
+
+    create an arraylist of car, and store 3 toyota objetc, 3 bmw objects and 3 Tesla objects
+
+
+

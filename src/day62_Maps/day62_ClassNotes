@@ -1,0 +1,138 @@
+10/17/2020
+Topics: 
+		Map: 
+			creating Entry
+			list of map
+			Map & Iterator & Iterable
+
+		Garbage collector
+		Enum
+		String & StringBuilder & StringBuffer
+
+Package name: day62_Maps
+
+
+Last Warmup Tasks: 
+		FrequencyOfChars
+	1. Write a program that stores the the character and frequency of each character from a String in to a Map
+    
+	    Ex: 
+	    	str = "aaabbbccb"
+
+		    output:
+		        {a=3, b=4, c=2}
+
+	2. write a program that stores the unique characters from a string into a map
+    
+        Ex: 
+        	str = "abacbdeef";
+
+        	output:
+            	{c=1, d=1, f=1}
+
+
+
+Map Interface: Key & Value, cannot be primitive
+		key MUST be unique
+
+	HashMap (C): does not keep insertion order
+				accepts null
+
+	LinkedHashMap (C): keeps the insertion order
+				accepts null
+
+	HashTable (C): is synchronized, thread-safe
+					does not accept null
+
+	TreeMap (C): sorts the keys
+			does not accept null
+
+
+
+	methods of Map: put, getKey, isEmpty, remove, containskey&value, clear(), 
+
+			KeySet(): returns the keys from map
+
+			values(): returns the values from the map
+
+			entrySet(): creates an Entry
+
+					Entry<Key, Value>:
+						getValue()
+						getKey()
+
+
+
+	Iterator interface is not applicable to Map, because Map does not have inherited relation with Iterable
+
+garbage collection: process of removing unreferenced objects
+
+finalize(): its's juts a method called by GC before the objects get collected. implictly done
+
+
+final vs finally vs finalize:
+		
+		final: keyword, constant
+
+		finally: block, try&catch&finally
+
+		finalize: method, 
+
+
+
+Collection: interface, data structure
+
+Collections: class, utility class of Collection data structure
+
+
+
+Enum: enumeration, a number things
+
+	used for containing fixed set of constance
+	
+	we only need it if we need to take one out of small set of values
+
+
+
+	String color = ""
+
+	String weekDays = ""
+
+	int num = ""
+
+	String    browserName =
+
+
+	Color: red, blue, yellow
+	Direction: East, West, South, North
+	Browsers: chrome, firefox, safari
+
+
+	month: 1 ~ 12
+	name of month: jan ~ dec
+
+
+	int numOfMonth 
+	String nameOfMonth = 
+
+
+	Day: Mon, Tue, Wed, Thu, Fri, Sat, Sun
+	Month: Jan ~ Dec
+	Level: low, medium, high, chucknorries
+	Planet: Earth, Moon, Mars, Jupiter
+
+
+
+String: represents immutable version char sequences
+
+StringBuilder: represents mutable version char sequences, not synchronized
+
+StringBuffer:  represents mutable version char sequences, is synchronized ==> Thread-Safe
+
+
+
+
+
+
+
+

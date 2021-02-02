@@ -1,0 +1,156 @@
+09/05/2020
+Topics: Method overriding rules
+        Overriding vs Overloading
+		Super keyword
+
+		Exceptions Intro
+
+
+package name: day51_Exceptions
+
+Browsers task:
+    1. create a class called WebDriver
+            actions: get(URL): prints "opening the URL in the default browser"
+                     close(): closes the default browser
+
+    2. create a class called ChromeBrowser
+            actions: get(URL): opens the URL in chrome browser
+                     close(): closes the chrome browser
+
+    3. creata a class called FirefoxBrowser
+            actions: get(URL): opens the URL in Firefox browser
+                     close(): closes the Firefox browser
+
+    4. create a class called OperaBrowser
+            actions: get(URL): opens the URL in Opera browser
+                     close(): closes the Opera browser
+
+
+    5. create a class called Test:
+            create an object of each browsers and call the get & close actions
+
+
+            ChromeDriver driver = new ChromeDriver();
+                    driver.get(URL)
+                    driver.close()
+
+            FireFoxDriver driver = new FireFoxDriver();
+                    driver.get(URL)
+                    driver.close()
+
+
+method overloading: same method name, different parameter
+                    access modifier does not matter
+                    return-type does not matter
+                    any method can be overload
+
+
+method overriding: same method name, same parameter, same return-type (MUST)
+                   MUST happen in sub class 
+                   @Override MUST be applicable (for checking)
+                   Access Modifier MUST be same or more visible
+                   only instance method can be override (cannot be final or private)
+
+
+
+visibility:
+    public > protected > default > private
+
+
+
+this keyword: refers to object instances of the current class
+    this. : calls the instance from current class
+    this(): calls the constructor from the current class
+
+
+super keyword: refers to the object instances of the super class
+    super. : calls the instance from super class
+    super(): calls the super class' constructor
+
+
+
+
+constructor call (in inheritance):
+            1. super constructor MUST be called in sub class
+            2. if super class constructor is defaulut constructor, it's implicitly called
+            3. if super class constructor is not defaulut constructor, need to be called manually with super()
+
+
+
+
+
+
+come back at: 2:10pm
+
+
+break task
+    
+    Animal Task:
+            1. create a class called Pet
+                    attributes:
+                            name, age, gender, breed, color
+
+                    create a constructor that can initialize the instances
+
+                   instance methods (with protected access modifiers):
+                            eat(): by default assume all Pets eat  chocolate 
+                            drink(): by default assume all Pets drink milk
+                            sleep(): by default assume all Pet sleep on the floor
+                            toString():
+
+
+            2. create a sub class of Pet called Dog
+
+                    override the instance methods:
+                        eat(): dog eats Chciken
+                        drink(): dog drinks water
+                        sleep(): dog sleeps on the bed
+
+
+            3. create a sub class of Pet called Cat and override the instance methods
+
+
+
+Exception topics:
+        unchecked & checked
+        try&catch
+
+        multi-catch
+        finally
+        throws
+        throw
+        custom exception
+
+
+
+Exception: unexpected or unwanted event
+    
+    two types of exception
+
+        unchecked (unexpected): occurs during runtime
+
+                    RuntimeException class is the parent of all unchecked exception classes
+
+        checked (unwated): occurs during compile time, will give compile error immediately
+
+
+Exception Handling:
+
+    try & catch: blocks that used for handling exception
+
+        try{
+
+            exception statement
+
+        }catch(ExceptionClass  e){
+
+            statements
+
+        }
+
+
+        getMessage(): gets the exception message
+
+
+
+

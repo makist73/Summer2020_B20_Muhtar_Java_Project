@@ -1,0 +1,140 @@
+09/02/2020
+topic: Protected Access modifier
+	   Method Overriding
+
+Package name: day50_Inheritance_Overriding
+
+warmup Task:
+		1. create a class called Shape
+						vairables: area, perimeter
+						methods: calculateArea(), calculatePerimeter()
+
+		2. create sub classes of Shape:
+						Circle
+						Rectangle
+						Square
+
+			 give the instance variables that are needed to calculate the Area, perimeter, of those shapes
+
+
+	AFTER TODAY'S TOPIC:
+		3. override super class' calculateArea(), calculatePerimeter() methods to the sub classes:
+
+		 		Area of the circle:    3.14 * radius * radius
+		 		Area of the rectangle:  width * length
+		 		Area of the square:    side * side
+
+		 		Perimeter of circle:   3.14 * 2 * radius
+		 		Perimeter of rectangle: (width + length) * 2
+		 		Perimeter of Square: 4 * side
+
+
+
+Access modifiers:
+	public: accessible at everywhere
+	default: accessible within the package
+	private: acccessible within the class
+
+	protected: accessible to any class within the package, accessibe to subclasses outside package
+
+
+	visibility:
+		public > protected > default > private
+
+
+
+
+method overloading: same method name , different parameter
+					return-type can be same or different
+					access modifier does not matter
+					can be overloaded in same class
+
+
+
+
+method overriding: same method name & same parameter
+				   MUST happen in child class
+
+	   why we need method overriding?
+	   			to give different implementation to the method
+
+
+		advantages: reusable
+					less memory
+					easy to memorize
+					flexible
+
+
+
+Shape
+	area(): 0
+
+
+circle
+	area(): r*r*3.14
+
+
+rectangle
+	area(): a*b;
+
+
+Square
+	area(): a*a;
+
+
+	how many method: 1
+	how many implemntations: 4
+
+
+
+
+Car:
+	start(): Insert the key
+			 twist ignition key to start
+
+
+Honda:
+	start(): Insert the key
+			 twist ignition key to start
+
+
+Mercedes:
+	start(): push the start button
+
+
+Tesla:
+	start(): voice control
+
+
+Jeep:
+	start(): Call Mechanic
+			 Oil Change
+			 jump start
+
+ BMW:
+ 	start(): Call some friends
+ 			Tell them to push
+ 			Remoev Clutch peddle
+
+
+ 			how many method: 1
+ 			how many implemntation: 5
+
+
+
+ 			
+
+
+
+
+
+
+
+	
+
+
+
+
+
+
+

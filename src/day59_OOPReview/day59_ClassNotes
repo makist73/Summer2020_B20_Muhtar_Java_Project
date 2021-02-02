@@ -1,0 +1,259 @@
+09/30/2020
+Topics: OOP Review
+
+package name: day59_OOPReview
+
+next topics:
+			Collection
+			Map
+			Enum , Garbage Collection, StringBuilder vs StringBuffer vs String
+
+
+OOP: design pattern of the application in organized and modular way
+
+	Encapsulation, Inheritance, Abstraction, Polymorphism
+
+	Encapsulation: hiding the data by using private, generate public getter & setter instance methods
+
+			getter(READ ONLY): return the private data
+
+			setter(WRITE ONLY): assigning the argument to the private variable
+
+			IF PRIVATE DATA IS FINAL, WE CAN ONLY GENERATE GETTER
+
+
+	Inheritance: build parent(super) & sub(child) relations (IS A relationship)
+
+			super class: cannot inherit from sub
+
+			sub class: can inherit from super class ( visible methods & variables)
+
+			advantage:
+					east to maintain
+					reusable
+					readable, clear,clean, less codes..
+
+			method overriding: MUST happen in subclass
+
+			Class B 
+			Class  A  extends   B
+                  sub 		   super
+
+
+
+			11 sub classes
+
+			10 @BeforeMethod or 1
+
+				TestBase (super)
+					setup:
+						setup the browser
+						open brwoser
+						maxmize window
+						implicit wait
+						go to URL
+						log in
+
+
+
+					1 sub class does not require maximize window
+							@Override
+							setup:
+								setup the browser
+								open brwoser
+								implicit wait
+								go to URL
+								log in
+
+
+
+	Abstraction: hiding the implementation
+					focusing on essentials, without worrying about the details
+
+				abstract method: without the body
+								meant to be overriden
+
+				2 ways:
+					abstract class: not concrete, cannot create object 
+
+									meant to be extended
+
+							class can extend one abstract class
+
+
+					interface: not a class
+
+							class can implement multiple interfaces
+
+							we cannot have:
+									instance variables 
+									instance methods
+									constructor
+									blocks
+
+					extends vs implements
+							class   implements  interface
+							class   extends     class
+							interface  extends    interface
+							class    extends   class    implements     interface    
+
+							class   implements  interface1, interface2 .... 
+
+
+		WebDriver
+			get(URL);
+
+		chrome: get(URL){ }
+		firefox: get(URL){ }
+		edge: get(URL){ }
+		ie: get(URL){ }
+		safari: get(URL){ }
+
+
+
+
+
+			interface downloadable:
+					download();
+
+			interface AppleApp extends downloadable{
+				
+			}
+
+
+			interface AndroidApp extends downloadable{
+				
+			}
+
+
+			class Iphone extends Phone implements AppleApp{
+				
+			}
+
+			class Samsung extends Phone implemnts AndroidApp{
+				
+			}
+
+
+
+			class Test {
+
+				WebDriver driver;
+			}
+
+
+
+
+			interface flyable{
+				fly();
+			}
+
+			interface Predator{
+				hunting();
+			}
+
+			interface swim{
+					swim();
+			}
+
+			abstract class Animal{
+				eat();
+				drink();
+				
+			}
+
+			class Tiger extends Animal implements Predator{
+					eat(){ }
+					drink(){ }
+					hunting(){ }
+			}
+
+			class Dog extends Animal{
+				eat(){}
+				drink(){}
+
+			}
+
+			class Eagle extends Animal implements flyable, Predator {
+					eat(){ }
+					drink(){ }
+					fly(){ }
+					hunting(){ }
+			}
+
+			interfaces or abstract class i have used:
+					WebElement
+					WebDriver
+					By
+					Alert
+					List
+					...
+
+
+	Polymorphism:  behaviors of the objects in many forms
+
+				parent is being refrenced to child class' objects
+
+
+				A obj = new B();
+				WebDriver driver =new ChromeDriver();
+				List list = new ArrayList();
+				...
+
+
+					driver.get(URL)
+
+					Always the overriden one gets executed
+
+					if it's not overiden will execute parent' version
+
+					class A{
+						x
+					}
+
+
+					class B extends A{
+						y
+					}
+
+					A obj = new B();
+					obj.x
+					// obj.y
+
+					( (B)obj ).y
+
+
+
+					Animal{
+						sleep();
+					}
+
+					Dog extends Animal{
+						bark();
+					}
+
+
+					Animal  animal = new Dog();
+						animal.sleep();
+						// animal.bark();
+
+						( (Dog)animal ).bark();
+
+						( (Cat)animal ).scartch();  // class cast exception
+
+
+
+
+					WebDriver driver = new ChromeDriver();
+
+					// driver.takeScreenShot
+
+					( (TakeScreenShot)driver).takeScreenShot()
+
+
+
+
+
+
+
+

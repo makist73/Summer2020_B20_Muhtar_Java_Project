@@ -1,0 +1,104 @@
+07/18/2020
+Review Topics: String
+               Multi-Dimensional Arrays
+               Loops
+
+package name: day28_Recap
+
+
+warmup tasks:
+    1. write a program return the frequency of a word from a string
+            ex:
+                str = "JavajavaJAVA";
+                word = "java";
+                output:
+                    3
+        do not use same the approach we did in last office hour
+
+    2. write a program that can count the frequency of a word from an array of string
+            Ex:
+                arr: {"Java", "C#", "Python", "Java"};
+                word: "java"
+
+                output:
+                        2
+            MUST USE for each loop
+
+    3. write a program that can get the name and domain of any given email address
+        Ex:
+            cybertek@gmail.com
+
+            output:
+                name: cybertek
+                domain: gmail
+
+
+                    arr: {0, 0, 0, 0}
+                    arr[2] = 30;
+
+
+
+
+canvas -> java -> module - day28 -> array's short quiz
+    due by 12:20
+
+
+
+afternoon:
+    Multi-dimensional array
+    nested loops
+
+
+single dimensional array:
+
+        int[] arr = {1,2,3,4}
+
+            [index of elements]
+
+            Arrays.toString(): for single dimensional array ONLY
+
+
+multi-Dimensional arrays: contains multiple arrays
+
+        each array and each elemnt has index number
+
+        n dimensional array contains (n-1) dimensional array
+
+        2D array: contains 1D arrays
+
+            [index of 1D Array][index of Elements]
+
+
+            Arrays.deepToString(): for multi-D Arrays ONLY
+
+
+        3D array: contains 2D arrays
+
+            [index of 2D Array][index of 1D array][index of elements]
+
+
+        4D array: contains 3D array
+            [3D][2D][1D][E]
+
+
+
+task:
+            int arr2D[][] = { {1,2,3} ,  {4,5,6,7,8} ,  {9,10,11,12,13} };
+
+            task1:
+                9 10 11 12 13
+                4 5 6 7 8
+                1 2 3
+
+             task2:
+                3 2 1
+                8 7 6 5 4
+                13 12 11 10 9
+
+            task3:
+                13 12 11 10 9
+                8 7 6 5 4
+                3 2 1
+
+tomorrow': custom methods
+

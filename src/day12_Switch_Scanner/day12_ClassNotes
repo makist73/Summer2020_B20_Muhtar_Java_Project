@@ -1,0 +1,141 @@
+06/21/2020
+Topics: Switch statement
+        Scanner
+
+
+Package name: day12_Switch_Scanner
+
+Warmup tasks:
+    1. write a program that checks for the bigger of 3 numbers.
+        you get 3 int variables: n1 , n2 and n3 (none of them are equal)
+
+            if n1 is biggest output: "n1 is bigger"
+            if n2 is biggest output: "n2 is bigger"
+            if n3 is biggest output: "n3 is bigger"
+
+            example:
+                    n1 = -2
+                    n2  = 2
+                    n3  = 1
+                output: "n2 is bigger"
+
+            NOTE: DO NOT USE IF STATEMENT
+
+
+    2. write a program that can define the age groups of a person
+            age groups are:
+                    Teenager (< 21)
+                    Adult   (>=21 && <55 )
+                    Senior  ( > 55 )
+
+                  age cannot be negative or greater than 150
+
+                  NOTE: MUST APPLY NESTED IF
+
+switch statement:
+
+        syntax:
+            switch(expression){ // 1
+
+                case caseValue1:
+                            statementsA;
+                            break;
+
+                case caseValue2:
+                            statementsA;
+                            break;
+
+                case caseValue2:
+                            statementsA;
+                            break;
+
+                default:
+                            statementsA;
+                            break;
+
+            }
+
+            caseValue MUST match with switch statement's expression' data type
+            caseValue MUST be unique
+
+            which ever case is same with the expressions that' case will be executed
+
+            default: gets executed if none of the cases are matching. can be placed at anywhere. not mandatory
+
+            break: used for exiting bthe switch
+
+            SWITCH DOES NOT ACCEPT: boolean, double, long, float values
+
+
+
+
+task:
+    write a program that can print out the name of the month based on the number
+                ex:
+                    1
+                    output: "Jan"
+
+                    DO NOT use if & ternary
+
+    2. write a program that can find the number of days in a month
+        (Assume that Feb has 28 days)
+         HINT:
+                28 days: 2
+                30 days: 4,6,9,11
+                31 days: 1,3,5,7,8,10,12
+                invalid: month > 12 || months < 1
+
+
+Scanner: used for to get user inputs
+
+        presentedin package "java.util"
+
+        syntax of import:
+            import packageName.ClassName;  // imports a specific class
+
+            import java.util.Scanner;
+
+
+            import java.util.*;  // imports all the class from java.util
+
+        import statement we need to place it between class name and package name
+
+
+
+declare scanner:
+
+        Scanner  variableName  = new  Scanner(System.in);
+
+
+scanner' methods: reads the user input
+
+    nextInt(): only allows user to enter integers. returns the input as int primitive
+
+    nextLong(): only allows user to enter integers. returns the input as long primitive
+
+    nextDouble(): can allow the user to enter decimals. returns the input as double primitive
+
+
+
+
+Task:
+    1. write a program that can ask user to enter a number
+            if the number is odd number print: "odd number"
+            otherwise, print: "Even"
+
+
+    2. write a program that can ask youser to enter two number, and the prints the sum of those two number
+            Enter your first number
+            10
+            Enter your second number
+            20
+
+
+    3. write a program for the rate calculator: RateCalculator
+            1. asks the user to enter the salary (as double)
+            2. asks the user how many hours does he/she works in a week (as int)
+            3. print the hourly rate of the employee
+
+            assume that one year has 52 weeks
+
+            hourRate = salary/ (weeklyHour * 52)

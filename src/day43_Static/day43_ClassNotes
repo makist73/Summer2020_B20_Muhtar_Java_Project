@@ -1,0 +1,78 @@
+08/18/2020
+Topic: Static Review: variable & method.  static vs instance 
+	   Static Block
+	   Static Import
+
+
+package name: day43_Static
+
+static members:
+		1. static variable
+		2. static method
+		3. static initializer block
+		4. static class
+
+local variable: declared within a block or method. cannot be used outsie its block
+			    MUST be initialized before use
+
+isntance variable: declared outside any methods or blocks
+
+static variable: declared outside any methods or blocks with static keyword
+
+
+static variable vs instance variable
+		static variable: we only use it if one common feature can be shared by all objects of the class
+						if we want all the objects to have the same data
+
+		instance variable: we only use it if there is not one common feature, and each object need to have different copy
+					if we want each object to have the unique data
+
+
+
+static initializer block: runs first, runs once time only as soon as the class loaded
+						used for initializing static variables
+
+
+static import: imports the static variable and static method
+
+		import.packageName.className;  // imports everything from class
+
+		import static packageName.className.staticName;  //  imports the specific static member from the class
+
+
+CybertekStudent:
+	
+			studentName
+			gender
+			age
+			ID
+		static	SchoolName = "Cybertek School";
+		static 	dreamJob = "SDET";
+		static hasRepl.it = true;
+		static tuition
+
+
+Book:
+		name
+		author
+		price
+	static	readable
+	static  hasTitle
+
+
+
+tasks:
+	create static variables:
+			1. Array: 1,2,3,4,5,6,7
+			2. ArrayList: 10, 20, 30, 40, 50
+
+
+
+
+
+next topic: Constructor
+
+Tomorrow' office hour: class & objects
+
+
+

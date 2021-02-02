@@ -1,0 +1,88 @@
+09/01/2020
+topic: OOP Inheritance Practice
+	
+
+package name: day49_Inheritance
+
+warmup tasks:
+        create a class called Person
+                attributes:  name, age, gender
+                methods: eat, walk, sleep, setPersonInfo
+
+        create a subclass of Person called Employee
+                attributes: name, age, gender, Salary, ID, jobTitle
+                methods: work, setEmployeeInfo
+
+      	create a subclass of Employee called Tester
+                    Attributes:
+                        name, age, gender, Salary, ID, jobTitle
+
+                    Actions:
+                        setInfo(), smokeTesting(),  creatingTicket(), toString()
+
+        create a subclass of Employee called called Developer
+                    Attributes:
+                        ame, age, gender, Salary, ID, jobTitle
+
+                    Actions:
+                        setInfo(), coding(),  fixBug(), toString()
+
+        create a class called ScrumTeam
+                    Attributes:
+                            ArrayList<Tester> testers = new ArrayList<>(),
+                            ArrayList<Developer> testers = new ArrayList<>(),
+                    Actions:
+                            addTester(Tester tester): adds the given tester to the testers arraylist
+                            addTesters(Tester[] testers): adds the given testers to the testers arraylist
+                            addDeveloper(Developer developer): adds the given developer to the developers arraylist
+                            addDevelopers(Developer[] developers): adds the given developers to the developers arraylist
+                            removeTester(long employeeID): removes the given tester from the testers arraylist
+                            removeDeveloper(long employeeID): removes the developer from the developers arraylist
+                            
+
+        create a class called AppleInc:
+                    1. create an array of Testers and store the testers info in your group
+                    2. create an array of developers store the developers info in your group
+                    3. create an object of ScrumTeam and store the testers & developers above to the scrum team
+
+
+
+implemented:    
+        inheritance, constructor, encapsulation, method overloading, Array, ArrayList, bulk operations, predicate, loop..
+
+
+Has A vs Is A:
+        
+        ScreumTeam Has A Tester
+        ScreumTeam Has A Developer
+
+        Developer Is An Employee
+        Developer IS A Person
+
+        Employee Is A Person
+
+
+
+
+
+
+class A extends B {
+     sub       super
+    
+}
+
+class B {
+    
+
+}
+
+
+next topic:  Protected access modifier
+             method overriding
+             super keyword
+
+
+
+
+
+                  

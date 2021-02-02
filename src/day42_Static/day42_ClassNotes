@@ -1,0 +1,140 @@
+08/16/2020
+Topics: static Keyword:
+				static variables, static methods, static block, static class
+
+		static vs instance:
+				static variables vs instance variable
+				static method vs instance method
+
+		
+Package name: day42_static
+
+class starts at 10:10 am, please work on the warmup tasks
+
+Warmup tasks:
+		create a class called Testers
+					Attributes:
+						name, employeeID, JobTitle, Salary
+
+					Actions:
+						setInfo(), smokeTesting(),  creatingTicket(), toString()
+
+		create a class called Developer
+					Attributes:
+						name, employeeID, JobTitle, Salary
+
+					Actions:
+						setInfo(), coding(),  fixBug(), toString()
+
+		create a class called ScrumTeam
+
+					Attributes:
+							PO, BA, SM,
+							ArrayList<Tester> testers = new ArrayList<>(),
+							ArrayList<Developer> testers = new ArrayList<>(),
+
+					Actions:
+							setInfo(): sets the names of: PO, BA, SM
+
+							addTester(Tester tester): adds the given tester to the testers arraylist
+
+							addTesters(Tester[] testers): adds the given testers to the testers arraylist
+
+							addDeveloper(Developer developer): adds the given developer to the developers arraylist
+
+							addDevelopers(Developer[] developers): adds the given developers to the developers arraylist
+
+							removeTester(long employeeID): removes the given tester from the testers arraylist
+
+							removeDeveloper(long employeeID): removes the developer from the developers arraylist
+
+							toString(): prints number of tester,& developers,  PO name, SM name, BA name
+
+
+
+		create a class called MyScrumTeam:
+					1. create an array of Testers and store the testers info in your group
+					2. create an array of developers store the developers info in your group
+					3. create an object of ScrumTeam and store the testers & developers above to the scrum team
+
+					Answer the interview question "Tell me about your scrum team"
+
+
+instance: belong to the object
+		each object has its own copy of instances
+
+
+static members: class members
+	1. static variable
+	2. static method
+	3. static block
+	4. static class
+
+	DO NOT ACCEPT NON STATICS
+
+
+static keyword: belongs to the class
+				there is only one copy for all the objects of the class
+
+static methods: can call it through class name
+		ONLY accepts static members
+
+
+Student:
+	attributes:
+		name, age, ID, groupID
+		schoolName
+
+
+iPhone:
+	attributes:
+		 model, price, color .... (instance)
+		OperatingSystem, Brand (static)
+
+
+Computer:
+	 attributes:
+	 		brand, price, color, RAM... (Instance)
+	 		MadeIn (static)
+
+
+
+
+car:
+	car1: Mercedes
+	car2: BMW
+	car3: Toyota
+
+
+come back: 2:10 pm
+
+
+
+Tuesday' Office hour: 5pm ~ 7pm
+Topics: git shortcut in IntelliJ
+		global username
+		global password
+
+		git init 
+		git status 
+
+		git add .
+		git add filename
+
+		git commit
+
+		git push
+
+		git stash
+
+
+
+
+
+
+
+
+
+
+
+

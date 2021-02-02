@@ -1,0 +1,130 @@
+09/15/2020
+Topics: OOP Abstraction Intro
+			abstract method 
+			abstract class
+
+package name: day54_Abstraction
+
+Warmup task:
+	1.create a class named Employee (meant to be super class):
+			Attributes:
+					name, gender(final), DOfB(final), jobTitle, Salary
+
+					create constructor that can initialize lal those attributes
+						(even final variable you should initialize them within constructor)
+					
+
+	2. create a sub class of Employee named Tester(meant to be subClass ONLY)
+
+	3. create a sub class of Employee named Developer(meant to be subClass ONLY)
+
+	4. create a class called PenFed
+			create 3 objects of Tester and Developers
+
+			try to make change to the gender & DOfB of the employees
+
+
+OOP:  Concepts:
+	1. Encapsulation: hiding the data  (focuses on the data)
+	2. Inheritance: sub/super class, IS A (focuses on the classes)
+	3. Abstraction: 	(focuses on the method)
+
+	4. Polymophism
+
+
+3. OOP Abstraction: Focusing on the method, on the implementation of the method mostly, focusing on the essensials in the methods.
+			hiding the implementation details of method
+			ONLY concentrating on the essentials/important things, basicaly result is all that matters without worrying about the details
+			we only know what it does, but we dont know how it's done
+
+Ex1:
+	shape: not concerete ==> abstract
+		area();		
+
+	circle:
+		attributes: r
+		area():
+			r*r*PI
+
+	square
+		attributes: a
+		area():
+			a*a
+
+	rectangle
+		attributes: w, l
+		area():
+			w*l
+
+	tiangle
+		attributes: b, h
+		area():
+			b*h*0.5
+
+
+Ex2:
+	
+	Car: abstract
+		start();
+
+	BMW
+		start(): push start button
+
+	Tesla
+		start(): voice control
+
+	Toyota
+		start(): Insert the key
+
+	Jeep
+		start(): jump start
+
+
+
+
+1. abstract method: a method without implementation (does not have body)
+					meant to be overriden ( CANNOT BE final, static, private)
+
+
+			Access-Modifier  abstract  Return_type   methodName(Parameter);
+			(none private)    MUST		MUST
+
+			public abstract double area();
+
+how we achieve abstraction:
+		abstract method
+
+		there are ONLY two ways:
+				1. abstract class
+				2. interface
+
+
+
+2. abstract class: meant to be super class (cannot be final class, because final class is meant to be sub class ONLY)
+					meant to be extended(final),
+					MUST be able to inherit
+					not concrete class (cannot create an object, Object MUST be concrete)
+
+
+
+
+
+tasks:
+	Shapes
+	Phones
+	Animal
+	Employee
+	...
+
+
+
+	By: abstract class
+
+
+
+
+
+
+
+
+
